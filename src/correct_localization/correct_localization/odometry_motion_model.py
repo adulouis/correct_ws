@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 import rclpy
+import random
+import time
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import PoseArray, Pose
-from tf_transformations import euler_from_quaternion
+from tf_transformations import euler_from_quaternion, quaternion_from_euler
 from math import atan2,sin,cos,pi,fabs,sqrt,pow
 
 
@@ -48,7 +50,7 @@ class OdometryMotionModel(Node):
             return
         
         self.odom_sub = self.create_subscription(Odometry, "correct_controller/odom",self.odomCallback,10)
-        self.odom_pub = self.create_publisher(PoseArray, "odometry_motion_model/samples",10)
+        self.pose_array_pub = self.create_publisher(PoseArray, "odometry_motion_model/samples",10)
 
         
     def odomCallback(self, odom):
@@ -74,8 +76,36 @@ class OdometryMotionModel(Node):
         else:
             drot1 = angle_diff(atan2(odom_y_increment, odom_x_increment),yaw)
         drot2 = angle_diff(odom_theta_increment,drot1)
-        dtransl =  sqrt(pow(odom_y_increment,2)+pow(odom_x_increment,2))    
+        dtransl =  sqrt(pow(odom_y_increment,2)+pow(odom_x_increment,2))
 
+        rot1_variance = self.alpha1*drot1 + self.alpha2*dtransl
+        rot2_variance = self.alpha1*drot2 + self.alpha2*dtransl
+        transl_variance = self.alpha3*dtransl + self.alpha4(drot1+drot2)
+
+        random.seed(int(time.time()))
+        for sample in self.samples.poses:
+            rot1_noise = random.gauss(0.0, rot1_variance)
+            rot2_noise = random.gauss(0.0, rot2_variance)
+            transl_noise = random.gauss(0.0, transl_variance)
+
+            drot1_noise_free = angle_diff(rot1_noise, rot1_variance)
+            dtransl_noise_free = transl_noise - transl_variance
+            drot2_noise_free = angle_diff(rot2_noise, rot2_variance)
+            sample_q = [sample.orientation.x, sample.orientation.y, sample.orientation.z, sample.orientation.w]
+            sample_roll, sample_pitch, sample_yaw = euler_from_quaternion(sample_q)
+            sample.position.x += dtransl_noise_free*cos(sample_yaw + drot1_noise_free)
+            sample.position.y += dtransl_noise_free*sin(sample_yaw + drot1_noise_free)
+            q = quaternion_from_euler(0.0, 0.0, sample_yaw + drot1_noise_free + drot2_noise_free)
+            sample.orientation.x, sample.orientation.y, sample.orientation.z, sample.orientation.w = q
+
+        self.last_odom_x = odom.pose.pose.position.x
+        self.last_odom_y = odom.pose.pose.position.y
+        self.last_odom_theta = yaw 
+
+        self.pose_array_pub.publish(self.samples)
+
+
+        
 
 def main():
     rclpy.init()

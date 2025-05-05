@@ -1,0 +1,11 @@
+In file included from [01m[K/home/louwee/correct_ws/src/correct_localization/src/kalman_filter.cpp:1[m[K:
+[01m[K/home/louwee/correct_ws/src/correct_localization/include/correct_localization/kalman_filter.hpp:[m[K In constructor ‘[01m[KKalmanFilter::KalmanFilter(const string&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_localization/include/correct_localization/kalman_filter.hpp:26:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KKalmanFilter::is_first_odom[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   26 |         bool [01;35m[Kis_first_odom[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_localization/include/correct_localization/kalman_filter.hpp:22:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble KalmanFilter::last_angular_z[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |         double [01;35m[Klast_angular_z[m[K; //data on the angular vel in z axis from noisy odometry
+      |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_localization/src/kalman_filter.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    5 | [01;35m[KKalmanFilter[m[K::KalmanFilter(const std::string &name):
+      | [01;35m[K^~~~~~~~~~~~[m[K

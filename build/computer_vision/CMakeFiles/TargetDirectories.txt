@@ -1,0 +1,11 @@
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/uninstall.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/computer_vision_uninstall.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/ament_cmake_python_copy_computer_vision.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/ament_cmake_python_build_computer_vision_egg.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/test.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/edit_cache.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/rebuild_cache.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/list_install_components.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/install.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/install/local.dir
+/home/louwee/correct_ws/build/computer_vision/CMakeFiles/install/strip.dir

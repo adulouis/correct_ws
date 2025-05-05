@@ -1,0 +1,7 @@
+{
+  "package_name": "correct_msgs",
+  "non_idl_tuples": [
+    "/home/louwee/correct_ws/src/correct_msgs:srv/AddTwoInts.srv",
+    "/home/louwee/correct_ws/src/correct_msgs:srv/GetTransform.srv"
+  ]
+}

@@ -1,0 +1,4 @@
+source;share/computer_vision/local_setup.bash
+source;share/computer_vision/local_setup.dsv
+source;share/computer_vision/local_setup.sh
+source;share/computer_vision/local_setup.zsh

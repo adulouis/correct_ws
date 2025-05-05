@@ -1,0 +1,49 @@
+[0.036s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target kalman_filter[0m
+[0.150s] [  0%] Built target ament_cmake_python_copy_correct_localization
+[0.150s] [ 50%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.601s] running egg_info
+[0.609s] writing correct_localization.egg-info/PKG-INFO
+[0.611s] writing dependency_links to correct_localization.egg-info/dependency_links.txt
+[0.614s] writing top-level names to correct_localization.egg-info/top_level.txt
+[0.656s] reading manifest file 'correct_localization.egg-info/SOURCES.txt'
+[0.657s] writing manifest file 'correct_localization.egg-info/SOURCES.txt'
+[1.062s] [ 50%] Built target ament_cmake_python_build_correct_localization_egg
+[11.177s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[11.808s] [100%] Built target kalman_filter
+[11.822s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[11.824s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization
+[11.832s] -- Install configuration: ""
+[11.832s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/pythonpath.sh
+[11.833s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/pythonpath.dsv
+[11.833s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info
+[11.833s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/top_level.txt
+[11.833s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[11.833s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.833s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.833s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization
+[11.833s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization/__init__.py
+[11.833s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization/kalman_filter.py
+[11.870s] Listing '/home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization'...
+[11.875s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/kalman_filter.py
+[11.875s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include
+[11.876s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include/correct_localization
+[11.876s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include/correct_localization/kalman_filter.hpp
+[11.876s] -- Installing: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/kalman_filter
+[11.885s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_localization/lib/correct_localization/kalman_filter" to ""
+[11.885s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/package_run_dependencies/correct_localization
+[11.886s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/parent_prefix_path/correct_localization
+[11.886s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/ament_prefix_path.sh
+[11.886s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/ament_prefix_path.dsv
+[11.886s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/path.sh
+[11.886s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/path.dsv
+[11.887s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.bash
+[11.887s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.sh
+[11.887s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.zsh
+[11.887s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.dsv
+[11.887s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.dsv
+[11.888s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/packages/correct_localization
+[11.888s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/cmake/correct_localizationConfig.cmake
+[11.888s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/cmake/correct_localizationConfig-version.cmake
+[11.888s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.xml
+[11.890s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization

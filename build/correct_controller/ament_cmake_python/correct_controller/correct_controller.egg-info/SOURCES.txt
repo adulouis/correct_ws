@@ -1,0 +1,8 @@
+setup.py
+correct_controller/__init__.py
+correct_controller/noisy_controller.py
+correct_controller/simple_controller.py
+correct_controller.egg-info/PKG-INFO
+correct_controller.egg-info/SOURCES.txt
+correct_controller.egg-info/dependency_links.txt
+correct_controller.egg-info/top_level.txt

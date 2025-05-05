@@ -1,0 +1,1 @@
+Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_msgs -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_msgs

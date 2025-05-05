@@ -1,0 +1,42 @@
+[0.030s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_localization -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_localization
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.328s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.446s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.811s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.832s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.963s] -- Added test 'lint_cmake' to check CMake code style
+[0.964s] -- Added test 'xmllint' to check XML markup files
+[0.967s] -- Configuring done
+[0.971s] -- Generating done
+[0.972s] -- Build files have been written to: /home/louwee/correct_ws/build/correct_localization
+[0.981s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_localization -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_localization
+[0.981s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[1.027s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[1.028s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization
+[1.037s] -- Install configuration: ""
+[1.037s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/package_run_dependencies/correct_localization
+[1.037s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/parent_prefix_path/correct_localization
+[1.038s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/ament_prefix_path.sh
+[1.038s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/ament_prefix_path.dsv
+[1.038s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/path.sh
+[1.039s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/path.dsv
+[1.039s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.bash
+[1.039s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.sh
+[1.039s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.zsh
+[1.040s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.dsv
+[1.040s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.dsv
+[1.040s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/packages/correct_localization
+[1.040s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/cmake/correct_localizationConfig.cmake
+[1.040s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/cmake/correct_localizationConfig-version.cmake
+[1.041s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.xml
+[1.043s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization

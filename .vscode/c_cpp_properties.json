@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/louwee/correct_ws/install/correct_cpp_examples/include/**",
+        "/home/louwee/correct_ws/install/correct_msgs/include/**",
+        "/home/louwee/correct_ws/install/correct_localization/include/**",
+        "/home/louwee/correct_ws/install/correct_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/louwee/correct_ws/src/computer_vision/include/**",
+        "/home/louwee/correct_ws/src/correct_controller/include/**",
+        "/home/louwee/correct_ws/src/correct_cpp_examples/include/**",
+        "/home/louwee/correct_ws/src/correct_localization/include/**",
+        "/home/louwee/correct_ws/src/correct_msgs/include/**",
+        "/home/louwee/correct_ws/src/correct_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

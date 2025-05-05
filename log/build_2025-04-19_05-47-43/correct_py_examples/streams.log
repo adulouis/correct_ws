@@ -1,0 +1,61 @@
+[1.654s] Invoking command in '/home/louwee/correct_ws/src/correct_py_examples': PYTHONPATH=/home/louwee/correct_ws/build/correct_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/correct_py_examples build --build-base /home/louwee/correct_ws/build/correct_py_examples/build install --record /home/louwee/correct_ws/build/correct_py_examples/install.log --single-version-externally-managed install_data
+[2.081s] running egg_info
+[2.082s] creating ../../build/correct_py_examples/correct_py_examples.egg-info
+[2.082s] writing ../../build/correct_py_examples/correct_py_examples.egg-info/PKG-INFO
+[2.083s] writing dependency_links to ../../build/correct_py_examples/correct_py_examples.egg-info/dependency_links.txt
+[2.084s] writing entry points to ../../build/correct_py_examples/correct_py_examples.egg-info/entry_points.txt
+[2.084s] writing requirements to ../../build/correct_py_examples/correct_py_examples.egg-info/requires.txt
+[2.084s] writing top-level names to ../../build/correct_py_examples/correct_py_examples.egg-info/top_level.txt
+[2.085s] writing manifest file '../../build/correct_py_examples/correct_py_examples.egg-info/SOURCES.txt'
+[2.086s] reading manifest file '../../build/correct_py_examples/correct_py_examples.egg-info/SOURCES.txt'
+[2.087s] writing manifest file '../../build/correct_py_examples/correct_py_examples.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.088s] running build_py
+[2.088s] creating /home/louwee/correct_ws/build/correct_py_examples/build
+[2.088s] creating /home/louwee/correct_ws/build/correct_py_examples/build/lib
+[2.088s] creating /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.088s] copying correct_py_examples/simple_parameter.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.088s] copying correct_py_examples/simple_tf_kinematics.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.088s] copying correct_py_examples/simple_service_client.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.088s] copying correct_py_examples/__init__.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.089s] copying correct_py_examples/simple_subsciber.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.089s] copying correct_py_examples/simple_publisher.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.089s] copying correct_py_examples/simple_turtlesim_kinematics.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.089s] copying correct_py_examples/simple_service_server.py -> /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples
+[2.089s] running install
+[2.090s] running install_lib
+[2.090s] creating /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.091s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_parameter.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.092s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_tf_kinematics.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.092s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_service_client.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.093s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/__init__.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.093s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_subsciber.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.093s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_publisher.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.093s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_turtlesim_kinematics.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.093s] copying /home/louwee/correct_ws/build/correct_py_examples/build/lib/correct_py_examples/simple_service_server.py -> /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples
+[2.094s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[2.094s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc
+[2.096s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_service_client.py to simple_service_client.cpython-310.pyc
+[2.096s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__init__.py to __init__.cpython-310.pyc
+[2.097s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_subsciber.py to simple_subsciber.cpython-310.pyc
+[2.098s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[2.098s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-310.pyc
+[2.099s] byte-compiling /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[2.099s] running install_data
+[2.099s] creating /home/louwee/correct_ws/install/correct_py_examples/share/ament_index
+[2.099s] creating /home/louwee/correct_ws/install/correct_py_examples/share/ament_index/resource_index
+[2.099s] creating /home/louwee/correct_ws/install/correct_py_examples/share/ament_index/resource_index/packages
+[2.099s] copying resource/correct_py_examples -> /home/louwee/correct_ws/install/correct_py_examples/share/ament_index/resource_index/packages
+[2.100s] copying package.xml -> /home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples
+[2.100s] running install_egg_info
+[2.103s] Copying ../../build/correct_py_examples/correct_py_examples.egg-info to /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples-0.0.0-py3.10.egg-info
+[2.105s] running install_scripts
+[2.133s] Installing simple_parameter script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.134s] Installing simple_publisher script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.134s] Installing simple_service_client script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.134s] Installing simple_service_server script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.134s] Installing simple_subscriber script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.135s] Installing simple_tf_kinematics script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.135s] Installing simple_turtlesim_kinematics script to /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples
+[2.136s] writing list of installed files to '/home/louwee/correct_ws/build/correct_py_examples/install.log'
+[2.167s] Invoked command in '/home/louwee/correct_ws/src/correct_py_examples' returned '0': PYTHONPATH=/home/louwee/correct_ws/build/correct_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/correct_py_examples build --build-base /home/louwee/correct_ws/build/correct_py_examples/build install --record /home/louwee/correct_ws/build/correct_py_examples/install.log --single-version-externally-managed install_data

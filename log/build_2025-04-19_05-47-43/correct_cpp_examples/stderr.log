@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findcorrect_msgs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "correct_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "correct_msgs" with
+  any of the following names:
+
+    correct_msgsConfig.cmake
+    correct_msgs-config.cmake
+
+  Add the installation prefix of "correct_msgs" to CMAKE_PREFIX_PATH or set
+  "correct_msgs_DIR" to a directory containing one of the above files.  If
+  "correct_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

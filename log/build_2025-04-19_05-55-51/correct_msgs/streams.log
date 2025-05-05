@@ -1,0 +1,247 @@
+[0.028s] Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[0.059s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.208s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.255s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.321s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.723s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.760s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.781s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.781s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.781s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.820s] -- Configuring done
+[1.860s] -- Generating done
+[1.874s] -- Build files have been written to: /home/louwee/correct_ws/build/correct_msgs
+[1.899s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.910s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.920s] [  5%] Built target ament_cmake_python_copy_correct_msgs
+[2.189s] running egg_info
+[2.190s] creating correct_msgs.egg-info
+[2.190s] writing correct_msgs.egg-info/PKG-INFO
+[2.191s] writing dependency_links to correct_msgs.egg-info/dependency_links.txt
+[2.191s] writing top-level names to correct_msgs.egg-info/top_level.txt
+[2.191s] writing manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[2.193s] reading manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[2.194s] writing manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[2.222s] [  5%] Built target ament_cmake_python_build_correct_msgs_egg
+[2.327s] [ 10%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_generator_c.dir/rosidl_generator_c/correct_msgs/srv/detail/get_transform__functions.c.o[0m
+[2.327s] [ 10%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_generator_c.dir/rosidl_generator_c/correct_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[2.332s] [ 10%] Built target correct_msgs__cpp
+[2.343s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.344s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.344s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.532s] [ 20%] [32m[1mLinking C shared library libcorrect_msgs__rosidl_generator_c.so[0m
+[2.688s] [ 20%] Built target correct_msgs__rosidl_generator_c
+[2.732s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.736s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.749s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.122s] [ 30%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/correct_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.125s] [ 33%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/correct_msgs/srv/get_transform__type_support.cpp.o[0m
+[3.211s] [ 38%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/correct_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[3.211s] [ 38%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/correct_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[3.247s] [ 41%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/correct_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.248s] [ 43%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/correct_msgs/srv/get_transform__type_support.cpp.o[0m
+[3.311s] [ 46%] [32m[1mLinking CXX shared library libcorrect_msgs__rosidl_typesupport_c.so[0m
+[3.342s] [ 48%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/correct_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[3.344s] [ 51%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/correct_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[3.372s] [ 56%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/correct_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[3.373s] [ 56%] [32mBuilding CXX object CMakeFiles/correct_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/correct_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[3.387s] [ 56%] Built target correct_msgs__rosidl_typesupport_c
+[3.609s] [ 61%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/correct_msgs/srv/detail/get_transform__type_support.c.o[0m
+[3.610s] [ 61%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/correct_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[3.641s] [ 64%] [32m[1mLinking CXX shared library libcorrect_msgs__rosidl_typesupport_cpp.so[0m
+[3.679s] [ 66%] [32m[1mLinking C shared library libcorrect_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.694s] [ 66%] Built target correct_msgs__rosidl_typesupport_cpp
+[3.723s] [ 66%] Built target correct_msgs__rosidl_typesupport_introspection_c
+[3.868s] [ 69%] [32m[1mLinking CXX shared library libcorrect_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.077s] [ 71%] [32m[1mLinking CXX shared library libcorrect_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.155s] [ 71%] Built target correct_msgs__rosidl_typesupport_fastrtps_c
+[4.377s] [ 71%] Built target correct_msgs__rosidl_typesupport_fastrtps_cpp
+[4.475s] [ 74%] [32m[1mLinking CXX shared library libcorrect_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.729s] [ 74%] Built target correct_msgs__rosidl_typesupport_introspection_cpp
+[4.809s] [ 74%] Built target correct_msgs
+[4.889s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.521s] [ 76%] Built target correct_msgs__py
+[5.543s] [ 82%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/srv/_get_transform_s.c.o[0m
+[5.544s] [ 82%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/srv/_add_two_ints_s.c.o[0m
+[5.670s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/correct_msgs/libcorrect_msgs__rosidl_generator_py.so[0m
+[5.715s] [ 84%] Built target correct_msgs__rosidl_generator_py
+[5.740s] [ 92%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/correct_msgs/_correct_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.740s] [ 92%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/correct_msgs/_correct_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.740s] [ 92%] [32mBuilding C object CMakeFiles/correct_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/correct_msgs/_correct_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.879s] [100%] [32m[1mLinking C shared library rosidl_generator_py/correct_msgs/correct_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.879s] [100%] [32m[1mLinking C shared library rosidl_generator_py/correct_msgs/correct_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.879s] [100%] [32m[1mLinking C shared library rosidl_generator_py/correct_msgs/correct_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.929s] [100%] Built target correct_msgs__rosidl_typesupport_c__pyext
+[5.929s] [100%] Built target correct_msgs__rosidl_typesupport_introspection_c__pyext
+[5.929s] [100%] Built target correct_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.942s] Invoked command in '/home/louwee/correct_ws/build/correct_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[5.944s] Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_msgs
+[5.953s] -- Install configuration: ""
+[5.954s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/ament_index/resource_index/rosidl_interfaces/correct_msgs
+[5.954s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs
+[5.954s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv
+[5.954s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/add_two_ints.h
+[5.955s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail
+[5.955s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__functions.h
+[5.955s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__struct.h
+[5.955s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__struct.h
+[5.955s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__functions.h
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__type_support.h
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__functions.c
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__functions.c
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__type_support.h
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/get_transform.h
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg
+[5.956s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.957s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/library_path.sh
+[5.957s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/library_path.dsv
+[5.957s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_generator_c.so
+[5.958s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_generator_c.so" to ""
+[5.958s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs
+[5.958s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv
+[5.958s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail
+[5.958s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[5.959s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[5.959s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg
+[5.959s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.959s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_fastrtps_c.so
+[5.960s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.960s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs
+[5.960s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv
+[5.960s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/get_transform.hpp
+[5.960s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail
+[5.960s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__type_support.hpp
+[5.960s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__builder.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__type_support.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__traits.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__builder.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__traits.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__struct.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__struct.hpp
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/add_two_ints.hpp
+[5.961s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg
+[5.961s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.962s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs
+[5.962s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv
+[5.962s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail
+[5.962s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[5.962s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/dds_fastrtps
+[5.962s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.962s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg
+[5.962s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.962s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.963s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.963s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs
+[5.963s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv
+[5.963s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail
+[5.963s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__type_support.c
+[5.963s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__type_support.c
+[5.963s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[5.963s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[5.963s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg
+[5.964s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.964s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_introspection_c.so
+[5.964s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.964s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_c.so
+[5.965s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_c.so" to ""
+[5.965s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs
+[5.965s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv
+[5.965s] -- Up-to-date: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail
+[5.965s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__type_support.cpp
+[5.965s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__type_support.cpp
+[5.965s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[5.965s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/include/correct_msgs/correct_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[5.965s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_introspection_cpp.so
+[5.966s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.966s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_cpp.so
+[5.967s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_typesupport_cpp.so" to ""
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/pythonpath.sh
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/pythonpath.dsv
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs-0.0.0-py3.10.egg-info
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.967s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/_correct_msgs_s.ep.rosidl_typesupport_c.c
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/_add_two_ints.py
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/__init__.py
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/_get_transform.py
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/_get_transform_s.c
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/_add_two_ints_s.c
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/__init__.py
+[5.968s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/_correct_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.969s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.969s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/_correct_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.969s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.969s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.969s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/libcorrect_msgs__rosidl_generator_py.so
+[6.005s] Listing '/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs'...
+[6.005s] Compiling '/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/__init__.py'...
+[6.005s] Listing '/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv'...
+[6.005s] Compiling '/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/__init__.py'...
+[6.005s] Compiling '/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/_add_two_ints.py'...
+[6.005s] Compiling '/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/srv/_get_transform.py'...
+[6.010s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.010s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.011s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.011s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.011s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.012s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages/correct_msgs/correct_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.012s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_generator_py.so
+[6.013s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_msgs/lib/libcorrect_msgs__rosidl_generator_py.so" to ""
+[6.013s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/AddTwoInts.idl
+[6.013s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/GetTransform.idl
+[6.013s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/AddTwoInts.srv
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/AddTwoInts_Request.msg
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/AddTwoInts_Response.msg
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/GetTransform.srv
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/GetTransform_Request.msg
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/srv/GetTransform_Response.msg
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/ament_index/resource_index/package_run_dependencies/correct_msgs
+[6.014s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/ament_index/resource_index/parent_prefix_path/correct_msgs
+[6.015s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/ament_prefix_path.sh
+[6.015s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/ament_prefix_path.dsv
+[6.015s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/path.sh
+[6.015s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/environment/path.dsv
+[6.015s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/local_setup.bash
+[6.016s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/local_setup.sh
+[6.016s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/local_setup.zsh
+[6.016s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/local_setup.dsv
+[6.016s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.dsv
+[6.016s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/ament_index/resource_index/packages/correct_msgs
+[6.016s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_generator_cExport.cmake
+[6.017s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.017s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.017s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.017s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_generator_cppExport.cmake
+[6.018s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.018s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.018s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.018s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.018s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_cExport.cmake
+[6.019s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.019s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.019s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.019s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_cppExport.cmake
+[6.019s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.019s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_generator_pyExport.cmake
+[6.020s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/export_correct_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.020s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/rosidl_cmake-extras.cmake
+[6.020s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.020s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.020s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.020s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.021s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.021s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.021s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgsConfig.cmake
+[6.021s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/cmake/correct_msgsConfig-version.cmake
+[6.021s] -- Installing: /home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.xml
+[6.024s] Invoked command in '/home/louwee/correct_ws/build/correct_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_msgs

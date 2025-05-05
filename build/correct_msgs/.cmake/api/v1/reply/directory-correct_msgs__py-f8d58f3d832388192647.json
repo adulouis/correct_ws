@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "correct_msgs__py",
+		"source" : "/home/louwee/correct_ws/build/correct_msgs/correct_msgs__py"
+	}
+}

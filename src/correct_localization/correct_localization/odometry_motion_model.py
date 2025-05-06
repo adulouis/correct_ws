@@ -80,7 +80,7 @@ class OdometryMotionModel(Node):
 
         rot1_variance = self.alpha1*drot1 + self.alpha2*dtransl
         rot2_variance = self.alpha1*drot2 + self.alpha2*dtransl
-        transl_variance = self.alpha3*dtransl + self.alpha4(drot1+drot2)
+        transl_variance = self.alpha3*dtransl + self.alpha4*(drot1+drot2)
 
         random.seed(int(time.time()))
         for sample in self.samples.poses:

@@ -249,6 +249,19 @@ imu_republisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/build
 .PHONY : imu_republisher/fast
 
+#=============================================================================
+# Target rules for targets named odometry_motion_model
+
+# Build rule for target.
+odometry_motion_model: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 odometry_motion_model
+.PHONY : odometry_motion_model
+
+# fast build rule for target.
+odometry_motion_model/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_motion_model.dir/build.make CMakeFiles/odometry_motion_model.dir/build
+.PHONY : odometry_motion_model/fast
+
 src/imu_republisher.o: src/imu_republisher.cpp.o
 .PHONY : src/imu_republisher.o
 
@@ -297,6 +310,30 @@ src/kalman_filter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.s
 .PHONY : src/kalman_filter.cpp.s
 
+src/odometry_motion_model.o: src/odometry_motion_model.cpp.o
+.PHONY : src/odometry_motion_model.o
+
+# target to build an object file
+src/odometry_motion_model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_motion_model.dir/build.make CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o
+.PHONY : src/odometry_motion_model.cpp.o
+
+src/odometry_motion_model.i: src/odometry_motion_model.cpp.i
+.PHONY : src/odometry_motion_model.i
+
+# target to preprocess a source file
+src/odometry_motion_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_motion_model.dir/build.make CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.i
+.PHONY : src/odometry_motion_model.cpp.i
+
+src/odometry_motion_model.s: src/odometry_motion_model.cpp.s
+.PHONY : src/odometry_motion_model.s
+
+# target to generate assembly for a file
+src/odometry_motion_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_motion_model.dir/build.make CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.s
+.PHONY : src/odometry_motion_model.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -316,12 +353,16 @@ help:
 	@echo "... uninstall"
 	@echo "... imu_republisher"
 	@echo "... kalman_filter"
+	@echo "... odometry_motion_model"
 	@echo "... src/imu_republisher.o"
 	@echo "... src/imu_republisher.i"
 	@echo "... src/imu_republisher.s"
 	@echo "... src/kalman_filter.o"
 	@echo "... src/kalman_filter.i"
 	@echo "... src/kalman_filter.s"
+	@echo "... src/odometry_motion_model.o"
+	@echo "... src/odometry_motion_model.i"
+	@echo "... src/odometry_motion_model.s"
 .PHONY : help
 
 

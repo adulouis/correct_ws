@@ -2,6 +2,7 @@ setup.py
 correct_localization/__init__.py
 correct_localization/imu_republisher.py
 correct_localization/kalman_filter.py
+correct_localization/odometry_motion_model.py
 correct_localization.egg-info/PKG-INFO
 correct_localization.egg-info/SOURCES.txt
 correct_localization.egg-info/dependency_links.txt

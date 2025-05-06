@@ -21,7 +21,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 16,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -33,19 +33,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 141,
+				"line" : 122,
 				"parent" : 2
 			}
 		]
 	},
-	"dependencies" : 
-	[
-		{
-			"id" : "ament_cmake_python_copy_correct_localization::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "ament_cmake_python_build_correct_localization_egg::@6890427a1f51a3e7e1df",
-	"name" : "ament_cmake_python_build_correct_localization_egg",
+	"id" : "ament_cmake_python_copy_correct_localization::@6890427a1f51a3e7e1df",
+	"name" : "ament_cmake_python_copy_correct_localization",
 	"paths" : 
 	{
 		"build" : ".",
@@ -73,13 +67,13 @@
 		{
 			"backtrace" : 3,
 			"isGenerated" : true,
-			"path" : "/home/louwee/correct_ws/build/correct_localization/CMakeFiles/ament_cmake_python_build_correct_localization_egg",
+			"path" : "/home/louwee/correct_ws/build/correct_localization/CMakeFiles/ament_cmake_python_copy_correct_localization",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/louwee/correct_ws/build/correct_localization/CMakeFiles/ament_cmake_python_build_correct_localization_egg.rule",
+			"path" : "/home/louwee/correct_ws/build/correct_localization/CMakeFiles/ament_cmake_python_copy_correct_localization.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

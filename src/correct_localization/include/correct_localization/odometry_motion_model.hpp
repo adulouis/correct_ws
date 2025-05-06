@@ -19,9 +19,9 @@ class OdometryMotionModel : public rclcpp::Node
 
         geometry_msgs::msg::PoseArray samples;
         double alpha1;
-        double alpha1;
-        double alpha1;
-        double alpha1;
+        double alpha2;
+        double alpha3;
+        double alpha4;
         int nr_samples;
         bool is_first_odom;
         double last_odom_x;

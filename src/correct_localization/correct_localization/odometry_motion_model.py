@@ -88,9 +88,9 @@ class OdometryMotionModel(Node):
             rot2_noise = random.gauss(0.0, rot2_variance)
             transl_noise = random.gauss(0.0, transl_variance)
 
-            drot1_noise_free = angle_diff(rot1_noise, rot1_variance)
+            drot1_noise_free = angle_diff(drot1, rot1_noise)
             dtransl_noise_free = transl_noise - transl_variance
-            drot2_noise_free = angle_diff(rot2_noise, rot2_variance)
+            drot2_noise_free = angle_diff(drot2, rot2_noise)
             sample_q = [sample.orientation.x, sample.orientation.y, sample.orientation.z, sample.orientation.w]
             sample_roll, sample_pitch, sample_yaw = euler_from_quaternion(sample_q)
             sample.position.x += dtransl_noise_free*cos(sample_yaw + drot1_noise_free)

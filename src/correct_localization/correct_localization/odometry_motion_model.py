@@ -71,7 +71,7 @@ class OdometryMotionModel(Node):
         odom_theta_increment = angle_diff(yaw, self.last_odom_theta) #the difference between the current robot orientation and its previous one  
 
         #the 3 notations drot1, drot2 and dtransl
-        if sqrt(pow(odom_y_increment,2)+pow(odom_x_increment,2)) < 0.1:
+        if sqrt(pow(odom_y_increment,2)+pow(odom_x_increment,2)) < 0.01:
             drot1 = 0.0
         else:
             drot1 = angle_diff(atan2(odom_y_increment, odom_x_increment),yaw)

@@ -38,6 +38,9 @@ ament_target_dependencies(simple_service_client rclcpp correct_msgs)
 add_executable(simple_tf_kinematics src/simple_tf_kinematics.cpp)
 ament_target_dependencies(simple_tf_kinematics rclcpp correct_msgs geometry_msgs tf2 tf2_ros)
 
+add_executable(executor_examples src/executor_examples.cpp)
+ament_target_dependencies(executor_examples rclcpp nav_msgs)
+
 install(
   DIRECTORY include
   DESTINATION include
@@ -51,6 +54,7 @@ install(TARGETS
   simple_service_server
   simple_service_client
   simple_tf_kinematics
+  executor_examples
   DESTINATION lib/${PROJECT_NAME}
 )
 

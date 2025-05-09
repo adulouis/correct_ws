@@ -1,4 +1,5 @@
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_parameter.py
+/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_lifecycle_node.py
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_tf_kinematics.py
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_service_client.py
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__init__.py
@@ -7,6 +8,7 @@
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_turtlesim_kinematics.py
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/simple_service_server.py
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__pycache__/simple_parameter.cpython-310.pyc
+/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__pycache__/simple_lifecycle_node.cpython-310.pyc
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__pycache__/simple_tf_kinematics.cpython-310.pyc
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__pycache__/simple_service_client.cpython-310.pyc
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples/__pycache__/__init__.cpython-310.pyc
@@ -23,6 +25,7 @@
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples-0.0.0-py3.10.egg-info/zip-safe
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages/correct_py_examples-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples/simple_lifecycle_node
 /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples/simple_parameter
 /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples/simple_publisher
 /home/louwee/correct_ws/install/correct_py_examples/lib/correct_py_examples/simple_service_client

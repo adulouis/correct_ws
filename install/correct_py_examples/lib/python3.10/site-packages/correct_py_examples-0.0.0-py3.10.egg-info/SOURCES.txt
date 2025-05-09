@@ -9,6 +9,7 @@ setup.py
 ../../build/correct_py_examples/correct_py_examples.egg-info/top_level.txt
 ../../build/correct_py_examples/correct_py_examples.egg-info/zip-safe
 correct_py_examples/__init__.py
+correct_py_examples/simple_lifecycle_node.py
 correct_py_examples/simple_parameter.py
 correct_py_examples/simple_publisher.py
 correct_py_examples/simple_service_client.py

@@ -1,4 +1,5 @@
 [console_scripts]
+simple_lifecycle_node = correct_py_examples.simple_lifecycle_node:main
 simple_parameter = correct_py_examples.simple_parameter:main
 simple_publisher = correct_py_examples.simple_publisher:main
 simple_service_client = correct_py_examples.simple_service_client:main

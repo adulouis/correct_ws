@@ -27,6 +27,7 @@ setup(
             'simple_service_server = correct_py_examples.simple_service_server:main',
             'simple_service_client = correct_py_examples.simple_service_client:main',
             'simple_tf_kinematics = correct_py_examples.simple_tf_kinematics:main',
+            'simple_lifecycle_node = correct_py_examples.simple_lifecycle_node:main',
         ],
     },
 )

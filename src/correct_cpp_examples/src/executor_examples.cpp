@@ -44,7 +44,7 @@ class SlowTimer : public rclcpp::Node{
 
 
 int main(int argc, char* argv[]){
-    auto node1 = std::make_shared<OdomSubscriber>();
+    auto node1 = std::make_shared<OdomSubscriber>("odom_subsciber");
     
     float sleep_timer = 3.0;
     auto node2 = std::make_shared<SlowTimer>(sleep_timer);

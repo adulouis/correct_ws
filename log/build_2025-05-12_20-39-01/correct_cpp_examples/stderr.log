@@ -1,0 +1,9 @@
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_lifecycle_node.cpp:46:79:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn SimpleLifecycleNode::on_activate(const rclcpp_lifecycle::State&)[m[K’ cannot be overloaded with ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn SimpleLifecycleNode::on_activate(const rclcpp_lifecycle::State&)[m[K’
+   46 |     rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn [01;31m[Kon_activate[m[K(const rclcpp_lifecycle::State &state){
+      |                                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_lifecycle_node.cpp:39:79:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn SimpleLifecycleNode::on_activate(const rclcpp_lifecycle::State&)[m[K’
+   39 |     rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn [01;36m[Kon_activate[m[K(const rclcpp_lifecycle::State &state){
+      |                                                                               [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_lifecycle_node.dir/build.make:76: CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/simple_lifecycle_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

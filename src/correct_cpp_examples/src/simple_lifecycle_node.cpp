@@ -43,10 +43,9 @@ class SimpleLifecycleNode : public rclcpp_lifecycle::LifecycleNode
         return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
     }
 
-    rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn on_activate(const rclcpp_lifecycle::State &state){
+    rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn on_deactivate(const rclcpp_lifecycle::State &state){
         LifecycleNode::on_deactivate(state);
         RCLCPP_INFO_STREAM(get_logger(), "On deactivate state up!");
-        std::this_thread::sleep_for(2s);
         return rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn::SUCCESS;
     }
 

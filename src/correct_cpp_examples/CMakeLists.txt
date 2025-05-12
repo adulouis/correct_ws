@@ -44,7 +44,7 @@ add_executable(executor_examples src/executor_examples.cpp)
 ament_target_dependencies(executor_examples rclcpp nav_msgs)
 
 add_executable(simple_lifecycle_node src/simple_lifecycle_node.cpp)
-ament_target_dependencies(simple_service_server rclcpp rclcpp_lifecycle std_msgs)
+ament_target_dependencies(simple_lifecycle_node rclcpp rclcpp_lifecycle std_msgs)
 
 install(
   DIRECTORY include

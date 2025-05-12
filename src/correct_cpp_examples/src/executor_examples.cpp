@@ -8,7 +8,7 @@ using std::placeholders::_1;
 class OdomSubscriber : public rclcpp::Node{
     public:
 
-        OdomSubscriber(std::string & name) : Node(name){
+        OdomSubscriber(const std::string & name) : Node(name){
             odom_sub = this->create_subscription<nav_msgs::msg::Odometry>(
                 "/correct_controller/odom",10,
                 std::bind(&OdomSubscriber::msgCallback, this, _1)
@@ -16,7 +16,7 @@ class OdomSubscriber : public rclcpp::Node{
         }
 
     private:
-        void msgCallback(nav_msgs::msg::Odometry &odom){
+        void msgCallback(const nav_msgs::msg::Odometry &odom){
             RCLCPP_INFO(this->get_logger(), "Getting my Odom data [%f, %f, %f, %f]", 
                                 odom.pose.pose.orientation.x, odom.pose.pose.orientation.y, odom.pose.pose.orientation.z, odom.pose.pose.orientation.w);
         }
@@ -37,7 +37,7 @@ class SlowTimer : public rclcpp::Node{
         rclcpp::TimerBase::SharedPtr timer;
         float wait_time;
         void timerCallback(){
-            sleep(wait_time);
+            sleep(static_cast <unsigned>(wait_time));
         }
 
 };
@@ -45,7 +45,7 @@ class SlowTimer : public rclcpp::Node{
 
 int main(int argc, char* argv[]){
     rclcpp::init(argc, argv);
-    auto node1 = std::make_shared<OdomSubscriber>("odom_subsciber");
+    auto node1 = std::make_shared<OdomSubscriber>("odom_subscriber");
     
     float sleep_timer = 3.0;
     auto node2 = std::make_shared<SlowTimer>(sleep_timer);

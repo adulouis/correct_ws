@@ -14,6 +14,7 @@ find_package(correct_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(rclcpp_lifecycle REQUIRED)
 
 include_directories(include)
 
@@ -41,6 +42,9 @@ ament_target_dependencies(simple_tf_kinematics rclcpp correct_msgs geometry_msgs
 add_executable(executor_examples src/executor_examples.cpp)
 ament_target_dependencies(executor_examples rclcpp nav_msgs)
 
+add_executable(simple_lifecycle_node src/simple_lifecycle_node.cpp)
+ament_target_dependencies(simple_service_server rclcpp rclcpp_lifecycle std_msgs)
+
 install(
   DIRECTORY include
   DESTINATION include
@@ -54,6 +58,7 @@ install(TARGETS
   simple_service_server
   simple_service_client
   simple_tf_kinematics
+  simple_lifecycle_node
   executor_examples
   DESTINATION lib/${PROJECT_NAME}
 )

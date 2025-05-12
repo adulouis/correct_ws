@@ -44,6 +44,7 @@ class SlowTimer : public rclcpp::Node{
 
 
 int main(int argc, char* argv[]){
+    rclcpp::init(argc, argv);
     auto node1 = std::make_shared<OdomSubscriber>("odom_subsciber");
     
     float sleep_timer = 3.0;
@@ -54,5 +55,6 @@ int main(int argc, char* argv[]){
     executor.add_node(node1);
     executor.add_node(node2);
     executor.spin();
+    rclcpp::shutdown();
     return 0;
 }

@@ -14,6 +14,7 @@
         "/home/louwee/correct_ws/src/computer_vision/include/**",
         "/home/louwee/correct_ws/src/correct_controller/include/**",
         "/home/louwee/correct_ws/src/correct_cpp_examples/include/**",
+        "/home/louwee/correct_ws/src/correct_firmware/include/**",
         "/home/louwee/correct_ws/src/correct_localization/include/**",
         "/home/louwee/correct_ws/src/correct_msgs/include/**",
         "/home/louwee/correct_ws/src/correct_pkg/include/**",

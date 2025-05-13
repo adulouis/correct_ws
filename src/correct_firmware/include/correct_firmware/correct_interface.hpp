@@ -37,7 +37,7 @@ class CorrectInterface : public hardware_interface::SystemInterface{
         std::string port;
         std::vector<double> velocity_commands;
         std::vector<double> velocity_states;
-        std::vector<double> postion_states;
+        std::vector<double> position_states;
 
         rclcpp::Time last_run; //time of the last execution of the control loop for calc the velocity and position of the wheels
 };

@@ -59,11 +59,11 @@ namespace correct_firmware{
         //for the position and velocity states
         for(size_t i = 0; i < info_.joints.size(); i++)
         {
-            state_interfaces.emplace_back(hardware_interface::StateInterface(info_.joints.at(i).name, 
+            state_interfaces.emplace_back(hardware_interface::StateInterface(info_.joints[i].name, 
             hardware_interface::HW_IF_POSITION, &position_states.at(i)));
 
-            state_interfaces.emplace_back(hardware_interface::StateInterface(info_.joints.at(i).name, 
-            hardware_interface::HW_IF_VELOCITY, &velocity_states.at(i)));
+            state_interfaces.emplace_back(hardware_interface::StateInterface(info_.joints[i].name, 
+            hardware_interface::HW_IF_VELOCITY, &velocity_states[i]));
         }
 
         return state_interfaces;
@@ -74,8 +74,8 @@ namespace correct_firmware{
         std::vector<hardware_interface::CommandInterface> command_interface;
         for(size_t i = 0; i < info_.joints.size(); i++)
         {
-            command_interface.emplace_back(hardware_interface::CommandInterface(info_.joints.at(i).name, 
-            hardware_interface::HW_IF_VELOCITY, &velocity_commands.at(i)));
+            command_interface.emplace_back(hardware_interface::CommandInterface(info_.joints[i].name, 
+            hardware_interface::HW_IF_VELOCITY, &velocity_commands[i]));
         }
 
         return command_interface;
@@ -84,9 +84,9 @@ namespace correct_firmware{
     CallbackReturn CorrectInterface::on_activate(const rclcpp_lifecycle::State &previous_state) 
     {
         RCLCPP_INFO(rclcpp::get_logger("CorrectInterface"), "Starting hardware of the robot...");
-        velocity_commands = {0.0, 0.0, 0.0, 0.0};
-        velocity_states = {0.0, 0.0, 0.0, 0.0};
-        position_states = {0.0, 0.0, 0.0, 0.0};
+        velocity_commands = {0.0, 0.0};
+        velocity_states = {0.0, 0.0};
+        position_states = {0.0, 0.0};
 
         try
         {
@@ -189,3 +189,6 @@ namespace correct_firmware{
         return hardware_interface::return_type::OK;
     }
 }
+
+#include <pluginlib/class_list_macros.hpp>
+PLUGINLIB_EXPORT_CLASS(correct_firmware::CorrectInterface, hardware_interface::SystemInterface);

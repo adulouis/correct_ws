@@ -1,0 +1,49 @@
+[0.022s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.258s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.282s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.286s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.297s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.604s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.623s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.774s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.846s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.930s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.931s] -- Configured cppcheck include dirs: /home/louwee/correct_ws/src/correct_firmware/include;/home/louwee/correct_ws/src/correct_firmware/
+[0.931s] -- Configured cppcheck exclude dirs and/or files: 
+[0.932s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.933s] -- Added test 'lint_cmake' to check CMake code style
+[0.933s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.936s] -- Added test 'uncrustify' to check C / C++ code style
+[0.936s] -- Configured uncrustify additional arguments: 
+[0.937s] -- Added test 'xmllint' to check XML markup files
+[0.940s] -- Configuring done
+[0.997s] -- Generating done
+[1.008s] -- Build files have been written to: /home/louwee/correct_ws/build/correct_firmware
+[1.039s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[1.040s] [35m[1mConsolidate compiler generated dependencies of target correct_firmware[0m
+[1.043s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[1.056s] [  0%] Built target ament_cmake_python_copy_correct_firmware
+[1.057s] [ 16%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[1.062s] [ 50%] Built target correct_firmware
+[1.064s] [ 83%] Built target simple_serial_transmitter
+[1.150s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.150s] (.text+0x1b): undefined reference to `main'
+[1.155s] collect2: error: ld returned 1 exit status
+[1.157s] gmake[2]: *** [CMakeFiles/simple_serial_receiver.dir/build.make:159: simple_serial_receiver] Error 1
+[1.157s] gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/simple_serial_receiver.dir/all] Error 2
+[1.157s] gmake[1]: *** Waiting for unfinished jobs....
+[1.306s] running egg_info
+[1.306s] writing correct_firmware.egg-info/PKG-INFO
+[1.306s] writing dependency_links to correct_firmware.egg-info/dependency_links.txt
+[1.307s] writing top-level names to correct_firmware.egg-info/top_level.txt
+[1.309s] reading manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[1.309s] writing manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[1.335s] [ 83%] Built target ament_cmake_python_build_correct_firmware_egg
+[1.336s] gmake: *** [Makefile:146: all] Error 2
+[1.339s] Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12

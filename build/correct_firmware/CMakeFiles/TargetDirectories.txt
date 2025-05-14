@@ -1,0 +1,14 @@
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/uninstall.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/correct_firmware_uninstall.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/ament_cmake_python_copy_correct_firmware.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/ament_cmake_python_build_correct_firmware_egg.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/correct_firmware.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/simple_serial_receiver.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/simple_serial_transmitter.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/test.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/edit_cache.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/rebuild_cache.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/list_install_components.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/install.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/install/local.dir
+/home/louwee/correct_ws/build/correct_firmware/CMakeFiles/install/strip.dir

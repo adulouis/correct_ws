@@ -1,0 +1,5 @@
+source;share/correct_firmware/local_setup.bash
+source;share/correct_firmware/local_setup.dsv
+source;share/correct_firmware/local_setup.ps1
+source;share/correct_firmware/local_setup.sh
+source;share/correct_firmware/local_setup.zsh

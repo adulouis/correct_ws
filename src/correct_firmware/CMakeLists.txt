@@ -21,7 +21,7 @@ pkg_check_modules(SERIAL libserial)
 ament_python_install_package(${PROJECT_NAME})
 
 add_library(${PROJECT_NAME} SHARED 
-  src/bumperbot_interface.cpp
+  src/correct_interface.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE 
@@ -37,7 +37,7 @@ rclcpp
 rclcpp_lifecycle
 )
 
-pluginlib_export_plugin_description_file(hardware_interface bumperbot_interface.xml)
+pluginlib_export_plugin_description_file(hardware_interface correct_interface.xml)
 
 add_executable(simple_serial_receiver src/simple_serial_receiver.cpp)
 ament_target_dependencies(simple_serial_receiver rclcpp std_msgs)

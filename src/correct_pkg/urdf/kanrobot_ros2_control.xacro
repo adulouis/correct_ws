@@ -5,18 +5,28 @@
 
         <!-- ros2_control Gazebo -->
         <!-- ROS 2 Humble -->
-        <xacro:if value="$(arg is_ignition)">
-            <hardware>
-                <plugin>ign_ros2_control/IgnitionSystem</plugin>
-            </hardware>
-        </xacro:if>
+        <xacro:if value="$(arg is_sim)">
+            <xacro:if value="$(arg is_ignition)">
+                <hardware>
+                    <plugin>ign_ros2_control/IgnitionSystem</plugin>
+                </hardware>
+            </xacro:if>
 
         <!-- ROS 2 Iron or above -->
-        <xacro:unless value="$(arg is_ignition)">
+            <xacro:unless value="$(arg is_ignition)">
+                <hardware>
+                    <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+                </hardware>
+            </xacro:unless>
+        </xacro:if>
+
+        <xacro:unless value="$(arg is_sim)">
             <hardware>
-                <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+                <plugin>correct_firmware/CorrectInterface</plugin>
+                <param name="port">/dev/ttyACM0</param>
             </hardware>
         </xacro:unless>
+
         
         <!-- ros2_control Common Interfaces -->
         <joint name="wheel_right_joint">

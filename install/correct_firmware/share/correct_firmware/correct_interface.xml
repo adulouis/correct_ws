@@ -1,0 +1,10 @@
+<library path="correct_firmware">
+    <class name="correct_firmware/CorrectInterface"
+            type="correct_firmware::CorrectInterface"
+            base_class_type="hardware_interface::SystemInterface">
+    
+            <description>
+                Correct hardware Interface
+            </description>
+    </class>
+</library>

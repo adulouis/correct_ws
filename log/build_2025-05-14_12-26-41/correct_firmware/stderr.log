@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:101 (file):
+  file INSTALL cannot find
+  "/home/louwee/correct_ws/src/correct_firmware/correct_firmware/mpu6050_driver.py":
+  No such file or directory.
+
+[0m

@@ -98,6 +98,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/correct_firmware" TYPE DIRECTORY FILES "/home/louwee/correct_ws/src/correct_firmware/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/correct_firmware" TYPE PROGRAM FILES
     "/home/louwee/correct_ws/src/correct_firmware/correct_firmware/simple_serial_transmitter.py"
     "/home/louwee/correct_ws/src/correct_firmware/correct_firmware/simple_serial_receiver.py"

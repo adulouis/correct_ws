@@ -10,6 +10,7 @@
 /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/correct_interface.xml
 /home/louwee/correct_ws/install/correct_firmware/lib/libcorrect_firmware.so
 /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware/correct_interface.hpp
+/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch/hardware_interface.launch.py
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter.py
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver.py
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver

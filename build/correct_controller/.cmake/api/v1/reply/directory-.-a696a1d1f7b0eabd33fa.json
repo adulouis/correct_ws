@@ -125,7 +125,7 @@
 			{
 				"command" : 9,
 				"file" : 3,
-				"line" : 60,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -409,7 +409,8 @@
 			"paths" : 
 			[
 				"correct_controller/simple_controller.py",
-				"correct_controller/noisy_controller.py"
+				"correct_controller/noisy_controller.py",
+				"correct_controller/twist_relay.py"
 			],
 			"type" : "file"
 		},

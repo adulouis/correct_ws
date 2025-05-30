@@ -1,0 +1,630 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.250s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa97b612fb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa97b7e8760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa97b7e8760>>)
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.651s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/louwee/correct_ws'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.688s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.689s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'ignore'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'ignore_ament_install'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['colcon_pkg']
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'colcon_pkg'
+[0.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['colcon_meta']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'colcon_meta'
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['ros']
+[0.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'ros'
+[0.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/computer_vision' with type 'ros.ament_cmake' and name 'computer_vision'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extension 'ignore'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_controller) by extension 'ros'
+[0.700s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_controller' with type 'ros.ament_cmake' and name 'correct_controller'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extension 'ignore_ament_install'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extensions ['colcon_pkg']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extension 'colcon_pkg'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extensions ['colcon_meta']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extension 'colcon_meta'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extensions ['ros']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_cpp_examples) by extension 'ros'
+[0.704s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_cpp_examples' with type 'ros.ament_cmake' and name 'correct_cpp_examples'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_firmware) by extension 'ros'
+[0.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_firmware' with type 'ros.ament_cmake' and name 'correct_firmware'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extension 'ignore_ament_install'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extensions ['colcon_pkg']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_localization) by extension 'ros'
+[0.713s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_localization' with type 'ros.ament_cmake' and name 'correct_localization'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extension 'ignore_ament_install'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extension 'colcon_pkg'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_msgs) by extension 'ros'
+[0.715s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_msgs' with type 'ros.ament_cmake' and name 'correct_msgs'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_pkg) by extension 'ros'
+[0.722s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_pkg' with type 'ros.ament_cmake' and name 'correct_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extensions ['colcon_meta']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/correct_py_examples) by extension 'ros'
+[0.725s] DEBUG:colcon.colcon_core.package_identification:Package 'src/correct_py_examples' with type 'ros.ament_python' and name 'correct_py_examples'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extensions ['ros']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'ros'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extensions ['cmake', 'python']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'cmake'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'python'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extensions ['python_setup_py']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train) by extension 'python_setup_py'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extensions ['colcon_pkg']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extensions ['colcon_meta']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'colcon_meta'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extensions ['ros']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'ros'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extensions ['cmake', 'python']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'cmake'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'python'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extensions ['python_setup_py']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(train/image_aug) by extension 'python_setup_py'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extensions ['ignore', 'ignore_ament_install']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'ignore'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'ignore_ament_install'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extensions ['colcon_pkg']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'colcon_pkg'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'ros'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extensions ['cmake', 'python']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'cmake'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'python'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extensions ['python_setup_py']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(train/labels_aug) by extension 'python_setup_py'
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.858s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'computer_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'computer_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/computer_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/computer_vision', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/computer_vision', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'correct_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'correct_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_controller', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_controller', 'symlink_install': False, 'test_result_base': None}
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'correct_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'correct_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_firmware', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'correct_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'correct_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_localization', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_localization', 'symlink_install': False, 'test_result_base': None}
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'cmake_args' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'cmake_target' from command line to 'None'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.974s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'correct_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.975s] DEBUG:colcon.colcon_core.verb:Building package 'correct_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_msgs', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'cmake_args' from command line to 'None'
+[0.975s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'cmake_target' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.976s] Level 5:colcon.colcon_core.verb:set package 'correct_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.976s] DEBUG:colcon.colcon_core.verb:Building package 'correct_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_pkg', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.977s] Level 5:colcon.colcon_core.verb:set package 'correct_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.977s] DEBUG:colcon.colcon_core.verb:Building package 'correct_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_cpp_examples', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.978s] Level 5:colcon.colcon_core.verb:set package 'correct_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.978s] DEBUG:colcon.colcon_core.verb:Building package 'correct_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_py_examples', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.978s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.981s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/correct_msgs' with build type 'ament_cmake'
+[0.982s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/correct_msgs'
+[0.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.995s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/computer_vision' with build type 'ament_cmake'
+[1.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/computer_vision'
+[1.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/correct_controller' with build type 'ament_cmake'
+[1.014s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/correct_controller'
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.024s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/correct_firmware' with build type 'ament_cmake'
+[1.025s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/correct_firmware'
+[1.026s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.026s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/correct_localization' with build type 'ament_cmake'
+[1.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/correct_localization'
+[1.037s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.048s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/correct_pkg' with build type 'ament_cmake'
+[1.049s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/correct_pkg'
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_pkg -- -j12 -l12
+[1.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_pkg -- -j12 -l12
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_pkg
+[1.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_pkg)
+[1.446s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg' for CMake module files
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg' for CMake config files
+[1.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_pkg', 'cmake_prefix_path')
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.sh'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/lib/pkgconfig/correct_pkg.pc'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/lib/python3.10/site-packages'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.sh'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.bash'
+[1.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.zsh'
+[1.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_pkg/share/colcon-core/packages/correct_pkg)
+[1.498s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_pkg)
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg' for CMake module files
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg' for CMake config files
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_pkg', 'cmake_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.ps1'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.sh'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/lib/pkgconfig/correct_pkg.pc'
+[1.513s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/lib/python3.10/site-packages'
+[1.514s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.sh'
+[1.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.bash'
+[1.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.zsh'
+[1.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_pkg/share/colcon-core/packages/correct_pkg)
+[1.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_pkg
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[1.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_msgs
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware
+[2.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[2.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization
+[2.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_msgs)
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs' for CMake module files
+[2.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_msgs
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs' for CMake config files
+[2.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_msgs', 'cmake_prefix_path')
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/cmake_prefix_path.ps1'
+[2.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/cmake_prefix_path.dsv'
+[2.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/cmake_prefix_path.sh'
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/lib'
+[2.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_msgs', 'ld_library_path_lib')
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/ld_library_path_lib.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/ld_library_path_lib.dsv'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/ld_library_path_lib.sh'
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/bin'
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/lib/pkgconfig/correct_msgs.pc'
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/lib/python3.10/site-packages'
+[2.204s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/bin'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.ps1'
+[2.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.dsv'
+[2.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.sh'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.bash'
+[2.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.zsh'
+[2.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_msgs/share/colcon-core/packages/correct_msgs)
+[2.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_msgs)
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs' for CMake module files
+[2.219s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs' for CMake config files
+[2.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_msgs', 'cmake_prefix_path')
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/cmake_prefix_path.ps1'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/cmake_prefix_path.dsv'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/cmake_prefix_path.sh'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/lib'
+[2.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_msgs', 'ld_library_path_lib')
+[2.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/ld_library_path_lib.ps1'
+[2.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/ld_library_path_lib.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/hook/ld_library_path_lib.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/bin'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/lib/pkgconfig/correct_msgs.pc'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/lib/python3.10/site-packages'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_msgs/bin'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.ps1'
+[2.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.dsv'
+[2.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.sh'
+[2.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.bash'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_msgs/share/correct_msgs/package.zsh'
+[2.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_msgs/share/colcon-core/packages/correct_msgs)
+[2.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louwee/correct_ws/src/correct_cpp_examples' with build type 'ament_cmake'
+[2.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louwee/correct_ws/src/correct_cpp_examples'
+[2.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/louwee/correct_ws/src/correct_py_examples' with build type 'ament_python'
+[2.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_py_examples', 'ament_prefix_path')
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/hook/ament_prefix_path.ps1'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/hook/ament_prefix_path.dsv'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/hook/ament_prefix_path.sh'
+[2.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_firmware)
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware' for CMake module files
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware' for CMake config files
+[2.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_firmware', 'cmake_prefix_path')
+[2.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/cmake_prefix_path.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/cmake_prefix_path.dsv'
+[2.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/cmake_prefix_path.sh'
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware
+[2.281s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/lib'
+[2.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_firmware', 'ld_library_path_lib')
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/ld_library_path_lib.ps1'
+[2.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/ld_library_path_lib.dsv'
+[2.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/ld_library_path_lib.sh'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/bin'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/lib/pkgconfig/correct_firmware.pc'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/lib/python3.10/site-packages'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/bin'
+[2.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.ps1'
+[2.286s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.dsv'
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.sh'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.bash'
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.zsh'
+[2.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_firmware/share/colcon-core/packages/correct_firmware)
+[2.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_firmware)
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware' for CMake module files
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware' for CMake config files
+[2.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_firmware', 'cmake_prefix_path')
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/cmake_prefix_path.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/cmake_prefix_path.dsv'
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/cmake_prefix_path.sh'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/lib'
+[2.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_firmware', 'ld_library_path_lib')
+[2.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/ld_library_path_lib.ps1'
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/ld_library_path_lib.dsv'
+[2.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/hook/ld_library_path_lib.sh'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/bin'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/lib/pkgconfig/correct_firmware.pc'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/lib/python3.10/site-packages'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_firmware/bin'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.ps1'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.sh'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.zsh'
+[2.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_firmware/share/colcon-core/packages/correct_firmware)
+[2.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/computer_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12
+[2.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/computer_vision
+[2.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_localization)
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization' for CMake module files
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization' for CMake config files
+[2.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_localization', 'cmake_prefix_path')
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/hook/cmake_prefix_path.ps1'
+[2.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/hook/cmake_prefix_path.dsv'
+[2.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/hook/cmake_prefix_path.sh'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/lib'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/bin'
+[2.341s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/lib/pkgconfig/correct_localization.pc'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/lib/python3.10/site-packages'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/bin'
+[2.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.ps1'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.dsv'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.sh'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.bash'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.zsh'
+[2.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_localization/share/colcon-core/packages/correct_localization)
+[2.363s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_localization)
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization' for CMake module files
+[2.364s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization' for CMake config files
+[2.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_localization', 'cmake_prefix_path')
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/hook/cmake_prefix_path.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/hook/cmake_prefix_path.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/hook/cmake_prefix_path.sh'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/lib'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/bin'
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/lib/pkgconfig/correct_localization.pc'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/lib/python3.10/site-packages'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_localization/bin'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.dsv'
+[2.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.sh'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.bash'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.zsh'
+[2.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_localization/share/colcon-core/packages/correct_localization)
+[2.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[3.090s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/louwee/correct_ws/src/correct_py_examples'
+[3.090s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(computer_vision)
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision' for CMake module files
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision' for CMake config files
+[3.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/computer_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/computer_vision
+[3.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('computer_vision', 'cmake_prefix_path')
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.sh'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/lib'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/lib/pkgconfig/computer_vision.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/lib/python3.10/site-packages'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.ps1'
+[3.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.sh'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.bash'
+[3.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.zsh'
+[3.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/computer_vision/share/colcon-core/packages/computer_vision)
+[3.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(computer_vision)
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision' for CMake module files
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision' for CMake config files
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('computer_vision', 'cmake_prefix_path')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.dsv'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.sh'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/lib'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/lib/pkgconfig/computer_vision.pc'
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/lib/python3.10/site-packages'
+[3.134s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.dsv'
+[3.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.sh'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.bash'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.zsh'
+[3.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/computer_vision/share/colcon-core/packages/computer_vision)
+[3.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[3.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples
+[3.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_cpp_examples)
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples' for CMake module files
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples' for CMake config files
+[3.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_cpp_examples', 'cmake_prefix_path')
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/hook/cmake_prefix_path.ps1'
+[3.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples
+[3.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/hook/cmake_prefix_path.dsv'
+[3.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/hook/cmake_prefix_path.sh'
+[3.205s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/lib'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/bin'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/lib/pkgconfig/correct_cpp_examples.pc'
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/lib/python3.10/site-packages'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/bin'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.dsv'
+[3.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.sh'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.bash'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.zsh'
+[3.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_cpp_examples/share/colcon-core/packages/correct_cpp_examples)
+[3.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_cpp_examples)
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples' for CMake module files
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples' for CMake config files
+[3.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_cpp_examples', 'cmake_prefix_path')
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/hook/cmake_prefix_path.ps1'
+[3.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/hook/cmake_prefix_path.dsv'
+[3.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/hook/cmake_prefix_path.sh'
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/lib'
+[3.223s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/bin'
+[3.223s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/lib/pkgconfig/correct_cpp_examples.pc'
+[3.223s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/lib/python3.10/site-packages'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_cpp_examples/bin'
+[3.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.ps1'
+[3.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.dsv'
+[3.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.sh'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.bash'
+[3.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.zsh'
+[3.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_cpp_examples/share/colcon-core/packages/correct_cpp_examples)
+[3.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12
+[3.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_controller
+[3.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louwee/correct_ws/src/correct_py_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/build/correct_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages:/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/correct_py_examples build --build-base /home/louwee/correct_ws/build/correct_py_examples/build install --record /home/louwee/correct_ws/build/correct_py_examples/install.log --single-version-externally-managed install_data
+[3.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_controller)
+[3.997s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller' for CMake module files
+[3.998s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller' for CMake config files
+[3.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_controller', 'cmake_prefix_path')
+[3.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/hook/cmake_prefix_path.ps1'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/hook/cmake_prefix_path.dsv'
+[4.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/build/correct_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_controller
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/hook/cmake_prefix_path.sh'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/lib'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/bin'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/lib/pkgconfig/correct_controller.pc'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/lib/python3.10/site-packages'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/bin'
+[4.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.ps1'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.dsv'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.sh'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.bash'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.zsh'
+[4.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_controller/share/colcon-core/packages/correct_controller)
+[4.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_controller)
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller' for CMake module files
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller' for CMake config files
+[4.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_controller', 'cmake_prefix_path')
+[4.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/hook/cmake_prefix_path.ps1'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/hook/cmake_prefix_path.dsv'
+[4.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/hook/cmake_prefix_path.sh'
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/lib'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/bin'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/lib/pkgconfig/correct_controller.pc'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/lib/python3.10/site-packages'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_controller/bin'
+[4.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.ps1'
+[4.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.dsv'
+[4.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.sh'
+[4.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.bash'
+[4.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.zsh'
+[4.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_controller/share/colcon-core/packages/correct_controller)
+[4.449s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples' for CMake module files
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples' for CMake config files
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples/lib'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples/bin'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples/lib/pkgconfig/correct_py_examples.pc'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages'
+[4.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('correct_py_examples', 'pythonpath')
+[4.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/hook/pythonpath.ps1'
+[4.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louwee/correct_ws/src/correct_py_examples' returned '0': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/build/correct_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages:/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/correct_py_examples build --build-base /home/louwee/correct_ws/build/correct_py_examples/build install --record /home/louwee/correct_ws/build/correct_py_examples/install.log --single-version-externally-managed install_data
+[4.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/hook/pythonpath.dsv'
+[4.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/hook/pythonpath.sh'
+[4.456s] Level 1:colcon.colcon_core.environment:checking '/home/louwee/correct_ws/install/correct_py_examples/bin'
+[4.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(correct_py_examples)
+[4.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/package.ps1'
+[4.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/package.dsv'
+[4.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/package.sh'
+[4.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/package.bash'
+[4.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/louwee/correct_ws/install/correct_py_examples/share/correct_py_examples/package.zsh'
+[4.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_py_examples/share/colcon-core/packages/correct_py_examples)
+[4.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.463s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.475s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.523s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/correct_ws/install/local_setup.ps1'
+[4.527s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louwee/correct_ws/install/_local_setup_util_ps1.py'
+[4.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/correct_ws/install/setup.ps1'
+[4.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/correct_ws/install/local_setup.sh'
+[4.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louwee/correct_ws/install/_local_setup_util_sh.py'
+[4.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/correct_ws/install/setup.sh'
+[4.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/correct_ws/install/local_setup.bash'
+[4.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/correct_ws/install/setup.bash'
+[4.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louwee/correct_ws/install/local_setup.zsh'
+[4.548s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louwee/correct_ws/install/setup.zsh'

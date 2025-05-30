@@ -7,6 +7,7 @@
 /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/simple_controller.py
 /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/__init__.py
 /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/noisy_controller.py
+/home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/twist_relay.py
 /home/louwee/correct_ws/install/correct_controller/include/include/correct_controller/simple_controller.hpp
 /home/louwee/correct_ws/install/correct_controller/include/include/correct_controller/noisy_controller.hpp
 /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/simple_controller
@@ -18,6 +19,7 @@
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/correct_controller.yaml
 /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/simple_controller.py
 /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/noisy_controller.py
+/home/louwee/correct_ws/install/correct_controller/lib/correct_controller/twist_relay.py
 /home/louwee/correct_ws/install/correct_controller/share/ament_index/resource_index/package_run_dependencies/correct_controller
 /home/louwee/correct_ws/install/correct_controller/share/ament_index/resource_index/parent_prefix_path/correct_controller
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/ament_prefix_path.sh

@@ -121,6 +121,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/correct_controller" TYPE PROGRAM FILES
     "/home/louwee/correct_ws/src/correct_controller/correct_controller/simple_controller.py"
     "/home/louwee/correct_ws/src/correct_controller/correct_controller/noisy_controller.py"
+    "/home/louwee/correct_ws/src/correct_controller/correct_controller/twist_relay.py"
     )
 endif()
 

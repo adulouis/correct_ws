@@ -26,7 +26,10 @@ add_executable(simple_controller src/simple_controller.cpp)
 ament_target_dependencies(simple_controller rclcpp geometry_msgs std_msgs sensor_msgs nav_msgs tf2_ros tf2 ${Eigen_LIBRARIES}) 
 
 add_executable(noisy_controller src/noisy_controller.cpp)
-ament_target_dependencies(noisy_controller rclcpp geometry_msgs sensor_msgs nav_msgs tf2_ros) 
+ament_target_dependencies(noisy_controller rclcpp geometry_msgs sensor_msgs nav_msgs tf2_ros)
+
+add_executable(twist_relay src/twist_relay.cpp)
+ament_target_dependencies(twist_relay rclcpp geometry_msgs)
 
 ament_python_install_package(${PROJECT_NAME})
 
@@ -42,6 +45,11 @@ install(TARGETS
 
 install(TARGETS
   noisy_controller
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  twist_relay
   DESTINATION lib/${PROJECT_NAME}
 )
 

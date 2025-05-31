@@ -3,13 +3,15 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
+from launch.actions import IncludeLaunchDescription
 from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    correct_controller_dir = get_package_share_directory("correct_controller")
+    
+    correct_controller_pkg = get_package_share_directory('correct_controller')
 
     use_sim_time_arg = DeclareLaunchArgument(name="use_sim_time", default_value="True",
                                       description="Use simulated time"
@@ -29,23 +31,27 @@ def generate_launch_description():
         parameters=[os.path.join(get_package_share_directory("correct_controller"), "config", "joy_config.yaml"),
                     {"use_sim_time": LaunchConfiguration("use_sim_time")}]
     )
-
+    
     twist_mux_launch = IncludeLaunchDescription(
-        os.path.join(get_package_share_directory("twist_mux"), "launch", "twist_mux_launch.py"),
+        os.path.join(
+            get_package_share_directory("twist_mux"),
+            "launch",
+            "twist_mux_launch.py"
+        ),
         launch_arguments={
-            "cmd_vel_out":"correct_controller/cmd_vel_unstamped",
-            "config_topics": os.path.join(correct_controller_dir, "config", "twist_mux_topics.yaml"),       #sources of topics that the twist_mux will subscribe to
-            "config_locks": os.path.join(correct_controller_dir, "config", "twist_mux_locks.yaml"),
-            "config_joy": os.path.join(correct_controller_dir, "config", "twist_mux_joy.yaml"),
-            "use_sim_time": LaunchConfiguration("use_sim_time")
-        }.items()
+            "cmd_vel_out": "correct_controller/cmd_vel_unstamped",
+            "config_locks": os.path.join(correct_controller_pkg, "config", "twist_mux_locks.yaml"),
+            "config_topics": os.path.join(correct_controller_pkg, "config", "twist_mux_topics.yaml"),
+            "config_joy": os.path.join(correct_controller_pkg, "config", "twist_mux_joy.yaml"),
+            "use_sim_time": LaunchConfiguration("use_sim_time"),
+        }.items(),
     )
 
     twist_relay_node = Node(
         package="correct_controller",
         executable="twist_relay",
         name="twist_relay",
-        parameters={"use_sim_time": LaunchConfiguration("use_sim_time")}
+        parameters=[{"use_sim_time": LaunchConfiguration("use_sim_time")}]
     )
 
     return LaunchDescription(
@@ -54,6 +60,6 @@ def generate_launch_description():
             joy_teleop,
             joy_node,
             twist_mux_launch,
-            twist_relay_node
+            twist_relay_node,
         ]
     )

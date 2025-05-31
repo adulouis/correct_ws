@@ -45,7 +45,7 @@ def generate_launch_description():
         package="correct_controller",
         executable="twist_relay",
         name="twist_relay",
-        parameters={"use_si m_time": LaunchConfiguration("use_sim_time")}
+        parameters={"use_sim_time": LaunchConfiguration("use_sim_time")}
     )
 
     return LaunchDescription(

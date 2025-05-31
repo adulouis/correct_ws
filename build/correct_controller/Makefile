@@ -224,6 +224,19 @@ noisy_controller/fast:
 .PHONY : noisy_controller/fast
 
 #=============================================================================
+# Target rules for targets named twist_relay
+
+# Build rule for target.
+twist_relay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 twist_relay
+.PHONY : twist_relay
+
+# fast build rule for target.
+twist_relay/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_relay.dir/build.make CMakeFiles/twist_relay.dir/build
+.PHONY : twist_relay/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_copy_correct_controller
 
 # Build rule for target.
@@ -297,6 +310,30 @@ src/simple_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/src/simple_controller.cpp.s
 .PHONY : src/simple_controller.cpp.s
 
+src/twist_relay.o: src/twist_relay.cpp.o
+.PHONY : src/twist_relay.o
+
+# target to build an object file
+src/twist_relay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_relay.dir/build.make CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o
+.PHONY : src/twist_relay.cpp.o
+
+src/twist_relay.i: src/twist_relay.cpp.i
+.PHONY : src/twist_relay.i
+
+# target to preprocess a source file
+src/twist_relay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_relay.dir/build.make CMakeFiles/twist_relay.dir/src/twist_relay.cpp.i
+.PHONY : src/twist_relay.cpp.i
+
+src/twist_relay.s: src/twist_relay.cpp.s
+.PHONY : src/twist_relay.s
+
+# target to generate assembly for a file
+src/twist_relay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_relay.dir/build.make CMakeFiles/twist_relay.dir/src/twist_relay.cpp.s
+.PHONY : src/twist_relay.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -316,12 +353,16 @@ help:
 	@echo "... uninstall"
 	@echo "... noisy_controller"
 	@echo "... simple_controller"
+	@echo "... twist_relay"
 	@echo "... src/noisy_controller.o"
 	@echo "... src/noisy_controller.i"
 	@echo "... src/noisy_controller.s"
 	@echo "... src/simple_controller.o"
 	@echo "... src/simple_controller.i"
 	@echo "... src/simple_controller.s"
+	@echo "... src/twist_relay.o"
+	@echo "... src/twist_relay.i"
+	@echo "... src/twist_relay.s"
 .PHONY : help
 
 

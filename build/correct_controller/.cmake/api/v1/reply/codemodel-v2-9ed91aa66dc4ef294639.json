@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b5581b6d9fbe32756521.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "correct_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_correct_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_correct_controller_egg-372dc2d71420a480b199.json",
+					"name" : "ament_cmake_python_build_correct_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_correct_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_correct_controller-f7dce6349776aa477fd5.json",
+					"name" : "ament_cmake_python_copy_correct_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "correct_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-correct_controller_uninstall-3842f09ec19ff2468c5e.json",
+					"name" : "correct_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "noisy_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-noisy_controller-70f63351a486193c6066.json",
+					"name" : "noisy_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_controller-47b581778f1d86afaf8c.json",
+					"name" : "simple_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twist_relay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twist_relay-d245cfea25e256cfb613.json",
+					"name" : "twist_relay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9d90c118ca3148ef58b6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/louwee/correct_ws/build/correct_controller",
+		"source" : "/home/louwee/correct_ws/src/correct_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-61dded2af4b0f5f2b7fc.json",
+					"jsonFile" : "directory-.-4609746ebf6860e78605.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -80,14 +80,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "simple_serial_receiver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-simple_serial_receiver-69886e82782968f6679c.json",
+					"jsonFile" : "target-simple_serial_receiver-18a86a2ab93bd7b7a57e.json",
 					"name" : "simple_serial_receiver",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "simple_serial_transmitter::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-simple_serial_transmitter-c774a299175dd00c53d6.json",
+					"jsonFile" : "target-simple_serial_transmitter-650c9976334258d8af09.json",
 					"name" : "simple_serial_transmitter",
 					"projectIndex" : 0
 				},

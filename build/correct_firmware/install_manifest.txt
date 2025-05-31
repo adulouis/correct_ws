@@ -5,6 +5,7 @@
 /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_transmitter.py
+/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/mpu6050_driver.py
 /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/__init__.py
 /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_receiver.py
 /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/correct_interface.xml
@@ -13,6 +14,7 @@
 /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch/hardware_interface.launch.py
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter.py
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver.py
+/home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/mpu6050_driver.py
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver
 /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter
 /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.sh

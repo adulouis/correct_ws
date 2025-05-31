@@ -138,13 +138,13 @@
 			{
 				"command" : 0,
 				"file" : 3,
-				"line" : 77,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
 				"command" : 7,
 				"file" : 3,
-				"line" : 90,
+				"line" : 91,
 				"parent" : 0
 			},
 			{
@@ -174,7 +174,7 @@
 			{
 				"command" : 12,
 				"file" : 3,
-				"line" : 108,
+				"line" : 109,
 				"parent" : 0
 			},
 			{
@@ -495,7 +495,8 @@
 			"paths" : 
 			[
 				"correct_firmware/simple_serial_transmitter.py",
-				"correct_firmware/simple_serial_receiver.py"
+				"correct_firmware/simple_serial_receiver.py",
+				"correct_firmware/mpu6050_driver.py"
 			],
 			"type" : "file"
 		},

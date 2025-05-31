@@ -5,7 +5,7 @@ set(correct_firmware_BUILD_DEPENDS "rclcpp" "rclpy" "std_msgs" "hardware_interfa
 set(correct_firmware_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(correct_firmware_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(correct_firmware_BUILDTOOL_EXPORT_DEPENDS )
-set(correct_firmware_EXEC_DEPENDS "python3-serial" "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
+set(correct_firmware_EXEC_DEPENDS "python3-serial" "python3-smbus" "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(correct_firmware_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(correct_firmware_GROUP_DEPENDS )
 set(correct_firmware_MEMBER_OF_GROUPS )

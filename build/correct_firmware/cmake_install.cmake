@@ -105,6 +105,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/correct_firmware" TYPE PROGRAM FILES
     "/home/louwee/correct_ws/src/correct_firmware/correct_firmware/simple_serial_transmitter.py"
     "/home/louwee/correct_ws/src/correct_firmware/correct_firmware/simple_serial_receiver.py"
+    "/home/louwee/correct_ws/src/correct_firmware/correct_firmware/mpu6050_driver.py"
     )
 endif()
 

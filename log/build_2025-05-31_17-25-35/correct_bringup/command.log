@@ -1,0 +1,6 @@
+Invoking command in '/home/louwee/correct_ws/build/correct_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_bringup -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_bringup
+Invoked command in '/home/louwee/correct_ws/build/correct_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_bringup -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_bringup
+Invoking command in '/home/louwee/correct_ws/build/correct_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_bringup -- -j12 -l12
+Invoked command in '/home/louwee/correct_ws/build/correct_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_bringup -- -j12 -l12
+Invoking command in '/home/louwee/correct_ws/build/correct_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_bringup
+Invoked command in '/home/louwee/correct_ws/build/correct_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_bringup

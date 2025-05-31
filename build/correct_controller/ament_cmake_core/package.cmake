@@ -5,7 +5,7 @@ set(correct_controller_BUILD_DEPENDS "rclcpp" "rclpy" "geometry_msgs" "std_msgs"
 set(correct_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(correct_controller_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "eigen" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2")
 set(correct_controller_BUILDTOOL_EXPORT_DEPENDS )
-set(correct_controller_EXEC_DEPENDS "tf_tranasformations" "ros2launch" "robot_state_publisher" "xacro" "controller_manager" "joy" "joy_teleop" "ros2_controllers" "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "eigen" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2")
+set(correct_controller_EXEC_DEPENDS "tf_tranasformations" "ros2launch" "robot_state_publisher" "xacro" "controller_manager" "joy" "joy_teleop" "ros2_controllers" "twist_mux" "ros2_control" "rclcpp" "rclpy" "geometry_msgs" "std_msgs" "eigen" "sensor_msgs" "nav_msgs" "tf2_ros" "tf2")
 set(correct_controller_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(correct_controller_GROUP_DEPENDS )
 set(correct_controller_MEMBER_OF_GROUPS )

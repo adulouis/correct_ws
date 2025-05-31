@@ -15,8 +15,11 @@
 /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/twist_relay
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/launch/controller.launch.py
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/launch/joystick_teleop.launch.py
+/home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/twist_mux_locks.yaml
+/home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/twist_mux_joy.yaml
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/joy_teleop.yaml
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/joy_config.yaml
+/home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/twist_mux_topics.yaml
 /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/correct_controller.yaml
 /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/simple_controller.py
 /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/noisy_controller.py

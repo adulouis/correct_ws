@@ -1,0 +1,23 @@
+[0.038s] Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[0.102s] [  2%] Built target correct_msgs__cpp
+[0.123s] [ 12%] Built target correct_msgs__rosidl_generator_c
+[0.141s] [ 12%] Built target ament_cmake_python_copy_correct_msgs
+[0.266s] [ 23%] Built target correct_msgs__rosidl_typesupport_fastrtps_cpp
+[0.275s] [ 33%] Built target correct_msgs__rosidl_typesupport_introspection_cpp
+[0.278s] [ 43%] Built target correct_msgs__rosidl_typesupport_introspection_c
+[0.281s] [ 53%] Built target correct_msgs__rosidl_typesupport_fastrtps_c
+[0.282s] [ 64%] Built target correct_msgs__rosidl_typesupport_cpp
+[0.313s] [ 74%] Built target correct_msgs__rosidl_typesupport_c
+[0.325s] [ 74%] Built target correct_msgs
+[0.325s] [ 76%] Built target correct_msgs__py
+[0.326s] [ 84%] Built target correct_msgs__rosidl_generator_py
+[0.326s] [ 89%] Built target correct_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.326s] [ 94%] Built target correct_msgs__rosidl_typesupport_introspection_c__pyext
+[0.326s] [100%] Built target correct_msgs__rosidl_typesupport_c__pyext
+[0.627s] running egg_info
+[0.629s] writing correct_msgs.egg-info/PKG-INFO
+[0.629s] writing dependency_links to correct_msgs.egg-info/dependency_links.txt
+[0.629s] writing top-level names to correct_msgs.egg-info/top_level.txt
+[0.634s] reading manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[0.634s] writing manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[0.674s] [100%] Built target ament_cmake_python_build_correct_msgs_egg

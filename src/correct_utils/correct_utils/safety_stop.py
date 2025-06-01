@@ -15,7 +15,7 @@ class State(Enum):
 
 class SafetyStop(Node):
     def __init__(self):
-        super().__init__("safety_stop")
+        super().__init__("safety_stop_node")
 
         self.declare_parameter("danger_distance", 0.2)
         self.declare_parameter("scan_topic", "scan")

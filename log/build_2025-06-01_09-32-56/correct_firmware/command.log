@@ -1,0 +1,3 @@
+Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware

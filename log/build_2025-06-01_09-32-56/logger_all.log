@@ -1,0 +1,495 @@
+[0.101s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.101s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71428acf69b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71428ac7bf10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71428ac7bf10>>)[0m
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.252s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/louwee/correct_ws'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extension 'ignore'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extension 'ignore_ament_install'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extensions ['colcon_pkg']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extension 'colcon_pkg'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extensions ['colcon_meta']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extension 'colcon_meta'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extensions ['ros']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/computer_vision) by extension 'ros'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/computer_vision' with type 'ros.ament_cmake' and name 'computer_vision'[0m
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extension 'ignore'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extension 'ignore_ament_install'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extensions ['colcon_pkg']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extension 'colcon_pkg'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extensions ['colcon_meta']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extension 'colcon_meta'
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extensions ['ros']
+[0.268s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_bringup) by extension 'ros'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_bringup' with type 'ros.ament_cmake' and name 'correct_bringup'[0m
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extension 'ignore'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extension 'ignore_ament_install'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extensions ['colcon_pkg']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extension 'colcon_pkg'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extensions ['colcon_meta']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extension 'colcon_meta'
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extensions ['ros']
+[0.269s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_controller) by extension 'ros'
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_controller' with type 'ros.ament_cmake' and name 'correct_controller'[0m
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extension 'ignore'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extension 'ignore_ament_install'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extensions ['colcon_pkg']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extension 'colcon_pkg'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extensions ['colcon_meta']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extension 'colcon_meta'
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extensions ['ros']
+[0.271s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_cpp_examples) by extension 'ros'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_cpp_examples' with type 'ros.ament_cmake' and name 'correct_cpp_examples'[0m
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extension 'ignore'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extension 'ignore_ament_install'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extensions ['colcon_pkg']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extension 'colcon_pkg'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extensions ['colcon_meta']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extension 'colcon_meta'
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extensions ['ros']
+[0.273s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_firmware) by extension 'ros'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_firmware' with type 'ros.ament_cmake' and name 'correct_firmware'[0m
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extension 'ignore'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extension 'ignore_ament_install'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extensions ['colcon_pkg']
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extension 'colcon_pkg'
+[0.274s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extensions ['colcon_meta']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extension 'colcon_meta'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extensions ['ros']
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_localization) by extension 'ros'
+[0.275s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_localization' with type 'ros.ament_cmake' and name 'correct_localization'[0m
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extension 'ignore'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extension 'ignore_ament_install'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extensions ['colcon_pkg']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extension 'colcon_pkg'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extensions ['colcon_meta']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extension 'colcon_meta'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extensions ['ros']
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_msgs) by extension 'ros'
+[0.276s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_msgs' with type 'ros.ament_cmake' and name 'correct_msgs'[0m
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extension 'ignore'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extension 'ignore_ament_install'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extensions ['colcon_pkg']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extension 'colcon_pkg'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extensions ['colcon_meta']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extension 'colcon_meta'
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extensions ['ros']
+[0.277s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_pkg) by extension 'ros'
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_pkg' with type 'ros.ament_cmake' and name 'correct_pkg'[0m
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extension 'ignore'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extension 'ignore_ament_install'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extensions ['colcon_pkg']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extension 'colcon_pkg'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extensions ['colcon_meta']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extension 'colcon_meta'
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extensions ['ros']
+[0.288s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_py_examples) by extension 'ros'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_py_examples' with type 'ros.ament_python' and name 'correct_py_examples'[0m
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extension 'ignore'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extension 'ignore_ament_install'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extensions ['colcon_pkg']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extension 'colcon_pkg'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extensions ['colcon_meta']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extension 'colcon_meta'
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extensions ['ros']
+[0.289s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/correct_utils) by extension 'ros'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/correct_utils' with type 'ros.ament_cmake' and name 'correct_utils'[0m
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'ignore'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'ignore_ament_install'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extensions ['colcon_pkg']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'colcon_pkg'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extensions ['colcon_meta']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'colcon_meta'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extensions ['ros']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'ros'
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extensions ['cmake', 'python']
+[0.290s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'cmake'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'python'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extensions ['python_setup_py']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train) by extension 'python_setup_py'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extensions ['colcon_pkg']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'colcon_pkg'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extensions ['colcon_meta']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'colcon_meta'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extensions ['ros']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'ros'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extensions ['cmake', 'python']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'cmake'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'python'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extensions ['python_setup_py']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/image_aug) by extension 'python_setup_py'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'ignore'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'ignore_ament_install'
+[0.291s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extensions ['colcon_pkg']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'colcon_pkg'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extensions ['colcon_meta']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'colcon_meta'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extensions ['ros']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'ros'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extensions ['cmake', 'python']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'cmake'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'python'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extensions ['python_setup_py']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(train/labels_aug) by extension 'python_setup_py'
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.308s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.308s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.310s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 10 installed packages in /home/louwee/correct_ws/install[0m
+[0.311s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 344 installed packages in /opt/ros/humble[0m
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'cmake_target' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'computer_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'computer_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/computer_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/computer_vision', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/computer_vision', 'symlink_install': False, 'test_result_base': None}[0m
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'cmake_target' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_bringup', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'cmake_target' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_controller', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_controller', 'symlink_install': False, 'test_result_base': None}[0m
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'cmake_target' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_firmware', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_firmware', 'symlink_install': False, 'test_result_base': None}[0m
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'cmake_target' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_localization', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_localization', 'symlink_install': False, 'test_result_base': None}[0m
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'cmake_target' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_msgs', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'cmake_args' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'cmake_target' from command line to 'None'
+[0.351s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_pkg', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'cmake_args' from command line to 'None'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'cmake_target' from command line to 'None'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_utils', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_utils', 'symlink_install': False, 'test_result_base': None}[0m
+[0.352s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_cpp_examples', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_cpp_examples', 'symlink_install': False, 'test_result_base': None}[0m
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'correct_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'correct_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louwee/correct_ws/build/correct_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louwee/correct_ws/install/correct_py_examples', 'merge_install': False, 'path': '/home/louwee/correct_ws/src/correct_py_examples', 'symlink_install': False, 'test_result_base': None}[0m
+[0.353s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.354s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.354s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_msgs' with build type 'ament_cmake'
+[0.354s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_msgs'
+[0.357s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.360s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/computer_vision' with build type 'ament_cmake'
+[0.360s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/computer_vision'
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.364s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_bringup' with build type 'ament_cmake'
+[0.364s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_bringup'
+[0.364s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.367s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_controller' with build type 'ament_cmake'
+[0.367s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_controller'
+[0.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.372s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_firmware' with build type 'ament_cmake'
+[0.372s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_firmware'
+[0.372s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.372s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.376s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_localization' with build type 'ament_cmake'
+[0.376s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_localization'
+[0.376s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.379s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_pkg' with build type 'ament_cmake'
+[0.379s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_pkg'
+[0.380s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.383s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/louwee/correct_ws/src/correct_utils' with build type 'ament_cmake'
+[0.383s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/louwee/correct_ws/src/correct_utils'
+[0.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.393s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12[0m
+[0.396s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12[0m
+[0.398s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_bringup -- -j12 -l12[0m
+[0.401s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12[0m
+[0.404s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12[0m
+[0.408s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12[0m
+[0.412s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_pkg -- -j12 -l12[0m
+[0.421s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_utils -- -j12 -l12[0m
+[0.449s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_bringup -- -j12 -l12[0m
+[0.469s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_bringup[0m
+[0.477s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_pkg -- -j12 -l12[0m
+[0.478s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_pkg[0m
+[0.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(correct_bringup)
+[0.496s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_bringup[0m
+[0.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup' for CMake module files
+[0.513s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup' for CMake config files
+[0.513s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('correct_bringup', 'cmake_prefix_path')
+[0.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/hook/cmake_prefix_path.ps1'
+[0.518s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/hook/cmake_prefix_path.dsv'
+[0.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/hook/cmake_prefix_path.sh'
+[0.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/bin'
+[0.525s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/lib/pkgconfig/correct_bringup.pc'
+[0.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/lib/python3.10/site-packages'
+[0.526s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/bin'
+[0.530s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.ps1'
+[0.531s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.dsv'
+[0.532s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.sh'
+[0.535s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.bash'
+[0.537s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.zsh'
+[0.539s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_bringup/share/colcon-core/packages/correct_bringup)
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(correct_bringup)
+[0.542s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup' for CMake module files
+[0.544s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup' for CMake config files
+[0.548s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('correct_bringup', 'cmake_prefix_path')
+[0.549s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/hook/cmake_prefix_path.ps1'
+[0.550s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/hook/cmake_prefix_path.dsv'
+[0.552s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/hook/cmake_prefix_path.sh'
+[0.554s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/bin'
+[0.555s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/lib/pkgconfig/correct_bringup.pc'
+[0.555s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/lib/python3.10/site-packages'
+[0.555s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_bringup/bin'
+[0.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.ps1'
+[0.557s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.dsv'
+[0.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.sh'
+[0.561s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.bash'
+[0.563s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_bringup/share/correct_bringup/package.zsh'
+[0.564s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_bringup/share/colcon-core/packages/correct_bringup)
+[0.565s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(correct_pkg)
+[0.566s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg' for CMake module files
+[0.567s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg' for CMake config files
+[0.569s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('correct_pkg', 'cmake_prefix_path')
+[0.570s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.ps1'
+[0.571s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.dsv'
+[0.572s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.sh'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/lib/pkgconfig/correct_pkg.pc'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/lib/python3.10/site-packages'
+[0.574s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[0.575s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.ps1'
+[0.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.dsv'
+[0.578s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.sh'
+[0.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.bash'
+[0.580s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.zsh'
+[0.582s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_pkg/share/colcon-core/packages/correct_pkg)
+[0.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(correct_pkg)
+[0.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg' for CMake module files
+[0.586s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg' for CMake config files
+[0.591s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('correct_pkg', 'cmake_prefix_path')
+[0.591s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.ps1'
+[0.593s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.dsv'
+[0.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/hook/cmake_prefix_path.sh'
+[0.596s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[0.596s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/lib/pkgconfig/correct_pkg.pc'
+[0.596s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/lib/python3.10/site-packages'
+[0.597s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_pkg/bin'
+[0.598s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.ps1'
+[0.600s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.dsv'
+[0.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.sh'
+[0.602s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.bash'
+[0.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_pkg/share/correct_pkg/package.zsh'
+[0.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_pkg/share/colcon-core/packages/correct_pkg)
+[0.680s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_pkg[0m
+[0.913s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/computer_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12[0m
+[0.916s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/computer_vision[0m
+[0.943s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12[0m
+[0.949s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware[0m
+[0.949s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12[0m
+[0.951s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_controller[0m
+[0.982s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(computer_vision)
+[0.983s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision' for CMake module files
+[0.983s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/computer_vision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/computer_vision[0m
+[0.984s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision' for CMake config files
+[0.985s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('computer_vision', 'cmake_prefix_path')
+[0.986s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.ps1'
+[0.986s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.dsv'
+[0.986s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.sh'
+[0.987s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/lib'
+[0.987s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[0.987s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/lib/pkgconfig/computer_vision.pc'
+[0.988s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/lib/python3.10/site-packages'
+[0.988s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[0.988s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.ps1'
+[0.989s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.dsv'
+[0.989s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.sh'
+[0.990s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.bash'
+[0.990s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.zsh'
+[0.991s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/computer_vision/share/colcon-core/packages/computer_vision)
+[0.991s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(computer_vision)
+[0.991s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision' for CMake module files
+[0.992s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision' for CMake config files
+[0.992s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('computer_vision', 'cmake_prefix_path')
+[0.993s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.ps1'
+[0.993s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.dsv'
+[0.993s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/hook/cmake_prefix_path.sh'
+[0.994s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/lib'
+[0.994s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[0.994s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/lib/pkgconfig/computer_vision.pc'
+[0.995s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/lib/python3.10/site-packages'
+[0.995s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/computer_vision/bin'
+[0.996s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.ps1'
+[0.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.dsv'
+[0.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.sh'
+[0.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.bash'
+[0.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/computer_vision/share/computer_vision/package.zsh'
+[0.999s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/computer_vision/share/colcon-core/packages/computer_vision)
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(correct_utils)
+[1.006s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils' for CMake module files
+[1.008s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/louwee/correct_ws/build/correct_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_utils -- -j12 -l12[0m
+[1.011s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils' for CMake config files
+[1.011s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('correct_utils', 'cmake_prefix_path')
+[1.012s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/hook/cmake_prefix_path.ps1'
+[1.012s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/hook/cmake_prefix_path.dsv'
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/hook/cmake_prefix_path.sh'
+[1.014s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils/lib'
+[1.014s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils/bin'
+[1.014s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils/lib/pkgconfig/correct_utils.pc'
+[1.014s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils/lib/python3.10/site-packages'
+[1.014s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/louwee/correct_ws/install/correct_utils/bin'
+[1.015s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.ps1'
+[1.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.dsv'
+[1.017s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.sh'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.bash'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.zsh'
+[1.021s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/louwee/correct_ws/install/correct_utils/share/colcon-core/packages/correct_utils)
+[1.062s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.062s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.062s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[1.062s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.069s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.069s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.069s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.079s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/louwee/correct_ws/install/local_setup.ps1'
+[1.080s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/louwee/correct_ws/install/_local_setup_util_ps1.py'
+[1.082s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/louwee/correct_ws/install/setup.ps1'
+[1.083s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/louwee/correct_ws/install/local_setup.sh'
+[1.084s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/louwee/correct_ws/install/_local_setup_util_sh.py'
+[1.084s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/louwee/correct_ws/install/setup.sh'
+[1.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/louwee/correct_ws/install/local_setup.bash'
+[1.086s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/louwee/correct_ws/install/setup.bash'
+[1.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/louwee/correct_ws/install/local_setup.zsh'
+[1.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/louwee/correct_ws/install/setup.zsh'

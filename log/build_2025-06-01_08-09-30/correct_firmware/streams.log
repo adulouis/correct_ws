@@ -1,0 +1,163 @@
+[0.030s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_firmware -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_firmware
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.190s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.299s] -- Detecting C compiler ABI info - done
+[0.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.314s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.321s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.690s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.848s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.951s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.957s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.974s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.003s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.034s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.092s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.100s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.214s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.260s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.319s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.331s] -- Looking for pthread.h
+[1.415s] -- Looking for pthread.h - found
+[1.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.512s] -- Found Threads: TRUE  
+[1.614s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.655s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.889s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.895s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.897s] -- Checking for module 'libserial'
+[1.914s] --   Found libserial, version 1.0.0
+[2.063s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.187s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.187s] -- Configured cppcheck include dirs: /home/louwee/correct_ws/src/correct_firmware/include;/home/louwee/correct_ws/src/correct_firmware/
+[2.187s] -- Configured cppcheck exclude dirs and/or files: 
+[2.187s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.191s] -- Added test 'lint_cmake' to check CMake code style
+[2.193s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.196s] -- Added test 'uncrustify' to check C / C++ code style
+[2.196s] -- Configured uncrustify additional arguments: 
+[2.197s] -- Added test 'xmllint' to check XML markup files
+[2.204s] -- Configuring done
+[2.265s] -- Generating done
+[2.280s] -- Build files have been written to: /home/louwee/correct_ws/build/correct_firmware
+[2.300s] Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_firmware -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_firmware
+[2.301s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[2.391s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[2.391s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[2.391s] [ 50%] [32mBuilding CXX object CMakeFiles/correct_firmware.dir/src/correct_interface.cpp.o[0m
+[2.395s] [ 50%] Built target ament_cmake_python_copy_correct_firmware
+[3.050s] running egg_info
+[3.052s] creating correct_firmware.egg-info
+[3.052s] writing correct_firmware.egg-info/PKG-INFO
+[3.053s] writing dependency_links to correct_firmware.egg-info/dependency_links.txt
+[3.055s] writing top-level names to correct_firmware.egg-info/top_level.txt
+[3.058s] writing manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[3.060s] reading manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[3.061s] writing manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[3.161s] [ 50%] Built target ament_cmake_python_build_correct_firmware_egg
+[8.119s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[8.119s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:99:29:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[8.119s]    99 |             [01;35m[KCallbackReturn::FAILURE[m[K;
+[8.119s]       |             [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.119s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:102:25:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[8.119s]   102 |         [01;35m[KCallbackReturn::SUCCESS[m[K;
+[8.120s]       |         [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.120s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:104:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.120s]   104 |     [01;35m[K}[m[K
+[8.120s]       |     [01;35m[K^[m[K
+[8.120s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:84:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.120s]    84 |     CallbackReturn CorrectInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[8.120s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.122s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[8.122s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:106:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.122s]   106 |     CallbackReturn CorrectInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[8.123s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[8.123s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type correct_firmware::CorrectInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.124s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:122:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.124s]   122 |     hardware_interface::return_type CorrectInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &time_taken)
+[8.124s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.124s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:122:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime_taken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.124s]   122 |     hardware_interface::return_type CorrectInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &time_taken[m[K)
+[8.124s]       |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.131s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type correct_firmware::CorrectInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[8.133s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:150:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.133s]   150 |     hardware_interface::return_type CorrectInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &time_taken)
+[8.133s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.133s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:150:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime_taken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.134s]   150 |     hardware_interface::return_type CorrectInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &time_taken[m[K)
+[8.134s]       |                                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[9.040s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[9.041s] [01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:120:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[9.041s]   120 |     [01;35m[K}[m[K
+[9.041s]       |     [01;35m[K^[m[K
+[10.168s] [ 66%] [32m[1mLinking CXX shared library libcorrect_firmware.so[0m
+[10.597s] [ 66%] Built target correct_firmware
+[12.148s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[12.505s] [ 83%] Built target simple_serial_receiver
+[20.019s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[21.205s] [100%] Built target simple_serial_transmitter
+[21.248s] Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[21.253s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware
+[21.277s] -- Install configuration: ""
+[21.277s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/pythonpath.sh
+[21.278s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/pythonpath.dsv
+[21.278s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info
+[21.278s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[21.278s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[21.278s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[21.279s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[21.279s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware
+[21.279s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_transmitter.py
+[21.279s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/mpu6050_driver.py
+[21.279s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/__init__.py
+[21.284s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_receiver.py
+[21.415s] Listing '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware'...
+[21.415s] Compiling '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/__init__.py'...
+[21.415s] Compiling '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/mpu6050_driver.py'...
+[21.415s] Compiling '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_receiver.py'...
+[21.416s] Compiling '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_transmitter.py'...
+[21.429s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/correct_interface.xml
+[21.433s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/libcorrect_firmware.so
+[21.433s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_firmware/lib/libcorrect_firmware.so" to ""
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/include/include
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware/correct_interface.hpp
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch/hardware_interface.launch.py
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter.py
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver.py
+[21.445s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/mpu6050_driver.py
+[21.448s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver
+[21.462s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver" to ""
+[21.462s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter
+[21.494s] -- Set runtime path of "/home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter" to ""
+[21.496s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.sh
+[21.497s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.dsv
+[21.497s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/package_run_dependencies/correct_firmware
+[21.497s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/parent_prefix_path/correct_firmware
+[21.497s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/ament_prefix_path.sh
+[21.498s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/ament_prefix_path.dsv
+[21.504s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/path.sh
+[21.504s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/path.dsv
+[21.504s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.bash
+[21.504s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.sh
+[21.504s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.zsh
+[21.505s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.dsv
+[21.505s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.dsv
+[21.505s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/packages/correct_firmware
+[21.505s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/correct_firmware
+[21.511s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.511s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[21.511s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.511s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/correct_firmwareConfig.cmake
+[21.511s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/correct_firmwareConfig-version.cmake
+[21.511s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.xml
+[21.519s] Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware

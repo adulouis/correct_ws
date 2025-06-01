@@ -1,1 +1,0 @@
-Invoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/computer_vision -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/computer_vision

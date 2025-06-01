@@ -81,7 +81,7 @@ namespace correct_firmware{
         return command_interface;
     }
 
-    CallbackReturn CorrectInterface::on_activate(const rclcpp_lifecycle::State &previous_state) 
+    CallbackReturn CorrectInterface::on_activate(const rclcpp_lifecycle::State &) 
     {
         RCLCPP_INFO(rclcpp::get_logger("CorrectInterface"), "Starting hardware of the robot...");
         velocity_commands = {0.0, 0.0};
@@ -96,14 +96,14 @@ namespace correct_firmware{
         catch(...)
         {
             RCLCPP_FATAL_STREAM(rclcpp::get_logger("CorrectInterface"), "Unable to connect to port "<<port);
-            CallbackReturn::FAILURE;
+            return CallbackReturn::FAILURE;
         }
         RCLCPP_INFO(rclcpp::get_logger("CorrectInterface"), "Hardware started...");
-        CallbackReturn::SUCCESS;
+        return CallbackReturn::SUCCESS;
         
     }
 
-    CallbackReturn CorrectInterface::on_deactivate(const rclcpp_lifecycle::State &previous_state)
+    CallbackReturn CorrectInterface::on_deactivate(const rclcpp_lifecycle::State &)
     {
         RCLCPP_INFO(rclcpp::get_logger("CorrectInterface"), "Stopping hardware of the robot...");
         if(arduino.IsOpen()){
@@ -117,9 +117,10 @@ namespace correct_firmware{
                 return CallbackReturn::FAILURE;
             }
         }
+        return CallbackReturn::SUCCESS;
     }
 
-    hardware_interface::return_type CorrectInterface::read(const rclcpp::Time &time, const rclcpp::Duration &time_taken)
+    hardware_interface::return_type CorrectInterface::read(const rclcpp::Time &, const rclcpp::Duration &)
     {
         if(arduino.IsDataAvailable()){
             auto dt = (rclcpp::Clock().now() - last_run).seconds();
@@ -147,7 +148,7 @@ namespace correct_firmware{
         return hardware_interface::return_type::OK;
     }
 
-    hardware_interface::return_type CorrectInterface::write(const rclcpp::Time &time, const rclcpp::Duration &time_taken)
+    hardware_interface::return_type CorrectInterface::write(const rclcpp::Time &, const rclcpp::Duration &)
     {
         std::stringstream message_stream;
         char right_wheel_sign = velocity_commands.at(0) >= 0 ? 'p' : 'n';

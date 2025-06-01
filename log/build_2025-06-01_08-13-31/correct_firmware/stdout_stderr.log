@@ -1,0 +1,88 @@
+[35m[1mConsolidate compiler generated dependencies of target correct_firmware[0m
+[  0%] Built target ament_cmake_python_copy_correct_firmware
+[ 33%] Built target simple_serial_receiver
+[ 83%] Built target simple_serial_transmitter
+[ 83%] [32mBuilding CXX object CMakeFiles/correct_firmware.dir/src/correct_interface.cpp.o[0m
+running egg_info
+writing correct_firmware.egg-info/PKG-INFO
+writing dependency_links to correct_firmware.egg-info/dependency_links.txt
+writing top-level names to correct_firmware.egg-info/top_level.txt
+reading manifest file 'correct_firmware.egg-info/SOURCES.txt'
+writing manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[ 83%] Built target ament_cmake_python_build_correct_firmware_egg
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:84:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |     CallbackReturn CorrectInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:106:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  106 |     CallbackReturn CorrectInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type correct_firmware::CorrectInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:122:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |     hardware_interface::return_type CorrectInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &time_taken)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:122:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime_taken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |     hardware_interface::return_type CorrectInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &time_taken[m[K)
+      |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type correct_firmware::CorrectInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:150:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |     hardware_interface::return_type CorrectInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &time_taken)
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:150:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime_taken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  150 |     hardware_interface::return_type CorrectInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &time_taken[m[K)
+      |                                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:120:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  120 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX shared library libcorrect_firmware.so[0m
+[100%] Built target correct_firmware
+-- Install configuration: ""
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/pythonpath.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/pythonpath.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info
+-- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_transmitter.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/mpu6050_driver.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/__init__.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_receiver.py
+Listing '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware'...
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/correct_interface.xml
+-- Installing: /home/louwee/correct_ws/install/correct_firmware/lib/libcorrect_firmware.so
+-- Set runtime path of "/home/louwee/correct_ws/install/correct_firmware/lib/libcorrect_firmware.so" to ""
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/include/include
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware/correct_interface.hpp
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch/hardware_interface.launch.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/mpu6050_driver.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/package_run_dependencies/correct_firmware
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/parent_prefix_path/correct_firmware
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/ament_prefix_path.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/path.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.bash
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.zsh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.dsv
+-- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/packages/correct_firmware
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/correct_firmware
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/correct_firmwareConfig.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/correct_firmwareConfig-version.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.xml

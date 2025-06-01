@@ -1,0 +1,22 @@
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:84:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   84 |     CallbackReturn CorrectInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual correct_firmware::CallbackReturn correct_firmware::CorrectInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:106:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  106 |     CallbackReturn CorrectInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type correct_firmware::CorrectInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:123:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     hardware_interface::return_type CorrectInterface::read([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &time_taken)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:123:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime_taken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     hardware_interface::return_type CorrectInterface::read(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &time_taken[m[K)
+      |                                                                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type correct_firmware::CorrectInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:151:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  151 |     hardware_interface::return_type CorrectInterface::write([01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &time_taken)
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_firmware/src/correct_interface.cpp:151:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime_taken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  151 |     hardware_interface::return_type CorrectInterface::write(const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &time_taken[m[K)
+      |                                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K

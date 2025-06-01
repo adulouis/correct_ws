@@ -1,4 +1,0 @@
-Invoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12
-Invoked command in '/home/louwee/correct_ws/build/computer_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12
-Invoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/computer_vision
-Invoked command in '/home/louwee/correct_ws/build/computer_vision' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/computer_vision

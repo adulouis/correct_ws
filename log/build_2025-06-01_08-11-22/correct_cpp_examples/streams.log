@@ -1,0 +1,51 @@
+[0.015s] Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/home/louwee/correct_ws/install/correct_pkg:/home/louwee/correct_ws/install/correct_cpp_examples:/home/louwee/correct_ws/install/correct_localization:/home/louwee/correct_ws/install/correct_firmware:/home/louwee/correct_ws/install/correct_controller:/home/louwee/correct_ws/install/correct_bringup:/home/louwee/correct_ws/install/computer_vision:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target executor_examples[0m
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target simple_lifecycle_node[0m
+[0.094s] [ 11%] Built target simple_publisher
+[0.097s] [ 33%] Built target simple_service_client
+[0.097s] [ 33%] Built target simple_parameter
+[0.098s] [ 44%] Built target simple_service_server
+[0.104s] [ 66%] Built target simple_turtlesim_kinematics
+[0.104s] [ 66%] Built target simple_subscriber
+[0.105s] [ 77%] Built target simple_tf_kinematics
+[0.106s] [ 88%] Built target executor_examples
+[0.114s] [100%] Built target simple_lifecycle_node
+[0.329s] Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/home/louwee/correct_ws/install/correct_pkg:/home/louwee/correct_ws/install/correct_cpp_examples:/home/louwee/correct_ws/install/correct_localization:/home/louwee/correct_ws/install/correct_firmware:/home/louwee/correct_ws/install/correct_controller:/home/louwee/correct_ws/install/correct_bringup:/home/louwee/correct_ws/install/computer_vision:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[0.331s] Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/home/louwee/correct_ws/install/correct_pkg:/home/louwee/correct_ws/install/correct_cpp_examples:/home/louwee/correct_ws/install/correct_localization:/home/louwee/correct_ws/install/correct_firmware:/home/louwee/correct_ws/install/correct_controller:/home/louwee/correct_ws/install/correct_bringup:/home/louwee/correct_ws/install/computer_vision:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples
+[0.339s] -- Install configuration: ""
+[0.339s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include
+[0.339s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples
+[0.339s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.339s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples/simple_tf_kinematics.hpp
+[0.339s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_publisher
+[0.339s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_subscriber
+[0.340s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_parameter
+[0.340s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_turtlesim_kinematics
+[0.341s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_service_server
+[0.341s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_service_client
+[0.341s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_tf_kinematics
+[0.342s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_lifecycle_node
+[0.342s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/executor_examples
+[0.342s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/package_run_dependencies/correct_cpp_examples
+[0.342s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/parent_prefix_path/correct_cpp_examples
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/ament_prefix_path.sh
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/ament_prefix_path.dsv
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/path.sh
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/path.dsv
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.bash
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.sh
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.zsh
+[0.343s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.dsv
+[0.343s] -- Installing: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.dsv
+[0.344s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/packages/correct_cpp_examples
+[0.344s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/cmake/correct_cpp_examplesConfig.cmake
+[0.344s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/cmake/correct_cpp_examplesConfig-version.cmake
+[0.344s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.xml
+[0.345s] Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/home/louwee/correct_ws/install/correct_pkg:/home/louwee/correct_ws/install/correct_cpp_examples:/home/louwee/correct_ws/install/correct_localization:/home/louwee/correct_ws/install/correct_firmware:/home/louwee/correct_ws/install/correct_controller:/home/louwee/correct_ws/install/correct_bringup:/home/louwee/correct_ws/install/computer_vision:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples

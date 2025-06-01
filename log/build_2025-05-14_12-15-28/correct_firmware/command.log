@@ -1,2 +1,0 @@
-Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_firmware -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_firmware
-Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_firmware -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_firmware

@@ -18,19 +18,19 @@ class CorrectInterface : public hardware_interface::SystemInterface{
         CorrectInterface();
         virtual ~CorrectInterface(); //virtual destructor
 
-        virtual CallbackReturn on_activate(const rclcpp_lifecycle::State &previous_state) override; //overriding the default on_activate function of the systeminterface
+        CallbackReturn on_activate(const rclcpp_lifecycle::State &previous_state) override; //overriding the default on_activate function of the systeminterface
 
-        virtual CallbackReturn on_deactivate(const rclcpp_lifecycle::State &previous_state) override;
+        CallbackReturn on_deactivate(const rclcpp_lifecycle::State &previous_state) override;
 
-        virtual CallbackReturn on_init(const hardware_interface::HardwareInfo &hardware_info) override;
+        CallbackReturn on_init(const hardware_interface::HardwareInfo &hardware_info) override;
 
-        virtual std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
+        std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
 
-        virtual std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
+        std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
 
-        virtual hardware_interface::return_type read(const rclcpp::Time &time, const rclcpp::Duration &time_taken) override;
+        hardware_interface::return_type read(const rclcpp::Time &time, const rclcpp::Duration &time_taken) override;
 
-        virtual hardware_interface::return_type write(const rclcpp::Time &time, const rclcpp::Duration &time_taken) override;
+        hardware_interface::return_type write(const rclcpp::Time &time, const rclcpp::Duration &time_taken) override;
 
     private:
         LibSerial::SerialPort arduino;

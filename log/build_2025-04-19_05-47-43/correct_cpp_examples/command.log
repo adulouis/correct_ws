@@ -1,2 +1,0 @@
-Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_cpp_examples
-Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/correct_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/correct_cpp_examples

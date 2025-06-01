@@ -18,7 +18,7 @@ class SafetyStop : public rclcpp::Node
         SafetyStop() : Node("safety_stop_node"), state{State::FREE}
         {
             declare_parameter<double>("danger_distance",0.2);
-            declare_parameter<std::string>("scan_topic","scan_topic");
+            declare_parameter<std::string>("scan_topic","scan");
             declare_parameter<std::string>("safety_stop_topic", "safety_stop");
             danger_distance = get_parameter("danger_distance").as_double();
             scan_topic = get_parameter("scan_topic").as_string();
@@ -50,17 +50,16 @@ class SafetyStop : public rclcpp::Node
                     break;
                 }
             }
-            auto is_safety_stop = std_msgs::msg::Bool();
+            std_msgs::msg::Bool is_safet_stop;
             if(state == State::DANGER)
             {
-                is_safety_stop.data = true;
+                is_safet_stop.data = true;
             }
             else if(state == State::FREE)
             {
-                is_safety_stop.data = false;
+                is_safet_stop.data = false;
             }
-
-            safety_stop_pub->publish(is_safety_stop);
+            safety_stop_pub->publish(is_safet_stop);
         }
 };
 

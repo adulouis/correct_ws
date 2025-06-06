@@ -1,9 +1,23 @@
 {
     "python.autoComplete.extraPaths": [
+        "/home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages",
+        "/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/computer_vision/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
+        "/home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_py_examples/lib/python3.10/site-packages",
+        "/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages",
+        "/home/louwee/correct_ws/install/computer_vision/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],

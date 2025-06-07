@@ -775,8 +775,52 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
   /opt/ros/humble/include/twist_mux_msgs/twist_mux_msgs/action/detail/joy_turbo__builder.hpp \
   /opt/ros/humble/include/twist_mux_msgs/twist_mux_msgs/action/detail/joy_turbo__traits.hpp \
   /opt/ros/humble/include/twist_mux_msgs/twist_mux_msgs/action/detail/joy_turbo__type_support.hpp \
-  /opt/ros/humble/include/twist_mux_msgs/twist_mux_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+  /opt/ros/humble/include/twist_mux_msgs/twist_mux_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:
 
 /opt/ros/humble/include/twist_mux_msgs/twist_mux_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -994,6 +1038,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
@@ -1136,6 +1182,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
+
 /usr/include/c++/11/numeric:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
@@ -1195,6 +1243,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:
 
 /usr/include/c++/11/cerrno:
 
@@ -1350,7 +1400,11 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:
+
 /usr/include/c++/11/csignal:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
@@ -1422,6 +1476,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
@@ -1445,6 +1501,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/c++/11/iosfwd:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /usr/include/c++/11/initializer_list:
 
@@ -1520,9 +1578,13 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/11/tr1/gamma.tcc:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
@@ -1583,6 +1645,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 /usr/include/pthread.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -1834,6 +1898,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /usr/include/c++/11/istream:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/list:
@@ -1952,6 +2018,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/list.tcc:
@@ -2025,6 +2093,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
 
 /opt/ros/humble/include/rcl/rcl/service.h:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/subscription.h:
 
@@ -2107,6 +2177,8 @@ CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o: /home/louwee/correct_ws/src/co
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 

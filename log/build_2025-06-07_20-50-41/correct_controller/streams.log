@@ -1,0 +1,64 @@
+[0.046s] Invoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12
+[0.243s] [ 33%] Built target noisy_controller
+[0.522s] [ 66%] Built target simple_controller
+[0.523s] [ 66%] Built target ament_cmake_python_copy_correct_controller
+[0.854s] [100%] Built target twist_relay
+[1.524s] running egg_info
+[1.525s] writing correct_controller.egg-info/PKG-INFO
+[1.525s] writing dependency_links to correct_controller.egg-info/dependency_links.txt
+[1.526s] writing top-level names to correct_controller.egg-info/top_level.txt
+[1.532s] reading manifest file 'correct_controller.egg-info/SOURCES.txt'
+[1.534s] writing manifest file 'correct_controller.egg-info/SOURCES.txt'
+[1.579s] [100%] Built target ament_cmake_python_build_correct_controller_egg
+[1.621s] Invoked command in '/home/louwee/correct_ws/build/correct_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12
+[1.625s] Invoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_controller
+[1.626s] -- Install configuration: ""
+[1.626s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/pythonpath.sh
+[1.626s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/pythonpath.dsv
+[1.626s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller-0.0.0-py3.10.egg-info
+[1.626s] -- Installing: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.626s] -- Installing: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.627s] -- Installing: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.627s] -- Installing: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.627s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller
+[1.627s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/simple_controller.py
+[1.627s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/__init__.py
+[1.627s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/noisy_controller.py
+[1.628s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller/twist_relay.py
+[1.680s] Listing '/home/louwee/correct_ws/install/correct_controller/local/lib/python3.10/dist-packages/correct_controller'...
+[1.688s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/include/include
+[1.690s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/include/include/correct_controller
+[1.690s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/include/include/correct_controller/simple_controller.hpp
+[1.691s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/include/include/correct_controller/noisy_controller.hpp
+[1.692s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/simple_controller
+[1.692s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/noisy_controller
+[1.696s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/twist_relay
+[1.696s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/launch
+[1.696s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/launch/controller.launch.py
+[1.696s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/launch/joystick_teleop.launch.py
+[1.697s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config
+[1.697s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/twist_mux_locks.yaml
+[1.697s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/twist_mux_joy.yaml
+[1.698s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/joy_teleop.yaml
+[1.698s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/joy_config.yaml
+[1.698s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/twist_mux_topics.yaml
+[1.698s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/config/correct_controller.yaml
+[1.698s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/simple_controller.py
+[1.698s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/noisy_controller.py
+[1.699s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/lib/correct_controller/twist_relay.py
+[1.699s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/ament_index/resource_index/package_run_dependencies/correct_controller
+[1.699s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/ament_index/resource_index/parent_prefix_path/correct_controller
+[1.700s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/ament_prefix_path.sh
+[1.700s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/ament_prefix_path.dsv
+[1.700s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/path.sh
+[1.700s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/environment/path.dsv
+[1.700s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/local_setup.bash
+[1.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/local_setup.sh
+[1.703s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/local_setup.zsh
+[1.705s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/local_setup.dsv
+[1.705s] -- Installing: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.dsv
+[1.705s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/ament_index/resource_index/packages/correct_controller
+[1.706s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/cmake/correct_controllerConfig.cmake
+[1.706s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/cmake/correct_controllerConfig-version.cmake
+[1.706s] -- Up-to-date: /home/louwee/correct_ws/install/correct_controller/share/correct_controller/package.xml
+[1.749s] Invoked command in '/home/louwee/correct_ws/build/correct_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louwee/correct_ws/install/correct_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_controller

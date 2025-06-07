@@ -16,6 +16,7 @@
 /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/imu_republisher
 /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/kalman_filter
 /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/odometry_motion_model
+/home/louwee/correct_ws/install/correct_localization/share/correct_localization/launch/global_localization.launch.py
 /home/louwee/correct_ws/install/correct_localization/share/correct_localization/launch/local_localization.launch.py
 /home/louwee/correct_ws/install/correct_localization/share/correct_localization/config/ekf.yaml
 /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/package_run_dependencies/correct_localization

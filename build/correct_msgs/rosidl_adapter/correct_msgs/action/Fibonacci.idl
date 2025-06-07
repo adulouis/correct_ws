@@ -18,7 +18,7 @@ module correct_msgs {
     @verbatim (language="comment", text=
       "Feedback")
     struct Fibonacci_Feedback {
-      int32 partial_sequence;
+      sequence<int32> partial_sequence;
     };
   };
 };

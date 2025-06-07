@@ -269,6 +269,10 @@ class Fibonacci_Result(metaclass=Metaclass_Fibonacci_Result):
 
 # Import statements for member types
 
+# Member 'partial_sequence'
+# already imported above
+# import array
+
 # already imported above
 # import builtins
 
@@ -325,18 +329,18 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
     ]
 
     _fields_and_field_types = {
-        'partial_sequence': 'int32',
+        'partial_sequence': 'sequence<int32>',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('int32')),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.partial_sequence = kwargs.get('partial_sequence', int())
+        self.partial_sequence = array.array('i', kwargs.get('partial_sequence', []))
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -383,13 +387,26 @@ class Fibonacci_Feedback(metaclass=Metaclass_Fibonacci_Feedback):
 
     @partial_sequence.setter
     def partial_sequence(self, value):
+        if isinstance(value, array.array):
+            assert value.typecode == 'i', \
+                "The 'partial_sequence' array.array() must have the type code of 'i'"
+            self._partial_sequence = value
+            return
         if __debug__:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
             assert \
-                isinstance(value, int), \
-                "The 'partial_sequence' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'partial_sequence' field must be an integer in [-2147483648, 2147483647]"
-        self._partial_sequence = value
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, int) for v in value) and
+                 all(val >= -2147483648 and val < 2147483648 for val in value)), \
+                "The 'partial_sequence' field must be a set or sequence and each value of type 'int' and each integer in [-2147483648, 2147483647]"
+        self._partial_sequence = array.array('i', value)
 
 
 # Import statements for member types

@@ -447,6 +447,10 @@ extern "C"
 {
 #endif
 
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence.h"  // partial_sequence
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"  // partial_sequence
 
 // forward declare type support functions
 
@@ -464,7 +468,10 @@ static bool _Fibonacci_Feedback__cdr_serialize(
   const _Fibonacci_Feedback__ros_msg_type * ros_message = static_cast<const _Fibonacci_Feedback__ros_msg_type *>(untyped_ros_message);
   // Field name: partial_sequence
   {
-    cdr << ros_message->partial_sequence;
+    size_t size = ros_message->partial_sequence.size;
+    auto array_ptr = ros_message->partial_sequence.data;
+    cdr << static_cast<uint32_t>(size);
+    cdr.serializeArray(array_ptr, size);
   }
 
   return true;
@@ -481,7 +488,18 @@ static bool _Fibonacci_Feedback__cdr_deserialize(
   _Fibonacci_Feedback__ros_msg_type * ros_message = static_cast<_Fibonacci_Feedback__ros_msg_type *>(untyped_ros_message);
   // Field name: partial_sequence
   {
-    cdr >> ros_message->partial_sequence;
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->partial_sequence.data) {
+      rosidl_runtime_c__int32__Sequence__fini(&ros_message->partial_sequence);
+    }
+    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->partial_sequence, size)) {
+      fprintf(stderr, "failed to create array for field 'partial_sequence'");
+      return false;
+    }
+    auto array_ptr = ros_message->partial_sequence.data;
+    cdr.deserializeArray(array_ptr, size);
   }
 
   return true;
@@ -503,8 +521,13 @@ size_t get_serialized_size_correct_msgs__action__Fibonacci_Feedback(
 
   // field.name partial_sequence
   {
-    size_t item_size = sizeof(ros_message->partial_sequence);
-    current_alignment += item_size +
+    size_t array_size = ros_message->partial_sequence.size;
+    auto array_ptr = ros_message->partial_sequence.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    (void)array_ptr;
+    size_t item_size = sizeof(array_ptr[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -538,7 +561,11 @@ size_t max_serialized_size_correct_msgs__action__Fibonacci_Feedback(
 
   // member: partial_sequence
   {
-    size_t array_size = 1;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +

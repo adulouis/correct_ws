@@ -232,8 +232,19 @@ inline void to_flow_style_yaml(
   out << "{";
   // member: partial_sequence
   {
-    out << "partial_sequence: ";
-    rosidl_generator_traits::value_to_yaml(msg.partial_sequence, out);
+    if (msg.partial_sequence.size() == 0) {
+      out << "partial_sequence: []";
+    } else {
+      out << "partial_sequence: [";
+      size_t pending_items = msg.partial_sequence.size();
+      for (auto item : msg.partial_sequence) {
+        rosidl_generator_traits::value_to_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -247,9 +258,19 @@ inline void to_block_style_yaml(
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "partial_sequence: ";
-    rosidl_generator_traits::value_to_yaml(msg.partial_sequence, out);
-    out << "\n";
+    if (msg.partial_sequence.size() == 0) {
+      out << "partial_sequence: []\n";
+    } else {
+      out << "partial_sequence:\n";
+      for (auto item : msg.partial_sequence) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "- ";
+        rosidl_generator_traits::value_to_yaml(item, out);
+        out << "\n";
+      }
+    }
   }
 }  // NOLINT(readability/fn_size)
 
@@ -299,11 +320,11 @@ inline const char * name<correct_msgs::action::Fibonacci_Feedback>()
 
 template<>
 struct has_fixed_size<correct_msgs::action::Fibonacci_Feedback>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<correct_msgs::action::Fibonacci_Feedback>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<correct_msgs::action::Fibonacci_Feedback>

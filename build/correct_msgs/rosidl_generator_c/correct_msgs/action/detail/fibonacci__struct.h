@@ -59,10 +59,15 @@ typedef struct correct_msgs__action__Fibonacci_Result__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'partial_sequence'
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence.h"
+
 /// Struct defined in action/Fibonacci in the package correct_msgs.
 typedef struct correct_msgs__action__Fibonacci_Feedback
 {
-  int32_t partial_sequence;
+  rosidl_runtime_c__int32__Sequence partial_sequence;
 } correct_msgs__action__Fibonacci_Feedback;
 
 // Struct for a sequence of correct_msgs__action__Fibonacci_Feedback.

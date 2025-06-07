@@ -247,6 +247,11 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "correct_msgs/action/detail/fibonacci__struct.h"
 
 
+// Include directives for member types
+// Member `partial_sequence`
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -266,23 +271,78 @@ void correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_
   correct_msgs__action__Fibonacci_Feedback__fini(message_memory);
 }
 
+size_t correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__size_function__Fibonacci_Feedback__partial_sequence(
+  const void * untyped_member)
+{
+  const rosidl_runtime_c__int32__Sequence * member =
+    (const rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  return member->size;
+}
+
+const void * correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__partial_sequence(
+  const void * untyped_member, size_t index)
+{
+  const rosidl_runtime_c__int32__Sequence * member =
+    (const rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void * correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__partial_sequence(
+  void * untyped_member, size_t index)
+{
+  rosidl_runtime_c__int32__Sequence * member =
+    (rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  return &member->data[index];
+}
+
+void correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Feedback__partial_sequence(
+  const void * untyped_member, size_t index, void * untyped_value)
+{
+  const int32_t * item =
+    ((const int32_t *)
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__partial_sequence(untyped_member, index));
+  int32_t * value =
+    (int32_t *)(untyped_value);
+  *value = *item;
+}
+
+void correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Feedback__partial_sequence(
+  void * untyped_member, size_t index, const void * untyped_value)
+{
+  int32_t * item =
+    ((int32_t *)
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__partial_sequence(untyped_member, index));
+  const int32_t * value =
+    (const int32_t *)(untyped_value);
+  *item = *value;
+}
+
+bool correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Feedback__partial_sequence(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__int32__Sequence * member =
+    (rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  rosidl_runtime_c__int32__Sequence__fini(member);
+  return rosidl_runtime_c__int32__Sequence__init(member, size);
+}
+
 static rosidl_typesupport_introspection_c__MessageMember correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__Fibonacci_Feedback_message_member_array[1] = {
   {
     "partial_sequence",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    false,  // is array
+    true,  // is array
     0,  // array size
     false,  // is upper bound
     offsetof(correct_msgs__action__Fibonacci_Feedback, partial_sequence),  // bytes offset in struct
     NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__size_function__Fibonacci_Feedback__partial_sequence,  // size() function pointer
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_const_function__Fibonacci_Feedback__partial_sequence,  // get_const(index) function pointer
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__get_function__Fibonacci_Feedback__partial_sequence,  // get(index) function pointer
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__fetch_function__Fibonacci_Feedback__partial_sequence,  // fetch(index, &value) function pointer
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__assign_function__Fibonacci_Feedback__partial_sequence,  // assign(index, value) function pointer
+    correct_msgs__action__Fibonacci_Feedback__rosidl_typesupport_introspection_c__resize_function__Fibonacci_Feedback__partial_sequence  // resize(index) function pointer
   }
 };
 

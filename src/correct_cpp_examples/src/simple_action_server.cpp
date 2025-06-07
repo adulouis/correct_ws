@@ -1,11 +1,10 @@
 #include <rclcpp/rclcpp.hpp>
 #include <rclcpp_action/rclcpp_action.hpp>
 #include <rclcpp_components/register_node_macro.hpp>
-#include "correct_msgs/action/fibonnaci.hpp"
+#include "correct_msgs/action/fibonacci.hpp"
 
 #include <memory>
 #include <thread>
-
 
 using namespace std::placeholders;
 
@@ -48,10 +47,10 @@ private:
       const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::Fibonacci>> goal_handle)
   {
     // this needs to return quickly to avoid blocking the executor, so spin up a new thread
-    std::thread{ std::bind(&SimpleActionServer::execute, this, _1), goal_handle }.detach();
+    std::thread{std::bind(&SimpleActionServer::execute, this, _1), goal_handle }.detach();
   }
 
-  void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::Fibonacci>> goal_handle)
+    void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::Fibonacci>> goal_handle)
   {
     RCLCPP_INFO(get_logger(), "Executing goal");
     rclcpp::Rate loop_rate(1);
@@ -90,6 +89,6 @@ private:
     }
   }
 };
-}  // namespace correct_cpp_examples
+}
 
 RCLCPP_COMPONENTS_REGISTER_NODE(correct_cpp_examples::SimpleActionServer)

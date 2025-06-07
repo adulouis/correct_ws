@@ -308,6 +308,11 @@ PyObject * correct_msgs__action__fibonacci__result__convert_to_py(void * raw_ros
 // already included above
 // #include "correct_msgs/action/detail/fibonacci__functions.h"
 
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence.h"
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool correct_msgs__action__fibonacci__feedback__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -347,8 +352,61 @@ bool correct_msgs__action__fibonacci__feedback__convert_from_py(PyObject * _pyms
     if (!field) {
       return false;
     }
-    assert(PyLong_Check(field));
-    ros_message->partial_sequence = (int32_t)PyLong_AsLong(field);
+    if (PyObject_CheckBuffer(field)) {
+      // Optimization for converting arrays of primitives
+      Py_buffer view;
+      int rc = PyObject_GetBuffer(field, &view, PyBUF_SIMPLE);
+      if (rc < 0) {
+        Py_DECREF(field);
+        return false;
+      }
+      Py_ssize_t size = view.len / sizeof(int32_t);
+      if (!rosidl_runtime_c__int32__Sequence__init(&(ros_message->partial_sequence), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create int32__Sequence ros_message");
+        PyBuffer_Release(&view);
+        Py_DECREF(field);
+        return false;
+      }
+      int32_t * dest = ros_message->partial_sequence.data;
+      rc = PyBuffer_ToContiguous(dest, &view, view.len, 'C');
+      if (rc < 0) {
+        PyBuffer_Release(&view);
+        Py_DECREF(field);
+        return false;
+      }
+      PyBuffer_Release(&view);
+    } else {
+      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'partial_sequence'");
+      if (!seq_field) {
+        Py_DECREF(field);
+        return false;
+      }
+      Py_ssize_t size = PySequence_Size(field);
+      if (-1 == size) {
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+      if (!rosidl_runtime_c__int32__Sequence__init(&(ros_message->partial_sequence), size)) {
+        PyErr_SetString(PyExc_RuntimeError, "unable to create int32__Sequence ros_message");
+        Py_DECREF(seq_field);
+        Py_DECREF(field);
+        return false;
+      }
+      int32_t * dest = ros_message->partial_sequence.data;
+      for (Py_ssize_t i = 0; i < size; ++i) {
+        PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
+        if (!item) {
+          Py_DECREF(seq_field);
+          Py_DECREF(field);
+          return false;
+        }
+        assert(PyLong_Check(item));
+        int32_t tmp = (int32_t)PyLong_AsLong(item);
+        memcpy(&dest[i], &tmp, sizeof(int32_t));
+      }
+      Py_DECREF(seq_field);
+    }
     Py_DECREF(field);
   }
 
@@ -375,14 +433,60 @@ PyObject * correct_msgs__action__fibonacci__feedback__convert_to_py(void * raw_r
   correct_msgs__action__Fibonacci_Feedback * ros_message = (correct_msgs__action__Fibonacci_Feedback *)raw_ros_message;
   {  // partial_sequence
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->partial_sequence);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "partial_sequence", field);
+    field = PyObject_GetAttrString(_pymessage, "partial_sequence");
+    if (!field) {
+      return NULL;
+    }
+    assert(field->ob_type != NULL);
+    assert(field->ob_type->tp_name != NULL);
+    assert(strcmp(field->ob_type->tp_name, "array.array") == 0);
+    // ensure that itemsize matches the sizeof of the ROS message field
+    PyObject * itemsize_attr = PyObject_GetAttrString(field, "itemsize");
+    assert(itemsize_attr != NULL);
+    size_t itemsize = PyLong_AsSize_t(itemsize_attr);
+    Py_DECREF(itemsize_attr);
+    if (itemsize != sizeof(int32_t)) {
+      PyErr_SetString(PyExc_RuntimeError, "itemsize doesn't match expectation");
       Py_DECREF(field);
-      if (rc) {
+      return NULL;
+    }
+    // clear the array, poor approach to remove potential default values
+    Py_ssize_t length = PyObject_Length(field);
+    if (-1 == length) {
+      Py_DECREF(field);
+      return NULL;
+    }
+    if (length > 0) {
+      PyObject * pop = PyObject_GetAttrString(field, "pop");
+      assert(pop != NULL);
+      for (Py_ssize_t i = 0; i < length; ++i) {
+        PyObject * ret = PyObject_CallFunctionObjArgs(pop, NULL);
+        if (!ret) {
+          Py_DECREF(pop);
+          Py_DECREF(field);
+          return NULL;
+        }
+        Py_DECREF(ret);
+      }
+      Py_DECREF(pop);
+    }
+    if (ros_message->partial_sequence.size > 0) {
+      // populating the array.array using the frombytes method
+      PyObject * frombytes = PyObject_GetAttrString(field, "frombytes");
+      assert(frombytes != NULL);
+      int32_t * src = &(ros_message->partial_sequence.data[0]);
+      PyObject * data = PyBytes_FromStringAndSize((const char *)src, ros_message->partial_sequence.size * sizeof(int32_t));
+      assert(data != NULL);
+      PyObject * ret = PyObject_CallFunctionObjArgs(frombytes, data, NULL);
+      Py_DECREF(data);
+      Py_DECREF(frombytes);
+      if (!ret) {
+        Py_DECREF(field);
         return NULL;
       }
+      Py_DECREF(ret);
     }
+    Py_DECREF(field);
   }
 
   // ownership of _pymessage is transferred to the caller

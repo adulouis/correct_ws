@@ -469,7 +469,9 @@ cdr_serialize(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: partial_sequence
-  cdr << ros_message.partial_sequence;
+  {
+    cdr << ros_message.partial_sequence;
+  }
   return true;
 }
 
@@ -480,7 +482,9 @@ cdr_deserialize(
   correct_msgs::action::Fibonacci_Feedback & ros_message)
 {
   // Member: partial_sequence
-  cdr >> ros_message.partial_sequence;
+  {
+    cdr >> ros_message.partial_sequence;
+  }
 
   return true;
 }
@@ -500,8 +504,12 @@ get_serialized_size(
 
   // Member: partial_sequence
   {
-    size_t item_size = sizeof(ros_message.partial_sequence);
-    current_alignment += item_size +
+    size_t array_size = ros_message.partial_sequence.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+    size_t item_size = sizeof(ros_message.partial_sequence[0]);
+    current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
 
@@ -530,7 +538,11 @@ max_serialized_size_Fibonacci_Feedback(
 
   // Member: partial_sequence
   {
-    size_t array_size = 1;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
     last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +

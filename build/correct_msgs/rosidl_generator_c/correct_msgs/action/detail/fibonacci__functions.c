@@ -476,6 +476,11 @@ correct_msgs__action__Fibonacci_Result__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `partial_sequence`
+// already included above
+// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 bool
 correct_msgs__action__Fibonacci_Feedback__init(correct_msgs__action__Fibonacci_Feedback * msg)
 {
@@ -483,6 +488,10 @@ correct_msgs__action__Fibonacci_Feedback__init(correct_msgs__action__Fibonacci_F
     return false;
   }
   // partial_sequence
+  if (!rosidl_runtime_c__int32__Sequence__init(&msg->partial_sequence, 0)) {
+    correct_msgs__action__Fibonacci_Feedback__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -493,6 +502,7 @@ correct_msgs__action__Fibonacci_Feedback__fini(correct_msgs__action__Fibonacci_F
     return;
   }
   // partial_sequence
+  rosidl_runtime_c__int32__Sequence__fini(&msg->partial_sequence);
 }
 
 bool
@@ -502,7 +512,9 @@ correct_msgs__action__Fibonacci_Feedback__are_equal(const correct_msgs__action__
     return false;
   }
   // partial_sequence
-  if (lhs->partial_sequence != rhs->partial_sequence) {
+  if (!rosidl_runtime_c__int32__Sequence__are_equal(
+      &(lhs->partial_sequence), &(rhs->partial_sequence)))
+  {
     return false;
   }
   return true;
@@ -517,7 +529,11 @@ correct_msgs__action__Fibonacci_Feedback__copy(
     return false;
   }
   // partial_sequence
-  output->partial_sequence = input->partial_sequence;
+  if (!rosidl_runtime_c__int32__Sequence__copy(
+      &(input->partial_sequence), &(output->partial_sequence)))
+  {
+    return false;
+  }
   return true;
 }
 

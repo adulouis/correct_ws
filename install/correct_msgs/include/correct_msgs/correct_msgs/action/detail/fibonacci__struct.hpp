@@ -255,31 +255,23 @@ struct Fibonacci_Feedback_
 
   explicit Fibonacci_Feedback_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->partial_sequence = 0l;
-    }
+    (void)_init;
   }
 
   explicit Fibonacci_Feedback_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
+    (void)_init;
     (void)_alloc;
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->partial_sequence = 0l;
-    }
   }
 
   // field types and members
   using _partial_sequence_type =
-    int32_t;
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
   _partial_sequence_type partial_sequence;
 
   // setters for named parameter idiom
   Type & set__partial_sequence(
-    const int32_t & _arg)
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
     this->partial_sequence = _arg;
     return *this;

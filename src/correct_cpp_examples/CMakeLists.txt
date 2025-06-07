@@ -64,6 +64,22 @@ rclcpp_components_register_node(simple_action_server
   EXECUTABLE simple_action_server_node
 )
 
+add_library(simple_action_client SHARED src/simple_action_client.cpp)
+target_include_directories(simple_action_client PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_definitions(simple_action_client
+  PRIVATE "SIMPLE_ACTION_CLIENT_CPP_BUILDING_DLL")
+ament_target_dependencies(simple_action_client
+  "correct_msgs"
+  "rclcpp"
+  "rclcpp_action"
+  "rclcpp_components")
+rclcpp_components_register_node(simple_action_client 
+  PLUGIN "correct_cpp_examples::SimpleActionClient" 
+  EXECUTABLE simple_action_client_node
+)
+
 install(
   DIRECTORY include
   DESTINATION include
@@ -84,6 +100,7 @@ install(TARGETS
 
 install(TARGETS
   simple_action_server
+  simple_action_client
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib

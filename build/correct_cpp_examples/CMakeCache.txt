@@ -418,6 +418,9 @@ rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
 //The directory containing a CMake configuration file for rclcpp_action.
 rclcpp_action_DIR:PATH=/opt/ros/humble/share/rclcpp_action/cmake
 
+//The directory containing a CMake configuration file for rclcpp_componentS.
+rclcpp_componentS_DIR:PATH=rclcpp_componentS_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for rclcpp_components.
 rclcpp_components_DIR:PATH=/opt/ros/humble/share/rclcpp_components/cmake
 
@@ -492,6 +495,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesup
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
+
+//Dependencies for the target
+simple_action_server_LIB_DEPENDS:STATIC=general;correct_msgs::correct_msgs__rosidl_generator_c;general;correct_msgs::correct_msgs__rosidl_typesupport_fastrtps_c;general;correct_msgs::correct_msgs__rosidl_typesupport_fastrtps_cpp;general;correct_msgs::correct_msgs__rosidl_typesupport_introspection_c;general;correct_msgs::correct_msgs__rosidl_typesupport_c;general;correct_msgs::correct_msgs__rosidl_typesupport_introspection_cpp;general;correct_msgs::correct_msgs__rosidl_typesupport_cpp;general;correct_msgs::correct_msgs__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog

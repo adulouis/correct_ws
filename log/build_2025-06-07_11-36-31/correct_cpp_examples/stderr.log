@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findrclcpp_componentS.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "rclcpp_componentS", but CMake did not find one.
+
+  Could not find a package configuration file provided by "rclcpp_componentS"
+  with any of the following names:
+
+    rclcpp_componentSConfig.cmake
+    rclcpp_components-config.cmake
+
+  Add the installation prefix of "rclcpp_componentS" to CMAKE_PREFIX_PATH or
+  set "rclcpp_componentS_DIR" to a directory containing one of the above
+  files.  If "rclcpp_componentS" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+gmake: *** [Makefile:595: cmake_check_build_system] Error 1

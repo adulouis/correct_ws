@@ -314,6 +314,56 @@ simple_lifecycle_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/build
 .PHONY : simple_lifecycle_node/fast
 
+#=============================================================================
+# Target rules for targets named simple_action_server
+
+# Build rule for target.
+simple_action_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_action_server
+.PHONY : simple_action_server
+
+# fast build rule for target.
+simple_action_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/build
+.PHONY : simple_action_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_action_server_node
+
+# Build rule for target.
+simple_action_server_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_action_server_node
+.PHONY : simple_action_server_node
+
+# fast build rule for target.
+simple_action_server_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server_node.dir/build.make CMakeFiles/simple_action_server_node.dir/build
+.PHONY : simple_action_server_node/fast
+
+rclcpp_components/node_main_simple_action_server_node.o: rclcpp_components/node_main_simple_action_server_node.cpp.o
+.PHONY : rclcpp_components/node_main_simple_action_server_node.o
+
+# target to build an object file
+rclcpp_components/node_main_simple_action_server_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server_node.dir/build.make CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o
+.PHONY : rclcpp_components/node_main_simple_action_server_node.cpp.o
+
+rclcpp_components/node_main_simple_action_server_node.i: rclcpp_components/node_main_simple_action_server_node.cpp.i
+.PHONY : rclcpp_components/node_main_simple_action_server_node.i
+
+# target to preprocess a source file
+rclcpp_components/node_main_simple_action_server_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server_node.dir/build.make CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.i
+.PHONY : rclcpp_components/node_main_simple_action_server_node.cpp.i
+
+rclcpp_components/node_main_simple_action_server_node.s: rclcpp_components/node_main_simple_action_server_node.cpp.s
+.PHONY : rclcpp_components/node_main_simple_action_server_node.s
+
+# target to generate assembly for a file
+rclcpp_components/node_main_simple_action_server_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server_node.dir/build.make CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.s
+.PHONY : rclcpp_components/node_main_simple_action_server_node.cpp.s
+
 src/executor_examples.o: src/executor_examples.cpp.o
 .PHONY : src/executor_examples.o
 
@@ -337,6 +387,30 @@ src/executor_examples.s: src/executor_examples.cpp.s
 src/executor_examples.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/executor_examples.dir/build.make CMakeFiles/executor_examples.dir/src/executor_examples.cpp.s
 .PHONY : src/executor_examples.cpp.s
+
+src/simple_action_server.o: src/simple_action_server.cpp.o
+.PHONY : src/simple_action_server.o
+
+# target to build an object file
+src/simple_action_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o
+.PHONY : src/simple_action_server.cpp.o
+
+src/simple_action_server.i: src/simple_action_server.cpp.i
+.PHONY : src/simple_action_server.i
+
+# target to preprocess a source file
+src/simple_action_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.i
+.PHONY : src/simple_action_server.cpp.i
+
+src/simple_action_server.s: src/simple_action_server.cpp.s
+.PHONY : src/simple_action_server.s
+
+# target to generate assembly for a file
+src/simple_action_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.s
+.PHONY : src/simple_action_server.cpp.s
 
 src/simple_lifecycle_node.o: src/simple_lifecycle_node.cpp.o
 .PHONY : src/simple_lifecycle_node.o
@@ -546,6 +620,8 @@ help:
 	@echo "... correct_cpp_examples_uninstall"
 	@echo "... uninstall"
 	@echo "... executor_examples"
+	@echo "... simple_action_server"
+	@echo "... simple_action_server_node"
 	@echo "... simple_lifecycle_node"
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
@@ -554,9 +630,15 @@ help:
 	@echo "... simple_subscriber"
 	@echo "... simple_tf_kinematics"
 	@echo "... simple_turtlesim_kinematics"
+	@echo "... rclcpp_components/node_main_simple_action_server_node.o"
+	@echo "... rclcpp_components/node_main_simple_action_server_node.i"
+	@echo "... rclcpp_components/node_main_simple_action_server_node.s"
 	@echo "... src/executor_examples.o"
 	@echo "... src/executor_examples.i"
 	@echo "... src/executor_examples.s"
+	@echo "... src/simple_action_server.o"
+	@echo "... src/simple_action_server.i"
+	@echo "... src/simple_action_server.s"
 	@echo "... src/simple_lifecycle_node.o"
 	@echo "... src/simple_lifecycle_node.i"
 	@echo "... src/simple_lifecycle_node.s"

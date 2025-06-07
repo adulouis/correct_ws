@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/action/_fibonacci_s.c.o"
+  "CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/action/_fibonacci_s.c.o.d"
   "CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/srv/_add_two_ints_s.c.o"
   "CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/srv/_add_two_ints_s.c.o.d"
   "CMakeFiles/correct_msgs__rosidl_generator_py.dir/rosidl_generator_py/correct_msgs/srv/_get_transform_s.c.o"

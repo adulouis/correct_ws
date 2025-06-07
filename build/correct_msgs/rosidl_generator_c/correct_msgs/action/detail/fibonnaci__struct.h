@@ -1,0 +1,209 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from correct_msgs:action/Fibonnaci.idl
+// generated code does not contain a copyright notice
+
+#ifndef CORRECT_MSGS__ACTION__DETAIL__FIBONNACI__STRUCT_H_
+#define CORRECT_MSGS__ACTION__DETAIL__FIBONNACI__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_Goal
+{
+  int32_t order;
+} correct_msgs__action__Fibonnaci_Goal;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_Goal.
+typedef struct correct_msgs__action__Fibonnaci_Goal__Sequence
+{
+  correct_msgs__action__Fibonnaci_Goal * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_Goal__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'sequence'
+#include "rosidl_runtime_c/primitives_sequence.h"
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_Result
+{
+  rosidl_runtime_c__int32__Sequence sequence;
+} correct_msgs__action__Fibonnaci_Result;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_Result.
+typedef struct correct_msgs__action__Fibonnaci_Result__Sequence
+{
+  correct_msgs__action__Fibonnaci_Result * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_Result__Sequence;
+
+
+// Constants defined in the message
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_Feedback
+{
+  int32_t partial_sequence;
+} correct_msgs__action__Fibonnaci_Feedback;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_Feedback.
+typedef struct correct_msgs__action__Fibonnaci_Feedback__Sequence
+{
+  correct_msgs__action__Fibonnaci_Feedback * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_Feedback__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+#include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+// Member 'goal'
+#include "correct_msgs/action/detail/fibonnaci__struct.h"
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_SendGoal_Request
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+  correct_msgs__action__Fibonnaci_Goal goal;
+} correct_msgs__action__Fibonnaci_SendGoal_Request;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_SendGoal_Request.
+typedef struct correct_msgs__action__Fibonnaci_SendGoal_Request__Sequence
+{
+  correct_msgs__action__Fibonnaci_SendGoal_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_SendGoal_Request__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'stamp'
+#include "builtin_interfaces/msg/detail/time__struct.h"
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_SendGoal_Response
+{
+  bool accepted;
+  builtin_interfaces__msg__Time stamp;
+} correct_msgs__action__Fibonnaci_SendGoal_Response;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_SendGoal_Response.
+typedef struct correct_msgs__action__Fibonnaci_SendGoal_Response__Sequence
+{
+  correct_msgs__action__Fibonnaci_SendGoal_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_SendGoal_Response__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+// already included above
+// #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_GetResult_Request
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+} correct_msgs__action__Fibonnaci_GetResult_Request;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_GetResult_Request.
+typedef struct correct_msgs__action__Fibonnaci_GetResult_Request__Sequence
+{
+  correct_msgs__action__Fibonnaci_GetResult_Request * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_GetResult_Request__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'result'
+// already included above
+// #include "correct_msgs/action/detail/fibonnaci__struct.h"
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_GetResult_Response
+{
+  int8_t status;
+  correct_msgs__action__Fibonnaci_Result result;
+} correct_msgs__action__Fibonnaci_GetResult_Response;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_GetResult_Response.
+typedef struct correct_msgs__action__Fibonnaci_GetResult_Response__Sequence
+{
+  correct_msgs__action__Fibonnaci_GetResult_Response * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_GetResult_Response__Sequence;
+
+
+// Constants defined in the message
+
+// Include directives for member types
+// Member 'goal_id'
+// already included above
+// #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
+// Member 'feedback'
+// already included above
+// #include "correct_msgs/action/detail/fibonnaci__struct.h"
+
+/// Struct defined in action/Fibonnaci in the package correct_msgs.
+typedef struct correct_msgs__action__Fibonnaci_FeedbackMessage
+{
+  unique_identifier_msgs__msg__UUID goal_id;
+  correct_msgs__action__Fibonnaci_Feedback feedback;
+} correct_msgs__action__Fibonnaci_FeedbackMessage;
+
+// Struct for a sequence of correct_msgs__action__Fibonnaci_FeedbackMessage.
+typedef struct correct_msgs__action__Fibonnaci_FeedbackMessage__Sequence
+{
+  correct_msgs__action__Fibonnaci_FeedbackMessage * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} correct_msgs__action__Fibonnaci_FeedbackMessage__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CORRECT_MSGS__ACTION__DETAIL__FIBONNACI__STRUCT_H_

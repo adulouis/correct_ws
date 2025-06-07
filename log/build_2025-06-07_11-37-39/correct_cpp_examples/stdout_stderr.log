@@ -1,0 +1,206 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[  9%] Built target simple_subscriber
+[ 18%] Built target simple_turtlesim_kinematics
+[ 36%] Built target simple_publisher
+[ 36%] Built target simple_service_server
+[ 54%] Built target simple_service_client
+[ 54%] Built target simple_parameter
+[ 63%] Built target simple_lifecycle_node
+[ 72%] Built target executor_examples
+[ 81%] Built target simple_tf_kinematics
+[ 90%] Built target simple_action_server_node
+[ 95%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:28:47:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   28 |   rclcpp_action::Server<correct_msgs::action::[01;31m[KFibonacci[m[K>::SharedPtr action_server_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                               [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:28:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |   rclcpp_action::Server<correct_msgs::action::Fibonacci[01;31m[K>[m[K::SharedPtr action_server_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:28:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   28 |   rclcpp_action::Server<correct_msgs::action::Fibonacci>::[01;31m[KSharedPtr[m[K action_server_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:28:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+   28 |   rclcpp_action::Server<correct_msgs::action::Fibonacci>::SharedPtr [01;31m[Kaction_server_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Krcl_action_server_t[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:60:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci[01;31m[K::[m[KGoal> goal)
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci::Goal[01;31m[K>[m[K goal)
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:60:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci[01;31m[K::[m[KGoal> goal)
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci::Goal[01;31m[K>[m[K goal)
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:60:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci[01;31m[K::[m[KGoal> goal)
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci::Goal[01;31m[K>[m[K goal)
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:7:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   32 |       [01;31m[Kstd[m[K::shared_ptr<const correct_msgs::action::Fibonacci::Goal> goal)
+      |       [01;31m[K^~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:60:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   32 |       std::shared_ptr<const correct_msgs::action::Fibonacci[01;31m[K::[m[KGoal> goal)
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   32 |       std::shared_ptr<[01;31m[Kconst[m[K correct_msgs::action::Fibonacci::Goal> goal)
+      |                       [01;31m[K^~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:32:7:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   32 |       [01;31m[Kstd[m[K::shared_ptr<const correct_msgs::action::Fibonacci::Goal> goal)
+      |       [01;31m[K^~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:40:83:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   40 |       const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::[01;31m[KFibonacci[m[K>> goal_handle)
+      |                                                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                                                   [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:40:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:40:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |       const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::Fibonacci[01;31m[K>>[m[K goal_handle)
+      |                                                                                            [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:48:83:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   48 |       const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::[01;31m[KFibonacci[m[K>> goal_handle)
+      |                                                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                                                   [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:48:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:48:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |       const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::Fibonacci[01;31m[K>>[m[K goal_handle)
+      |                                                                                            [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:54:92:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   54 |   void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::[01;31m[KFibonacci[m[K>> goal_handle)
+      |                                                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                                            [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:54:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:54:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   54 |   void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<correct_msgs::action::Fibonacci[01;31m[K>>[m[K goal_handle)
+      |                                                                                                     [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:[m[K In constructor ‘[01m[Kcorrect_cpp_examples::SimpleActionServer::SimpleActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:21:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+   21 |     [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<correct_msgs::action::Fibonacci>(
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_action_server_t[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:21:73:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   21 |     action_server_ = rclcpp_action::create_server<correct_msgs::action::[01;31m[KFibonacci[m[K>(
+      |                                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                         [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<<expression error> >(correct_cpp_examples::SimpleActionServer*, const char [10], std::_Bind_helper<false, rclcpp_action::GoalResponse (correct_cpp_examples::SimpleActionServer::*)(...), correct_cpp_examples::SimpleActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (correct_cpp_examples::SimpleActionServer::*)(int), correct_cpp_examples::SimpleActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (correct_cpp_examples::SimpleActionServer::*)(int), correct_cpp_examples::SimpleActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+   21 |     action_server_ = [01;31m[Krclcpp_action::create_server<correct_msgs::action::Fibonacci>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   22 | [01;31m[K        this, "fibonacci", std::bind(&SimpleActionServer::goalCallback, this, _1, _2),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;31m[K        std::bind(&SimpleActionServer::cancelCallback, this, _1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+   24 | [01;31m[K        std::bind(&SimpleActionServer::acceptedCallback, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     action_server_ = [01;31m[Krclcpp_action::create_server<correct_msgs::action::Fibonacci>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   22 | [01;31m[K        this, "fibonacci", std::bind(&SimpleActionServer::goalCallback, this, _1, _2),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;31m[K        std::bind(&SimpleActionServer::cancelCallback, this, _1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+   24 | [01;31m[K        std::bind(&SimpleActionServer::acceptedCallback, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:21:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |     action_server_ = [01;31m[Krclcpp_action::create_server<correct_msgs::action::Fibonacci>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   22 | [01;31m[K        this, "fibonacci", std::bind(&SimpleActionServer::goalCallback, this, _1, _2),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;31m[K        std::bind(&SimpleActionServer::cancelCallback, this, _1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+   24 | [01;31m[K        std::bind(&SimpleActionServer::acceptedCallback, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse correct_cpp_examples::SimpleActionServer::goalCallback(...)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:34:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+   34 |     RCLCPP_INFO(get_logger(), "Received goal request with order %d", [01;31m[Kgoal[m[K->order);
+      |                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Kvoid correct_cpp_examples::SimpleActionServer::execute(int)[m[K’:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:58:34:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   58 |     const auto goal = goal_handle[01;31m[K->[m[Kget_goal();
+      |                                  [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:59:60:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   59 |     auto feedback = std::make_shared<correct_msgs::action::[01;31m[KFibonacci[m[K::Feedback>();
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:59:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   59 |     auto feedback = std::[01;31m[Kmake_shared<correct_msgs::action::Fibonacci::Feedback>[m[K();
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:59:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   59 |     auto feedback = [01;31m[Kstd::make_shared<correct_msgs::action::Fibonacci::Feedback>()[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:59:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |     auto feedback = [01;31m[Kstd::make_shared<correct_msgs::action::Fibonacci::Feedback>()[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:63:58:[m[K [01;31m[Kerror: [m[K‘[01m[KFibonacci[m[K’ is not a member of ‘[01m[Kcorrect_msgs::action[m[K’; did you mean ‘[01m[KFibonnaci[m[K’?
+   63 |     auto result = std::make_shared<correct_msgs::action::[01;31m[KFibonacci[m[K::Result>();
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[KFibonnaci[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:63:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   63 |     auto result = std::[01;31m[Kmake_shared<correct_msgs::action::Fibonacci::Result>[m[K();
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:63:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   63 |     auto result = [01;31m[Kstd::make_shared<correct_msgs::action::Fibonacci::Result>()[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:63:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |     auto result = [01;31m[Kstd::make_shared<correct_msgs::action::Fibonacci::Result>()[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:68:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   68 |       if (goal_handle[01;31m[K->[m[Kis_canceling())
+      |                      [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:71:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   71 |         goal_handle[01;31m[K->[m[Kcanceled(result);
+      |                    [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:78:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   78 |       goal_handle[01;31m[K->[m[Kpublish_feedback(feedback);
+      |                  [01;31m[K^~[m[K
+[01m[K/home/louwee/correct_ws/src/correct_cpp_examples/src/simple_action_server.cpp:88:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   88 |       goal_handle[01;31m[K->[m[Ksucceed(result);
+      |                  [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/simple_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -10,13 +10,15 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(twist_mux_msgs REQUIRED)
 
 ament_python_install_package(${PROJECT_NAME})
 
 add_executable(safety_stop src/safety_stop.cpp)
-ament_target_dependencies(safety_stop std_msgs rclcpp sensor_msgs)
+ament_target_dependencies(safety_stop std_msgs rclcpp rclcpp_action sensor_msgs twist_mux_msgs) 
 
 install(TARGETS
   safety_stop

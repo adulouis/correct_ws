@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c0432376d4618dac3b04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "correct_cpp_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "correct_cpp_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-correct_cpp_examples_uninstall-456f9377868d7f253333.json",
+					"name" : "correct_cpp_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "executor_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-executor_examples-97edfdfca899475a4b9b.json",
+					"name" : "executor_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_client-cb315e2e5646e07cb798.json",
+					"name" : "simple_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_client_node-f67a723f608b670fb18f.json",
+					"name" : "simple_action_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_server-3e816ba719efec60746c.json",
+					"name" : "simple_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_server_node-5e8e53de7d484ac8be29.json",
+					"name" : "simple_action_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_lifecycle_node-3f65ab98a185cee9bb07.json",
+					"name" : "simple_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_parameter-bb831b8ac6b4c4a05c06.json",
+					"name" : "simple_parameter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher-70040e4fde95cb347903.json",
+					"name" : "simple_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_client-420dedf9bdd1090500f4.json",
+					"name" : "simple_service_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_server-e750fe3b1050603b1e73.json",
+					"name" : "simple_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber-ae5535d293da31cdf93d.json",
+					"name" : "simple_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_tf_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_tf_kinematics-e03ec975e6f20fc1f661.json",
+					"name" : "simple_tf_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_turtlesim_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_turtlesim_kinematics-a381664a852db320883b.json",
+					"name" : "simple_turtlesim_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-078333be98e922bdcb33.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/louwee/correct_ws/build/correct_cpp_examples",
+		"source" : "/home/louwee/correct_ws/src/correct_cpp_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

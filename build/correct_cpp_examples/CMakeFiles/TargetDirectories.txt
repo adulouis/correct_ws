@@ -11,6 +11,8 @@
 /home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/simple_lifecycle_node.dir
 /home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/simple_action_server.dir
 /home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/simple_action_server_node.dir
+/home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/simple_action_client.dir
+/home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/simple_action_client_node.dir
 /home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/test.dir
 /home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/edit_cache.dir
 /home/louwee/correct_ws/build/correct_cpp_examples/CMakeFiles/rebuild_cache.dir

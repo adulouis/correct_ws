@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff8e8af4dce5122668e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "correct_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_correct_utils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_correct_utils_egg-7a355c9ae45d06a546b5.json",
+					"name" : "ament_cmake_python_build_correct_utils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_correct_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_correct_utils-46730d33410c5702509a.json",
+					"name" : "ament_cmake_python_copy_correct_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "correct_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-correct_utils_uninstall-a64214982eac2924784b.json",
+					"name" : "correct_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safety_stop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safety_stop-b351630f48b8273067e2.json",
+					"name" : "safety_stop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab01b803eb3ff110358b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/louwee/correct_ws/build/correct_utils",
+		"source" : "/home/louwee/correct_ws/src/correct_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

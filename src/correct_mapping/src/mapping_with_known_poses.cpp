@@ -40,7 +40,7 @@ MappingWithKnownPoses::MappingWithKnownPoses(const std::string &name) : Node(nam
 
     map_pub = create_publisher<nav_msgs::msg::OccupancyGrid>("map",1);
     scan_sub = create_subscription<sensor_msgs::msg::LaserScan>("scan",10,std::bind(&MappingWithKnownPoses::scanCallback,this,std::placeholders::_1));
-    timer = create_wall_timer(std::chrono::seconds(1), std::bind(&MappingWithKnownPoses::timerCallback));
+    timer = create_wall_timer(std::chrono::seconds(1), std::bind(&MappingWithKnownPoses::timerCallback,this));
 
     tf_buffer = std::make_unique<tf2_ros::Buffer>(get_clock());
     tf_listener = std::make_shared<tf2_ros::TransformListener>(*tf_buffer);

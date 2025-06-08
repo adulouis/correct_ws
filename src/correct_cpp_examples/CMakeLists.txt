@@ -80,6 +80,12 @@ rclcpp_components_register_node(simple_action_client
   EXECUTABLE simple_action_client_node
 )
 
+add_executable(simple_qos_publisher src/simple_qos_publisher.cpp)
+ament_target_dependencies(simple_qos_publisher rclcpp std_msgs)
+
+add_executable(simple_qos_subscriber src/simple_qos_subscriber.cpp)
+ament_target_dependencies(simple_qos_subscriber rclcpp std_msgs)
+
 install(
   DIRECTORY include
   DESTINATION include
@@ -88,6 +94,8 @@ install(
 install(TARGETS
   simple_publisher
   simple_subscriber
+  simple_qos_publisher
+  simple_qos_subscriber
   simple_parameter
   simple_turtlesim_kinematics
   simple_service_server

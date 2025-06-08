@@ -1,5 +1,7 @@
 /home/louwee/correct_ws/build/correct_mapping/CMakeFiles/uninstall.dir
 /home/louwee/correct_ws/build/correct_mapping/CMakeFiles/correct_mapping_uninstall.dir
+/home/louwee/correct_ws/build/correct_mapping/CMakeFiles/ament_cmake_python_copy_correct_mapping.dir
+/home/louwee/correct_ws/build/correct_mapping/CMakeFiles/ament_cmake_python_build_correct_mapping_egg.dir
 /home/louwee/correct_ws/build/correct_mapping/CMakeFiles/test.dir
 /home/louwee/correct_ws/build/correct_mapping/CMakeFiles/edit_cache.dir
 /home/louwee/correct_ws/build/correct_mapping/CMakeFiles/rebuild_cache.dir

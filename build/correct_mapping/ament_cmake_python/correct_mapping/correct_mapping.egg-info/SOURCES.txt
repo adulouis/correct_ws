@@ -1,0 +1,7 @@
+setup.py
+correct_mapping/__init__.py
+correct_mapping/mapping_with_known_poses.py
+correct_mapping.egg-info/PKG-INFO
+correct_mapping.egg-info/SOURCES.txt
+correct_mapping.egg-info/dependency_links.txt
+correct_mapping.egg-info/top_level.txt

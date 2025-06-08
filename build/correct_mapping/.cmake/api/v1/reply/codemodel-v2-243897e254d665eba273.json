@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-b0ed023b56054005799b.json",
+					"jsonFile" : "directory-.-f0cd4fc29a9454aab676.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -17,7 +17,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -33,12 +35,28 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_correct_mapping_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_correct_mapping_egg-66a889fdad467a4f878c.json",
+					"name" : "ament_cmake_python_build_correct_mapping_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_correct_mapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_correct_mapping-c647745582a7a87018eb.json",
+					"name" : "ament_cmake_python_copy_correct_mapping",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "correct_mapping_uninstall::@6890427a1f51a3e7e1df",

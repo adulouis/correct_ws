@@ -1,0 +1,198 @@
+[0.105s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/louwee/correct_ws']
+[0.106s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/louwee/correct_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7880fb9fbdf0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7880fb9b0b20>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7880fb9b0b20>>)
+[0.279s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.280s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.280s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.280s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.280s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.280s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/louwee/correct_ws'
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'ignore'
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'ignore_ament_install'
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extensions ['colcon_pkg']
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'colcon_pkg'
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extensions ['colcon_meta']
+[0.280s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'colcon_meta'
+[0.281s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extensions ['ros']
+[0.281s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'ros'
+[0.291s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extensions ['cmake', 'python']
+[0.291s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'cmake'
+[0.291s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'python'
+[0.291s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extensions ['python_setup_py']
+[0.291s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws) by extension 'python_setup_py'
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/build) by extension 'ignore'
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/build) ignored
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/install) by extension 'ignore'
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/install) ignored
+[0.292s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/log) by extension 'ignore'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/log) ignored
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'ignore'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'ignore_ament_install'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extensions ['colcon_pkg']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'colcon_pkg'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extensions ['colcon_meta']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'colcon_meta'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extensions ['ros']
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'ros'
+[0.293s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extensions ['cmake', 'python']
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'cmake'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'python'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extensions ['python_setup_py']
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src) by extension 'python_setup_py'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extension 'ignore'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extension 'ignore_ament_install'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extensions ['colcon_pkg']
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extension 'colcon_pkg'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extensions ['colcon_meta']
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extension 'colcon_meta'
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extensions ['ros']
+[0.294s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/computer_vision) by extension 'ros'
+[0.299s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/computer_vision' with type 'ros.ament_cmake' and name 'computer_vision'
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extension 'ignore'
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extension 'ignore_ament_install'
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extensions ['colcon_pkg']
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extension 'colcon_pkg'
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extensions ['colcon_meta']
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extension 'colcon_meta'
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extensions ['ros']
+[0.299s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_bringup) by extension 'ros'
+[0.300s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_bringup' with type 'ros.ament_cmake' and name 'correct_bringup'
+[0.300s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extension 'ignore'
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extension 'ignore_ament_install'
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extensions ['colcon_pkg']
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extension 'colcon_pkg'
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extensions ['colcon_meta']
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extension 'colcon_meta'
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extensions ['ros']
+[0.301s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_controller) by extension 'ros'
+[0.302s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_controller' with type 'ros.ament_cmake' and name 'correct_controller'
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extension 'ignore'
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extension 'ignore_ament_install'
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extensions ['colcon_pkg']
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extension 'colcon_pkg'
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extensions ['colcon_meta']
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extension 'colcon_meta'
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extensions ['ros']
+[0.303s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_cpp_examples) by extension 'ros'
+[0.305s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_cpp_examples' with type 'ros.ament_cmake' and name 'correct_cpp_examples'
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extension 'ignore'
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extension 'ignore_ament_install'
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extensions ['colcon_pkg']
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extension 'colcon_pkg'
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extensions ['colcon_meta']
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extension 'colcon_meta'
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extensions ['ros']
+[0.305s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_firmware) by extension 'ros'
+[0.306s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_firmware' with type 'ros.ament_cmake' and name 'correct_firmware'
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extension 'ignore'
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extension 'ignore_ament_install'
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extensions ['colcon_pkg']
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extension 'colcon_pkg'
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extensions ['colcon_meta']
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extension 'colcon_meta'
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extensions ['ros']
+[0.307s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_localization) by extension 'ros'
+[0.309s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_localization' with type 'ros.ament_cmake' and name 'correct_localization'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extension 'ignore'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extension 'ignore_ament_install'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extensions ['colcon_pkg']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extension 'colcon_pkg'
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extensions ['colcon_meta']
+[0.309s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extension 'colcon_meta'
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extensions ['ros']
+[0.310s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_mapping) by extension 'ros'
+[0.311s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_mapping' with type 'ros.ament_cmake' and name 'correct_mapping'
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extension 'ignore'
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extension 'ignore_ament_install'
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extensions ['colcon_pkg']
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extension 'colcon_pkg'
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extensions ['colcon_meta']
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extension 'colcon_meta'
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extensions ['ros']
+[0.311s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_msgs) by extension 'ros'
+[0.312s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_msgs' with type 'ros.ament_cmake' and name 'correct_msgs'
+[0.312s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extension 'ignore'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extension 'ignore_ament_install'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extensions ['colcon_pkg']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extension 'colcon_pkg'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extensions ['colcon_meta']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extension 'colcon_meta'
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extensions ['ros']
+[0.313s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_pkg) by extension 'ros'
+[0.316s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_pkg' with type 'ros.ament_cmake' and name 'correct_pkg'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extension 'ignore'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extension 'ignore_ament_install'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extensions ['colcon_pkg']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extension 'colcon_pkg'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extensions ['colcon_meta']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extension 'colcon_meta'
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extensions ['ros']
+[0.317s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_py_examples) by extension 'ros'
+[0.318s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_py_examples' with type 'ros.ament_python' and name 'correct_py_examples'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extension 'ignore'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extension 'ignore_ament_install'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extensions ['colcon_pkg']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extension 'colcon_pkg'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extensions ['colcon_meta']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extension 'colcon_meta'
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extensions ['ros']
+[0.319s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/src/correct_utils) by extension 'ros'
+[0.320s] colcon.colcon_core.package_identification DEBUG Package '/home/louwee/correct_ws/src/correct_utils' with type 'ros.ament_cmake' and name 'correct_utils'
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'ignore'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'ignore_ament_install'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extensions ['colcon_pkg']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'colcon_pkg'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extensions ['colcon_meta']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'colcon_meta'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extensions ['ros']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'ros'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extensions ['cmake', 'python']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'cmake'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'python'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extensions ['python_setup_py']
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train) by extension 'python_setup_py'
+[0.321s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'ignore'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'ignore_ament_install'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extensions ['colcon_pkg']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'colcon_pkg'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extensions ['colcon_meta']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'colcon_meta'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extensions ['ros']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'ros'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extensions ['cmake', 'python']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'cmake'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'python'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extensions ['python_setup_py']
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/image_aug) by extension 'python_setup_py'
+[0.322s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'ignore'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'ignore_ament_install'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extensions ['colcon_pkg']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'colcon_pkg'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extensions ['colcon_meta']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'colcon_meta'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extensions ['ros']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'ros'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extensions ['cmake', 'python']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'cmake'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'python'
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extensions ['python_setup_py']
+[0.323s] colcon.colcon_core.package_identification Level 1 _identify(/home/louwee/correct_ws/train/labels_aug) by extension 'python_setup_py'
+[0.323s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults

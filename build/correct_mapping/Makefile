@@ -198,6 +198,19 @@ correct_mapping_uninstall/fast:
 .PHONY : correct_mapping_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named mapping_with_known_poses
+
+# Build rule for target.
+mapping_with_known_poses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mapping_with_known_poses
+.PHONY : mapping_with_known_poses
+
+# fast build rule for target.
+mapping_with_known_poses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mapping_with_known_poses.dir/build.make CMakeFiles/mapping_with_known_poses.dir/build
+.PHONY : mapping_with_known_poses/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_copy_correct_mapping
 
 # Build rule for target.
@@ -223,6 +236,30 @@ ament_cmake_python_build_correct_mapping_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_correct_mapping_egg.dir/build.make CMakeFiles/ament_cmake_python_build_correct_mapping_egg.dir/build
 .PHONY : ament_cmake_python_build_correct_mapping_egg/fast
 
+src/mapping_with_known_poses.o: src/mapping_with_known_poses.cpp.o
+.PHONY : src/mapping_with_known_poses.o
+
+# target to build an object file
+src/mapping_with_known_poses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mapping_with_known_poses.dir/build.make CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o
+.PHONY : src/mapping_with_known_poses.cpp.o
+
+src/mapping_with_known_poses.i: src/mapping_with_known_poses.cpp.i
+.PHONY : src/mapping_with_known_poses.i
+
+# target to preprocess a source file
+src/mapping_with_known_poses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mapping_with_known_poses.dir/build.make CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.i
+.PHONY : src/mapping_with_known_poses.cpp.i
+
+src/mapping_with_known_poses.s: src/mapping_with_known_poses.cpp.s
+.PHONY : src/mapping_with_known_poses.s
+
+# target to generate assembly for a file
+src/mapping_with_known_poses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mapping_with_known_poses.dir/build.make CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.s
+.PHONY : src/mapping_with_known_poses.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +277,10 @@ help:
 	@echo "... ament_cmake_python_copy_correct_mapping"
 	@echo "... correct_mapping_uninstall"
 	@echo "... uninstall"
+	@echo "... mapping_with_known_poses"
+	@echo "... src/mapping_with_known_poses.o"
+	@echo "... src/mapping_with_known_poses.i"
+	@echo "... src/mapping_with_known_poses.s"
 .PHONY : help
 
 

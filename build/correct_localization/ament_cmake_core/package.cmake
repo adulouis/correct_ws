@@ -5,7 +5,7 @@ set(correct_localization_BUILD_DEPENDS "rclpy" "nav_msgs" "sensor_msgs" "rclcpp"
 set(correct_localization_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(correct_localization_BUILD_EXPORT_DEPENDS "rclpy" "nav_msgs" "sensor_msgs" "rclcpp" "geometry_msgs" "tf2")
 set(correct_localization_BUILDTOOL_EXPORT_DEPENDS )
-set(correct_localization_EXEC_DEPENDS "robot_localization" "nav2_map_server" "rclpy" "nav_msgs" "sensor_msgs" "rclcpp" "geometry_msgs" "tf2")
+set(correct_localization_EXEC_DEPENDS "robot_localization" "nav2_map_server" "nav2_lifecycle_manager" "rclpy" "nav_msgs" "sensor_msgs" "rclcpp" "geometry_msgs" "tf2")
 set(correct_localization_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(correct_localization_GROUP_DEPENDS )
 set(correct_localization_MEMBER_OF_GROUPS )

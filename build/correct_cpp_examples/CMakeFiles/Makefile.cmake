@@ -939,4 +939,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/simple_action_server_node.dir/DependInfo.cmake"
   "CMakeFiles/simple_action_client.dir/DependInfo.cmake"
   "CMakeFiles/simple_action_client_node.dir/DependInfo.cmake"
+  "CMakeFiles/simple_qos_publisher.dir/DependInfo.cmake"
+  "CMakeFiles/simple_qos_subscriber.dir/DependInfo.cmake"
   )

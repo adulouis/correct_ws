@@ -14,6 +14,8 @@ correct_py_examples/simple_action_server.py
 correct_py_examples/simple_lifecycle_node.py
 correct_py_examples/simple_parameter.py
 correct_py_examples/simple_publisher.py
+correct_py_examples/simple_qos_publisher.py
+correct_py_examples/simple_qos_subsciber.py
 correct_py_examples/simple_service_client.py
 correct_py_examples/simple_service_server.py
 correct_py_examples/simple_subsciber.py

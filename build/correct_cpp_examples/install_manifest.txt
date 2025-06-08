@@ -4,6 +4,8 @@
 /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples/simple_tf_kinematics.hpp
 /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_publisher
 /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_subscriber
+/home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_qos_publisher
+/home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_qos_subscriber
 /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_parameter
 /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_turtlesim_kinematics
 /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_service_server

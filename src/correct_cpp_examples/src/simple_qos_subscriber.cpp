@@ -39,30 +39,30 @@ class SimpleQoSSubscriber : public rclcpp::Node
                 return;
             }
 
-        if(durability == "volatile")
-        {
-            qos_profile_sub_.durability(RMW_QOS_POLICY_DURABILITY_VOLATILE);
-            RCLCPP_INFO(get_logger(), "[Durability] : Volatile");
-        }
-        else if(durability == "transient_local")
-        {
-            qos_profile_sub_.durability(RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL);
-            RCLCPP_INFO(get_logger(), "[Durability] : Transient Local");
-        }
-        else if(durability == "system_default")
-        {
-            qos_profile_sub_.durability(RMW_QOS_POLICY_DURABILITY_SYSTEM_DEFAULT);
-            RCLCPP_INFO(get_logger(), "[Durability] : System Default");
-        }
-        else
-        {
-            RCLCPP_ERROR_STREAM(get_logger(), "Selected Durability QoS: " << durability << " doesn't exists!");
-            return;
-        }
+            if(durability == "volatile")
+            {
+                qos_profile_sub_.durability(RMW_QOS_POLICY_DURABILITY_VOLATILE);
+                RCLCPP_INFO(get_logger(), "[Durability] : Volatile");
+            }
+            else if(durability == "transient_local")
+            {
+                qos_profile_sub_.durability(RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL);
+                RCLCPP_INFO(get_logger(), "[Durability] : Transient Local");
+            }
+            else if(durability == "system_default")
+            {
+                qos_profile_sub_.durability(RMW_QOS_POLICY_DURABILITY_SYSTEM_DEFAULT);
+                RCLCPP_INFO(get_logger(), "[Durability] : System Default");
+            }
+            else
+            {
+                RCLCPP_ERROR_STREAM(get_logger(), "Selected Durability QoS: " << durability << " doesn't exists!");
+                return;
+            }
 
-        sub_ = create_subscription<std_msgs::msg::String>(
-        "chatter", qos_profile_sub_, std::bind(&SimpleQoSSubscriber::msgCallback, this, _1));
-  
+            sub_ = create_subscription<std_msgs::msg::String>(
+            "chatter", qos_profile_sub_, std::bind(&SimpleQoSSubscriber::msgCallback, this, _1));
+    
 
         }
 

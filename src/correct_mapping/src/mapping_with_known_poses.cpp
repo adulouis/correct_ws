@@ -2,6 +2,8 @@
 #include "geometry_msgs/msg/transform_stamped.hpp"
 #include "tf2/utils.hpp"
 
+using namespace std::chrono_literals;
+
 namespace correct_mapping
 {
 Pose coordinateToPose(const double px, const double py, const nav_msgs::msg::MapMetaData &map_info)
@@ -36,13 +38,13 @@ MappingWithKnownPoses::MappingWithKnownPoses(const std::string &name) : Node(nam
     map.info.origin.position.x = - std::round(width/2.0);
     map.info.origin.position.y = - std::round(height/2.0);
     map.header.frame_id = "odom";
-    map.data = std::vector<int8_t>(map.info.width*map.info.height);
+    map.data = std::vector<int8_t>(map.info.width*map.info.height,-1);
 
     map_pub = create_publisher<nav_msgs::msg::OccupancyGrid>("map",1);
     scan_sub = create_subscription<sensor_msgs::msg::LaserScan>("scan",10,std::bind(&MappingWithKnownPoses::scanCallback,this,std::placeholders::_1));
-    timer = create_wall_timer(std::chrono::seconds(1), std::bind(&MappingWithKnownPoses::timerCallback,this));
+    timer = create_wall_timer(1s, std::bind(&MappingWithKnownPoses::timerCallback,this));
 
-    tf_buffer = std::make_unique<tf2_ros::Buffer>(get_clock());
+    tf_buffer = std::make_unique<tf2_ros::Buffer>(this->get_clock());
     tf_listener = std::make_shared<tf2_ros::TransformListener>(*tf_buffer);
 }
 

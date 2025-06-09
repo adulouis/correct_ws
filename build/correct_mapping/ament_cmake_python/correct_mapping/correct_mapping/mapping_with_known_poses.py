@@ -19,7 +19,7 @@ def coordinateToPose(x, y, map_info: MapMetaData):
     return pose
 
 def poseOnMap(pose: Pose, map_info: MapMetaData):
-    return pose.x < map_info.width and pose >= 0 and pose.y < map_info.height and pose.y >= 0
+    return pose.x < map_info.width and pose.x >= 0 and pose.y < map_info.height and pose.y >= 0
 
 def poseToCell(pose: Pose, map_info: MapMetaData):
     return map_info.width * pose.y + pose.x

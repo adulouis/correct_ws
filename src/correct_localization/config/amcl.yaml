@@ -41,3 +41,8 @@ amcl:
 
     resampling_interval: 1 #resampling algo
     max_particles: 2000
+    min_particles: 500
+    recovery_alpha_fast: 0.0
+    recovery_alpha_slow: 0.0
+    updated_min_a: 0.2
+    updated_min_d: 0.25

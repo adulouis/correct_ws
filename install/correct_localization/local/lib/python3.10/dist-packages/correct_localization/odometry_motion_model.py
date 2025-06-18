@@ -33,7 +33,7 @@ class OdometryMotionModel(Node):
         self.declare_parameter("alpah2",0.1)
         self.declare_parameter("alpah3",0.1)
         self.declare_parameter("alpah4",0.1)
-        self.declare_parameter("nr_samples",0.1) #number of samples generated to know the different possible estimations
+        self.declare_parameter("nr_samples",300) #number of samples generated to know the different possible estimations
 
         self.alpha1 = self.get_parameter("alpah1").get_parameter_value().double_value
         self.alpha2 = self.get_parameter("alpah2").get_parameter_value().double_value

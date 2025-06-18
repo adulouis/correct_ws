@@ -1,0 +1,91 @@
+[0.065s] Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/ldlidar_sl_ros2 -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/ldlidar_sl_ros2
+[0.314s] -- The C compiler identification is GNU 11.4.0
+[0.465s] -- The CXX compiler identification is GNU 11.4.0
+[0.483s] -- Detecting C compiler ABI info
+[0.612s] -- Detecting C compiler ABI info - done
+[0.633s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.633s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.642s] -- Detecting CXX compiler ABI info
+[0.902s] -- Detecting CXX compiler ABI info - done
+[0.927s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.927s] -- Detecting CXX compile features
+[0.927s] -- Detecting CXX compile features - done
+[0.927s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.035s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.145s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.225s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.241s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.269s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.390s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.394s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.510s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.549s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.611s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.625s] -- Looking for pthread.h
+[1.724s] -- Looking for pthread.h - found
+[1.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.823s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.824s] -- Found Threads: TRUE  
+[1.911s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.964s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.077s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.084s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.085s] -- Configured cppcheck include dirs: /home/louwee/correct_ws/src/ldlidar_sl_ros2/include;/home/louwee/correct_ws/src/ldlidar_sl_ros2/ldlidar_driver/include
+[2.085s] -- Configured cppcheck exclude dirs and/or files: 
+[2.091s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.091s] -- Configured cpplint exclude dirs and/or files: 
+[2.092s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.094s] -- Added test 'lint_cmake' to check CMake code style
+[2.096s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.102s] -- Added test 'uncrustify' to check C / C++ code style
+[2.102s] -- Configured uncrustify additional arguments: 
+[2.104s] -- Added test 'xmllint' to check XML markup files
+[2.106s] -- Configuring done
+[2.119s] -- Generating done
+[2.123s] -- Build files have been written to: /home/louwee/correct_ws/build/ldlidar_sl_ros2
+[2.134s] Invoked command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/ldlidar_sl_ros2 -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/ldlidar_sl_ros2
+[2.136s] Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/ldlidar_sl_ros2 -- -j12 -l12
+[2.204s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/lipkg.cpp.o[0m
+[2.204s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/src/demo.cpp.o[0m
+[2.205s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/serial_interface_linux.cpp.o[0m
+[2.205s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/slbf.cpp.o[0m
+[2.208s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/ldlidar_driver.cpp.o[0m
+[2.209s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/log_module.cpp.o[0m
+[2.210s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar_sl_ros2_node.dir/ldlidar_driver/src/sl_transform.cpp.o[0m
+[6.958s] [100%] [32m[1mLinking CXX executable ldlidar_sl_ros2_node[0m
+[7.205s] [100%] Built target ldlidar_sl_ros2_node
+[7.215s] Invoked command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/ldlidar_sl_ros2 -- -j12 -l12
+[7.217s] Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/ldlidar_sl_ros2
+[7.225s] -- Install configuration: ""
+[7.225s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node
+[7.227s] -- Set runtime path of "/home/louwee/correct_ws/install/ldlidar_sl_ros2/lib/ldlidar_sl_ros2/ldlidar_sl_ros2_node" to ""
+[7.227s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14.launch.py
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14.launch.py
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/ld14p.launch.py
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//launch/viewer_ld14p.launch.py
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//rviz2/ldlidar.rviz
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts
+[7.228s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/delete_udev_rules.sh
+[7.229s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/ldlidar.rules
+[7.229s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2//scripts/create_udev_rules.sh
+[7.229s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_sl_ros2
+[7.229s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_sl_ros2
+[7.229s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.sh
+[7.229s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/ament_prefix_path.dsv
+[7.230s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.sh
+[7.230s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/environment/path.dsv
+[7.230s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.bash
+[7.230s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.sh
+[7.230s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.zsh
+[7.230s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/local_setup.dsv
+[7.231s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.dsv
+[7.231s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ament_index/resource_index/packages/ldlidar_sl_ros2
+[7.231s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config.cmake
+[7.231s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/cmake/ldlidar_sl_ros2Config-version.cmake
+[7.231s] -- Installing: /home/louwee/correct_ws/install/ldlidar_sl_ros2/share/ldlidar_sl_ros2/package.xml
+[7.234s] Invoked command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/ldlidar_sl_ros2

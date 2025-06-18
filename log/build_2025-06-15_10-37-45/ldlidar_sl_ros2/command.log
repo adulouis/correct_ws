@@ -1,0 +1,6 @@
+Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/ldlidar_sl_ros2 -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/ldlidar_sl_ros2
+Invoked command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louwee/correct_ws/src/ldlidar_sl_ros2 -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/ldlidar_sl_ros2
+Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/ldlidar_sl_ros2 -- -j12 -l12
+Invoked command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/ldlidar_sl_ros2 -- -j12 -l12
+Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/ldlidar_sl_ros2
+Invoked command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/ldlidar_sl_ros2

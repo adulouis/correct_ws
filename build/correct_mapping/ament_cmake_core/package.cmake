@@ -5,7 +5,7 @@ set(correct_mapping_BUILD_DEPENDS "rclpy" "nav_msgs" "sensor_msgs" "tf2_ros" "rc
 set(correct_mapping_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(correct_mapping_BUILD_EXPORT_DEPENDS "rclpy" "nav_msgs" "sensor_msgs" "tf2_ros" "rclcpp" "geometry_msgs" "tf2" "tf_transformations")
 set(correct_mapping_BUILDTOOL_EXPORT_DEPENDS )
-set(correct_mapping_EXEC_DEPENDS "rclpy" "nav_msgs" "sensor_msgs" "tf2_ros" "rclcpp" "geometry_msgs" "tf2" "tf_transformations")
+set(correct_mapping_EXEC_DEPENDS "slam_toolbox" "nav2_map_server" "nav2_lifecycle_manager" "rclpy" "nav_msgs" "sensor_msgs" "tf2_ros" "rclcpp" "geometry_msgs" "tf2" "tf_transformations")
 set(correct_mapping_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(correct_mapping_GROUP_DEPENDS )
 set(correct_mapping_MEMBER_OF_GROUPS )

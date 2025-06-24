@@ -39,7 +39,7 @@ install(PROGRAMS
 )
 
 install(
-  DIRECTORY maps
+  DIRECTORY maps launch config
   DESTINATION share/${PROJECT_NAME}
 )
 

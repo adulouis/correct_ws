@@ -1,0 +1,56 @@
+[0.036s] Invoking command in '/home/louwee/correct_ws/build/correct_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_mapping -- -j12 -l12
+[0.153s] [100%] Built target mapping_with_known_poses
+[0.154s] [100%] Built target ament_cmake_python_copy_correct_mapping
+[0.562s] running egg_info
+[0.563s] writing correct_mapping.egg-info/PKG-INFO
+[0.563s] writing dependency_links to correct_mapping.egg-info/dependency_links.txt
+[0.563s] writing top-level names to correct_mapping.egg-info/top_level.txt
+[0.566s] reading manifest file 'correct_mapping.egg-info/SOURCES.txt'
+[0.567s] writing manifest file 'correct_mapping.egg-info/SOURCES.txt'
+[0.603s] [100%] Built target ament_cmake_python_build_correct_mapping_egg
+[0.616s] Invoked command in '/home/louwee/correct_ws/build/correct_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_mapping -- -j12 -l12
+[0.619s] Invoking command in '/home/louwee/correct_ws/build/correct_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_mapping
+[0.628s] -- Install configuration: ""
+[0.628s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/environment/pythonpath.sh
+[0.628s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/environment/pythonpath.dsv
+[0.628s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping-0.0.0-py3.10.egg-info
+[0.628s] -- Installing: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[0.629s] -- Installing: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[0.629s] -- Installing: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.629s] -- Installing: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.629s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping
+[0.629s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping/__init__.py
+[0.629s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping/mapping_with_known_poses.py
+[0.629s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping/launch
+[0.629s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping/launch/slam.launch.py
+[0.672s] Listing '/home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping'...
+[0.672s] Listing '/home/louwee/correct_ws/install/correct_mapping/local/lib/python3.10/dist-packages/correct_mapping/launch'...
+[0.701s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/include/include
+[0.701s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/include/include/correct_mapping
+[0.701s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/include/include/correct_mapping/mapping_with_known_poses.hpp
+[0.701s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/lib/correct_mapping/mapping_with_known_poses
+[0.701s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/lib/correct_mapping/mapping_with_known_poses.py
+[0.701s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/maps
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/maps/small_house
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/maps/small_house/map.yaml
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/maps/small_house/map.pgm
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/launch
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/launch/slam.launch.py
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/config
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/config/slam_toolbox.yaml
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/ament_index/resource_index/package_run_dependencies/correct_mapping
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/ament_index/resource_index/parent_prefix_path/correct_mapping
+[0.702s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/environment/ament_prefix_path.sh
+[0.703s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/environment/ament_prefix_path.dsv
+[0.703s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/environment/path.sh
+[0.703s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/environment/path.dsv
+[0.704s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/local_setup.bash
+[0.704s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/local_setup.sh
+[0.704s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/local_setup.zsh
+[0.704s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/local_setup.dsv
+[0.704s] -- Installing: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/package.dsv
+[0.704s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/ament_index/resource_index/packages/correct_mapping
+[0.705s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/cmake/correct_mappingConfig.cmake
+[0.705s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/cmake/correct_mappingConfig-version.cmake
+[0.705s] -- Up-to-date: /home/louwee/correct_ws/install/correct_mapping/share/correct_mapping/package.xml
+[0.741s] Invoked command in '/home/louwee/correct_ws/build/correct_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_mapping

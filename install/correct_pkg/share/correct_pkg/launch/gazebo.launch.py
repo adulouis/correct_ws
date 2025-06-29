@@ -33,10 +33,12 @@ def generate_launch_description():
 
     model_path = str(Path(correct_pkg).parent.resolve())
     model_path += pathsep + os.path.join(get_package_share_directory("correct_pkg"), 'models')
+    model_path += pathsep + os.path.expanduser("~/.ignition/gazebo/models")
+    model_path += pathsep + os.path.join(get_package_share_directory("correct_pkg"), "aws-robomaker-hospital-world","models")
 
     gazebo_resource_path = SetEnvironmentVariable(
         "GZ_SIM_RESOURCE_PATH",
-        model_path
+        [model_path]
         )
 
     ros_distro = os.environ["ROS_DISTRO"]

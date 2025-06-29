@@ -1,0 +1,10 @@
+[0.046s] Invoking command in '/home/louwee/correct_ws/build/correct_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_utils -- -j12 -l12
+[0.158s] [  0%] Built target ament_cmake_python_copy_correct_utils
+[0.182s] [100%] Built target safety_stop
+[0.739s] running egg_info
+[0.739s] writing correct_utils.egg-info/PKG-INFO
+[0.739s] writing dependency_links to correct_utils.egg-info/dependency_links.txt
+[0.739s] writing top-level names to correct_utils.egg-info/top_level.txt
+[0.739s] reading manifest file 'correct_utils.egg-info/SOURCES.txt'
+[0.755s] writing manifest file 'correct_utils.egg-info/SOURCES.txt'
+[0.761s] [100%] Built target ament_cmake_python_build_correct_utils_egg

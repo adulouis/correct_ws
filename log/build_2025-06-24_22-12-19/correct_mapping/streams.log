@@ -1,0 +1,10 @@
+[0.039s] Invoking command in '/home/louwee/correct_ws/build/correct_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_mapping -- -j12 -l12
+[0.156s] [100%] Built target mapping_with_known_poses
+[0.178s] [100%] Built target ament_cmake_python_copy_correct_mapping
+[0.618s] running egg_info
+[0.619s] writing correct_mapping.egg-info/PKG-INFO
+[0.619s] writing dependency_links to correct_mapping.egg-info/dependency_links.txt
+[0.619s] writing top-level names to correct_mapping.egg-info/top_level.txt
+[0.623s] reading manifest file 'correct_mapping.egg-info/SOURCES.txt'
+[0.624s] writing manifest file 'correct_mapping.egg-info/SOURCES.txt'
+[0.664s] [100%] Built target ament_cmake_python_build_correct_mapping_egg

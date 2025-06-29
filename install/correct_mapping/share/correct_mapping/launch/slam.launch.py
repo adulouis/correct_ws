@@ -36,7 +36,7 @@ def generate_launch_description():
 
     #for saving the map
     nav2_map_server = Node(
-        package="map_saver_server",
+        package="nav2_map_server",
         executable="map_saver_server",
         name="map_saver_server",
         output="screen",

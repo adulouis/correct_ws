@@ -1,0 +1,12 @@
+[0.037s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[0.179s] [ 33%] Built target simple_serial_transmitter
+[0.179s] [ 33%] Built target ament_cmake_python_copy_correct_firmware
+[0.187s] [ 66%] Built target simple_serial_receiver
+[0.191s] [100%] Built target correct_firmware
+[0.568s] running egg_info
+[0.569s] writing correct_firmware.egg-info/PKG-INFO
+[0.569s] writing dependency_links to correct_firmware.egg-info/dependency_links.txt
+[0.569s] writing top-level names to correct_firmware.egg-info/top_level.txt
+[0.572s] reading manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[0.572s] writing manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[0.605s] [100%] Built target ament_cmake_python_build_correct_firmware_egg

@@ -1,0 +1,9 @@
+[0.037s] Invoking command in '/home/louwee/correct_ws/build/computer_vision': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/computer_vision -- -j12 -l12
+[0.186s] Built target ament_cmake_python_copy_computer_vision
+[0.562s] running egg_info
+[0.563s] writing computer_vision.egg-info/PKG-INFO
+[0.563s] writing dependency_links to computer_vision.egg-info/dependency_links.txt
+[0.563s] writing top-level names to computer_vision.egg-info/top_level.txt
+[0.566s] reading manifest file 'computer_vision.egg-info/SOURCES.txt'
+[0.566s] writing manifest file 'computer_vision.egg-info/SOURCES.txt'
+[0.598s] Built target ament_cmake_python_build_computer_vision_egg

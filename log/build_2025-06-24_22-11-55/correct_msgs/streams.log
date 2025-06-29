@@ -1,0 +1,25 @@
+[0.040s] Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[0.127s] [  2%] Built target correct_msgs__cpp
+[0.128s] [ 12%] Built target correct_msgs__rosidl_generator_c
+[0.166s] [ 12%] Built target ament_cmake_python_copy_correct_msgs
+[0.193s] [ 23%] Built target correct_msgs__rosidl_typesupport_fastrtps_cpp
+[0.193s] [ 34%] Built target correct_msgs__rosidl_typesupport_c
+[0.201s] [ 44%] Built target correct_msgs__rosidl_typesupport_introspection_cpp
+[0.202s] [ 55%] Built target correct_msgs__rosidl_typesupport_cpp
+[0.207s] [ 65%] Built target correct_msgs__rosidl_typesupport_fastrtps_c
+[0.209s] [ 76%] Built target correct_msgs__rosidl_typesupport_introspection_c
+[0.239s] [ 76%] Built target correct_msgs
+[0.276s] [ 78%] Built target correct_msgs__py
+[0.313s] [ 87%] Built target correct_msgs__rosidl_generator_py
+[0.364s] [ 91%] Built target correct_msgs__rosidl_typesupport_c__pyext
+[0.364s] [ 95%] Built target correct_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.368s] [100%] Built target correct_msgs__rosidl_typesupport_introspection_c__pyext
+[0.609s] running egg_info
+[0.613s] writing correct_msgs.egg-info/PKG-INFO
+[0.613s] writing dependency_links to correct_msgs.egg-info/dependency_links.txt
+[0.617s] writing top-level names to correct_msgs.egg-info/top_level.txt
+[0.682s] reading manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[0.691s] writing manifest file 'correct_msgs.egg-info/SOURCES.txt'
+[0.790s] [100%] Built target ament_cmake_python_build_correct_msgs_egg
+[0.796s] Invoked command in '/home/louwee/correct_ws/build/correct_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_msgs -- -j12 -l12
+[0.796s] Invoking command in '/home/louwee/correct_ws/build/correct_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_msgs

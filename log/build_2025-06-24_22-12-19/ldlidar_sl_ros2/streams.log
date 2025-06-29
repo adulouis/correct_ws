@@ -1,0 +1,2 @@
+[0.049s] Invoking command in '/home/louwee/correct_ws/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/ldlidar_sl_ros2 -- -j12 -l12
+[0.571s] [100%] Built target ldlidar_sl_ros2_node

@@ -1,0 +1,62 @@
+[0.041s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[0.162s] [ 33%] Built target simple_serial_receiver
+[0.170s] [ 66%] Built target correct_firmware
+[0.183s] [100%] Built target simple_serial_transmitter
+[0.199s] [100%] Built target ament_cmake_python_copy_correct_firmware
+[0.731s] running egg_info
+[0.731s] writing correct_firmware.egg-info/PKG-INFO
+[0.731s] writing dependency_links to correct_firmware.egg-info/dependency_links.txt
+[0.731s] writing top-level names to correct_firmware.egg-info/top_level.txt
+[0.731s] reading manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[0.732s] writing manifest file 'correct_firmware.egg-info/SOURCES.txt'
+[0.814s] [100%] Built target ament_cmake_python_build_correct_firmware_egg
+[0.885s] Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_firmware -- -j12 -l12
+[0.888s] Invoking command in '/home/louwee/correct_ws/build/correct_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware
+[0.944s] -- Install configuration: ""
+[0.944s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/pythonpath.sh
+[0.945s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/pythonpath.dsv
+[0.945s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info
+[0.945s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[0.946s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[0.946s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.946s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.946s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware
+[0.947s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_transmitter.py
+[0.947s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/mpu6050_driver.py
+[0.947s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/__init__.py
+[0.947s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware/simple_serial_receiver.py
+[0.954s] Listing '/home/louwee/correct_ws/install/correct_firmware/local/lib/python3.10/dist-packages/correct_firmware'...
+[0.956s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/correct_interface.xml
+[0.957s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/libcorrect_firmware.so
+[0.960s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/include/include
+[0.962s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware
+[0.962s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/include/include/correct_firmware/correct_interface.hpp
+[0.963s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch
+[0.963s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/launch/hardware_interface.launch.py
+[0.964s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter.py
+[0.964s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver.py
+[0.965s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/mpu6050_driver.py
+[0.967s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_receiver
+[0.968s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/lib/correct_firmware/simple_serial_transmitter
+[0.968s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.sh
+[0.968s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/library_path.dsv
+[0.970s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/package_run_dependencies/correct_firmware
+[0.970s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/parent_prefix_path/correct_firmware
+[0.970s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/ament_prefix_path.sh
+[0.971s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/ament_prefix_path.dsv
+[0.971s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/path.sh
+[0.971s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/environment/path.dsv
+[0.972s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.bash
+[0.972s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.sh
+[0.972s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.zsh
+[0.972s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/local_setup.dsv
+[0.972s] -- Installing: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.dsv
+[0.972s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/packages/correct_firmware
+[0.973s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/correct_firmware
+[0.973s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.973s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.978s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.978s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/correct_firmwareConfig.cmake
+[0.980s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/cmake/correct_firmwareConfig-version.cmake
+[0.980s] -- Up-to-date: /home/louwee/correct_ws/install/correct_firmware/share/correct_firmware/package.xml
+[1.416s] Invoked command in '/home/louwee/correct_ws/build/correct_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_firmware

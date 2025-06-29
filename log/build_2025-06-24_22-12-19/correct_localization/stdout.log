@@ -1,0 +1,11 @@
+[  0%] Built target ament_cmake_python_copy_correct_localization
+[ 33%] Built target kalman_filter
+[ 66%] Built target imu_republisher
+[100%] Built target odometry_motion_model
+running egg_info
+writing correct_localization.egg-info/PKG-INFO
+writing dependency_links to correct_localization.egg-info/dependency_links.txt
+writing top-level names to correct_localization.egg-info/top_level.txt
+reading manifest file 'correct_localization.egg-info/SOURCES.txt'
+writing manifest file 'correct_localization.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_correct_localization_egg

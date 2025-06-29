@@ -1,0 +1,8 @@
+Built target ament_cmake_python_copy_computer_vision
+running egg_info
+writing computer_vision.egg-info/PKG-INFO
+writing dependency_links to computer_vision.egg-info/dependency_links.txt
+writing top-level names to computer_vision.egg-info/top_level.txt
+reading manifest file 'computer_vision.egg-info/SOURCES.txt'
+writing manifest file 'computer_vision.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_computer_vision_egg

@@ -1,0 +1,41 @@
+[0.037s] Invoking command in '/home/louwee/correct_ws/build/aws_robomaker_hospital_world': /usr/bin/cmake /home/louwee/correct_ws/src/aws-robomaker-hospital-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/aws_robomaker_hospital_world
+[0.076s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.077s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.077s]   CMake.
+[0.077s] 
+[0.077s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.081s]   CMake that the project does not need compatibility with older versions.
+[0.081s] 
+[0.081s] [0m
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.390s] -- The CXX compiler identification is GNU 11.4.0
+[0.399s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.496s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.503s] -- Detecting CXX compiler ABI info
+[0.595s] -- Detecting CXX compiler ABI info - done
+[0.698s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.699s] -- Detecting CXX compile features
+[0.699s] -- Detecting CXX compile features - done
+[0.753s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.753s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.753s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.753s]   CMake did not find one.
+[0.753s] 
+[0.754s]   Could not find a package configuration file provided by "catkin" with any
+[0.754s]   of the following names:
+[0.754s] 
+[0.754s]     catkinConfig.cmake
+[0.754s]     catkin-config.cmake
+[0.755s] 
+[0.755s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.755s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.755s]   provides a separate development package or SDK, be sure it has been
+[0.755s]   installed.
+[0.755s] 
+[0.756s] [0m
+[0.756s] -- Configuring incomplete, errors occurred!
+[0.756s] See also "/home/louwee/correct_ws/build/aws_robomaker_hospital_world/CMakeFiles/CMakeOutput.log".
+[0.790s] Invoked command in '/home/louwee/correct_ws/build/aws_robomaker_hospital_world' returned '1': /usr/bin/cmake /home/louwee/correct_ws/src/aws-robomaker-hospital-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/louwee/correct_ws/install/aws_robomaker_hospital_world

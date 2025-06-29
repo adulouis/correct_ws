@@ -1,0 +1,12 @@
+[0.037s] Invoking command in '/home/louwee/correct_ws/build/correct_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_controller -- -j12 -l12
+[0.130s] [ 33%] Built target simple_controller
+[0.154s] [ 66%] Built target noisy_controller
+[0.173s] [100%] Built target twist_relay
+[0.180s] [100%] Built target ament_cmake_python_copy_correct_controller
+[0.616s] running egg_info
+[0.617s] writing correct_controller.egg-info/PKG-INFO
+[0.617s] writing dependency_links to correct_controller.egg-info/dependency_links.txt
+[0.618s] writing top-level names to correct_controller.egg-info/top_level.txt
+[0.621s] reading manifest file 'correct_controller.egg-info/SOURCES.txt'
+[0.622s] writing manifest file 'correct_controller.egg-info/SOURCES.txt'
+[0.661s] [100%] Built target ament_cmake_python_build_correct_controller_egg

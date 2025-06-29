@@ -8,6 +8,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     ros_distro = os.environ["ROS_DISTRO"]
+    lifecycle_nodes = ["map_saver_server"]
     if ros_distro != "humble":
         lifecycle_nodes.append("slam_toolbox")
 
@@ -47,8 +48,6 @@ def generate_launch_description():
             {"occupied_thresh_default": 0.65}
         ]
     )
-
-    lifecycle_nodes = ["map_saver_server"]
 
     #since nav2_map_server node is a lifecycle node and we don't want to manually start it everytime, we use the nav2_lifecycle_manager
     nav2_lifecycle_manager = Node(

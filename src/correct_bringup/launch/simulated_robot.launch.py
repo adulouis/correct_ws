@@ -1,16 +1,19 @@
 import os
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
 from launch.conditions import IfCondition, UnlessCondition
+from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
-    use_slam_arg = DeclareLaunchArgument("use_slam",default_value="False")
-
     use_slam = LaunchConfiguration("use_slam")
+
+    use_slam_arg = DeclareLaunchArgument(
+        "use_slam",
+        default_value="false"
+    )
 
     gazebo = IncludeLaunchDescription(
         os.path.join(
@@ -43,13 +46,11 @@ def generate_launch_description():
         }.items()
     )
 
-    slam = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("correct_mapping"),
-            "launch",
-            "slam.launch.py"
-        ),
-        condition=IfCondition(use_slam)
+    safety_stop = Node(
+        package="correct_utils",
+        executable="safety_stop",
+        output="screen",
+        parameters=[{"use_sim_time": True}]
     )
 
     localization = IncludeLaunchDescription(
@@ -60,20 +61,25 @@ def generate_launch_description():
         ),
         condition=UnlessCondition(use_slam)
     )
-    
-    safety_stop = Node(
-        package="correct_utils",
-        executable="safety_stop",
-        name="safety_stop",
-        parameters=[{"use_sim_time": True}]
+
+    slam = IncludeLaunchDescription(
+        os.path.join(
+            get_package_share_directory("correct_mapping"),
+            "launch",
+            "slam.launch.py"
+        ),
+        condition=IfCondition(use_slam)
     )
 
     rviz_localization = Node(
         package="rviz2",
         executable="rviz2",
-        arguments=["-d",os.path.join(
-            get_package_share_directory("correct_localization"),"rviz","global_localization.rviz"
-        )],
+        arguments=["-d", os.path.join(
+                get_package_share_directory("correct_localization"),
+                "rviz",
+                "global_localization.rviz"
+            )
+        ],
         output="screen",
         parameters=[{"use_sim_time": True}],
         condition=UnlessCondition(use_slam)
@@ -82,14 +88,17 @@ def generate_launch_description():
     rviz_slam = Node(
         package="rviz2",
         executable="rviz2",
-        arguments=["-d",os.path.join(
-            get_package_share_directory("correct_mapping"),"rviz","slam.rviz"
-        )],
+        arguments=["-d", os.path.join(
+                get_package_share_directory("correct_mapping"),
+                "rviz",
+                "slam.rviz"
+            )
+        ],
         output="screen",
         parameters=[{"use_sim_time": True}],
         condition=IfCondition(use_slam)
     )
-
+    
     return LaunchDescription([
         use_slam_arg,
         gazebo,

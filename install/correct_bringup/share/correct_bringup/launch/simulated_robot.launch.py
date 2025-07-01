@@ -8,7 +8,7 @@ from ament_index_python.packages import get_package_share_directory
 
 
 def generate_launch_description():
-    use_slam_arg = DeclareLaunchArgument("use_slam",default_value="False")
+    use_slam_arg = DeclareLaunchArgument("use_slam",default_value="false")
 
     use_slam = LaunchConfiguration("use_slam")
 
@@ -49,7 +49,7 @@ def generate_launch_description():
             "launch",
             "slam.launch.py"
         ),
-        conditions=IfCondition(use_slam)
+        condition=IfCondition(use_slam)
     )
 
     localization = IncludeLaunchDescription(
@@ -58,14 +58,14 @@ def generate_launch_description():
             "launch",
             "global_localization.launch.py"
         ),
-        conditions=UnlessCondition(use_slam)
+        condition=UnlessCondition(use_slam)
     )
     
     safety_stop = Node(
         package="correct_utils",
         executable="safety_stop",
         name="safety_stop",
-        output="screen"
+        parameters=[{"use_sim_time": True}]
     )
 
     rviz_localization = Node(
@@ -76,7 +76,7 @@ def generate_launch_description():
         )],
         output="screen",
         parameters=[{"use_sim_time": True}],
-        conditions=UnlessCondition(use_slam)
+        condition=UnlessCondition(use_slam)
     )
 
     rviz_slam = Node(
@@ -87,7 +87,7 @@ def generate_launch_description():
         )],
         output="screen",
         parameters=[{"use_sim_time": True}],
-        conditions=IfCondition(use_slam)
+        condition=IfCondition(use_slam)
     )
 
     return LaunchDescription([

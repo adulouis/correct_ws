@@ -87,16 +87,17 @@ def generate_launch_description():
         )],
         output="screen",
         parameters=[{"use_sim_time": True}],
-        conditions=UnlessCondition(use_slam)
+        conditions=IfCondition(use_slam)
     )
 
     return LaunchDescription([
+        use_slam_arg,
         gazebo,
         controller,
         joystick,
+        safety_stop,
         localization,
         slam,
-        safety_stop,
         rviz_localization,
         rviz_slam
     ])

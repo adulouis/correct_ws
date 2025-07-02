@@ -1,0 +1,55 @@
+[0.052s] Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[0.282s] [  6%] Built target simple_publisher
+[0.394s] [ 13%] Built target simple_action_client
+[0.501s] [ 20%] Built target simple_action_client_node
+[0.609s] [ 26%] Built target simple_qos_publisher
+[0.718s] [ 33%] Built target simple_qos_subscriber
+[0.777s] [ 40%] Built target simple_action_server_node
+[0.811s] [ 46%] Built target simple_action_server
+[0.846s] [ 53%] Built target simple_lifecycle_node
+[0.877s] [ 60%] Built target executor_examples
+[0.914s] [ 66%] Built target simple_tf_kinematics
+[0.947s] [ 73%] Built target simple_service_client
+[0.981s] [ 80%] Built target simple_service_server
+[1.014s] [ 86%] Built target simple_turtlesim_kinematics
+[1.044s] [ 93%] Built target simple_parameter
+[1.074s] [100%] Built target simple_subscriber
+[1.089s] Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[1.092s] Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples
+[1.102s] -- Install configuration: ""
+[1.102s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_action_server_node
+[1.103s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_action_client_node
+[1.103s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include
+[1.103s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples
+[1.104s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples/simple_turtlesim_kinematics.hpp
+[1.104s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/include/include/correct_cpp_examples/simple_tf_kinematics.hpp
+[1.104s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_publisher
+[1.105s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_subscriber
+[1.105s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_qos_publisher
+[1.106s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_qos_subscriber
+[1.107s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_parameter
+[1.107s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_turtlesim_kinematics
+[1.108s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_service_server
+[1.109s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_service_client
+[1.109s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_tf_kinematics
+[1.110s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/simple_lifecycle_node
+[1.111s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/correct_cpp_examples/executor_examples
+[1.112s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/libsimple_action_server.so
+[1.112s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/lib/libsimple_action_client.so
+[1.113s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/package_run_dependencies/correct_cpp_examples
+[1.113s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/parent_prefix_path/correct_cpp_examples
+[1.113s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/ament_prefix_path.sh
+[1.114s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/ament_prefix_path.dsv
+[1.114s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/path.sh
+[1.114s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/environment/path.dsv
+[1.114s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.bash
+[1.115s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.sh
+[1.115s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.zsh
+[1.115s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/local_setup.dsv
+[1.115s] -- Installing: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.dsv
+[1.115s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/packages/correct_cpp_examples
+[1.115s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/ament_index/resource_index/rclcpp_components/correct_cpp_examples
+[1.116s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/cmake/correct_cpp_examplesConfig.cmake
+[1.116s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/cmake/correct_cpp_examplesConfig-version.cmake
+[1.116s] -- Up-to-date: /home/louwee/correct_ws/install/correct_cpp_examples/share/correct_cpp_examples/package.xml
+[1.118s] Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples

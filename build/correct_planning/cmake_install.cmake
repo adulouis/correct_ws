@@ -67,7 +67,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/correct_planning" TYPE PROGRAM FILES "/home/louwee/correct_ws/src/correct_planning/correct_planning/djikstra.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/correct_planning" TYPE PROGRAM FILES "/home/louwee/correct_ws/src/correct_planning/correct_planning/djikstra_planning.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

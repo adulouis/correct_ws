@@ -1,0 +1,4 @@
+Invoking command in '/home/louwee/correct_ws/build/correct_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_planning -- -j12 -l12
+Invoked command in '/home/louwee/correct_ws/build/correct_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_planning -- -j12 -l12
+Invoking command in '/home/louwee/correct_ws/build/correct_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_planning
+Invoked command in '/home/louwee/correct_ws/build/correct_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_planning

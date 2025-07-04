@@ -339,7 +339,7 @@
 			"destination" : "lib/correct_planning",
 			"paths" : 
 			[
-				"correct_planning/djikstra.py"
+				"correct_planning/djikstra_planning.py"
 			],
 			"type" : "file"
 		},

@@ -1,3 +1,12 @@
+/home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/pythonpath.sh
+/home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/pythonpath.dsv
+/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/top_level.txt
+/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/PKG-INFO
+/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/djikstra_planning.py
+/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/__init__.py
+/home/louwee/correct_ws/install/correct_planning/lib/correct_planning/djikstra_planning.py
 /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/package_run_dependencies/correct_planning
 /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/parent_prefix_path/correct_planning
 /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/ament_prefix_path.sh

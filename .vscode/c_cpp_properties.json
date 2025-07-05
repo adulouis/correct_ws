@@ -8,6 +8,7 @@
       "includePath": [
         "/home/louwee/correct_ws/install/correct_cpp_examples/include/**",
         "/home/louwee/correct_ws/install/correct_msgs/include/**",
+        "/home/louwee/correct_ws/install/correct_mapping/include/**",
         "/home/louwee/correct_ws/install/correct_localization/include/**",
         "/home/louwee/correct_ws/install/correct_firmware/include/**",
         "/home/louwee/correct_ws/install/correct_controller/include/**",
@@ -21,7 +22,9 @@
         "/home/louwee/correct_ws/src/correct_mapping/include/**",
         "/home/louwee/correct_ws/src/correct_msgs/include/**",
         "/home/louwee/correct_ws/src/correct_pkg/include/**",
+        "/home/louwee/correct_ws/src/correct_planning/include/**",
         "/home/louwee/correct_ws/src/correct_utils/include/**",
+        "/home/louwee/correct_ws/src/ldlidar_sl_ros2/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

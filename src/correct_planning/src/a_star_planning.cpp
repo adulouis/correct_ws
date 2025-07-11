@@ -150,7 +150,7 @@ unsigned int AStarPlanner::poseToCell(const GraphNode & node)
     return map->info.width * node.y + node.x;
 }
 
-double manhattanDistance(const GraphNode &start_node, const GraphNode &goal_node)
+double AStarPlanner::manhattanDistance(const GraphNode &start_node, const GraphNode &goal_node)
 {
     return abs(start_node.x - goal_node.x) + abs(start_node.y - goal_node.y);
 }

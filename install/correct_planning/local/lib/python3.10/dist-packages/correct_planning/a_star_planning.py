@@ -101,7 +101,7 @@ class AStarPlannerPlanner(Node):
                     new_node.prev = active_node
                     pending_nodes.put(new_node)
                     visited_nodes.add(new_node)
-            self.visited_map.data[self.pose_to_cell(last_pose)] = 106
+            self.visited_map.data[self.pose_to_cell(last_pose)] = 80
             self.map_pub.publish(self.visited_map)
 
         path = Path()

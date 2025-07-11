@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/a_star_planning.dir/src/a_star_planning.cpp.o: in function `correct_planning::AStarPlanner::plan(geometry_msgs::msg::Pose_<std::allocator<void> > const&, geometry_msgs::msg::Pose_<std::allocator<void> > const&)':
+a_star_planning.cpp:(.text+0x177a): undefined reference to `correct_planning::AStarPlanner::manhattanDistance(correct_planning::GraphNode const&, correct_planning::GraphNode const&)'
+/usr/bin/ld: a_star_planning.cpp:(.text+0x19c6): undefined reference to `correct_planning::AStarPlanner::manhattanDistance(correct_planning::GraphNode const&, correct_planning::GraphNode const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/a_star_planning.dir/build.make:205: a_star_planning] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/a_star_planning.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

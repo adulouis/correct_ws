@@ -211,6 +211,19 @@ djikstra_planning/fast:
 .PHONY : djikstra_planning/fast
 
 #=============================================================================
+# Target rules for targets named a_star_planning
+
+# Build rule for target.
+a_star_planning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a_star_planning
+.PHONY : a_star_planning
+
+# fast build rule for target.
+a_star_planning/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planning.dir/build.make CMakeFiles/a_star_planning.dir/build
+.PHONY : a_star_planning/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_copy_correct_planning
 
 # Build rule for target.
@@ -235,6 +248,30 @@ ament_cmake_python_build_correct_planning_egg: cmake_check_build_system
 ament_cmake_python_build_correct_planning_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_correct_planning_egg.dir/build.make CMakeFiles/ament_cmake_python_build_correct_planning_egg.dir/build
 .PHONY : ament_cmake_python_build_correct_planning_egg/fast
+
+src/a_star_planning.o: src/a_star_planning.cpp.o
+.PHONY : src/a_star_planning.o
+
+# target to build an object file
+src/a_star_planning.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planning.dir/build.make CMakeFiles/a_star_planning.dir/src/a_star_planning.cpp.o
+.PHONY : src/a_star_planning.cpp.o
+
+src/a_star_planning.i: src/a_star_planning.cpp.i
+.PHONY : src/a_star_planning.i
+
+# target to preprocess a source file
+src/a_star_planning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planning.dir/build.make CMakeFiles/a_star_planning.dir/src/a_star_planning.cpp.i
+.PHONY : src/a_star_planning.cpp.i
+
+src/a_star_planning.s: src/a_star_planning.cpp.s
+.PHONY : src/a_star_planning.s
+
+# target to generate assembly for a file
+src/a_star_planning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star_planning.dir/build.make CMakeFiles/a_star_planning.dir/src/a_star_planning.cpp.s
+.PHONY : src/a_star_planning.cpp.s
 
 src/djikstra_planning.o: src/djikstra_planning.cpp.o
 .PHONY : src/djikstra_planning.o
@@ -277,7 +314,11 @@ help:
 	@echo "... ament_cmake_python_copy_correct_planning"
 	@echo "... correct_planning_uninstall"
 	@echo "... uninstall"
+	@echo "... a_star_planning"
 	@echo "... djikstra_planning"
+	@echo "... src/a_star_planning.o"
+	@echo "... src/a_star_planning.i"
+	@echo "... src/a_star_planning.s"
 	@echo "... src/djikstra_planning.o"
 	@echo "... src/djikstra_planning.i"
 	@echo "... src/djikstra_planning.s"

@@ -25,6 +25,8 @@ set(dependencies
 
 add_executable(djikstra_planning src/djikstra_planning.cpp)
 ament_target_dependencies(djikstra_planning ${dependencies})
+add_executable(a_star_planning src/a_star_planning.cpp)
+ament_target_dependencies(a_star_planning ${dependencies})
 
 
 install(
@@ -36,6 +38,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 install(TARGETS
   djikstra_planning
+  a_star_planning
   DESTINATION lib/${PROJECT_NAME}
 )
 

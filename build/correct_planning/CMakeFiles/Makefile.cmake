@@ -880,6 +880,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/correct_planning_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/djikstra_planning.dir/DependInfo.cmake"
+  "CMakeFiles/a_star_planning.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_copy_correct_planning.dir/DependInfo.cmake"
   "CMakeFiles/ament_cmake_python_build_correct_planning_egg.dir/DependInfo.cmake"
   )

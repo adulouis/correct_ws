@@ -6,6 +6,7 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/home/louwee/correct_ws/install/correct_planning/include/**",
         "/home/louwee/correct_ws/install/correct_cpp_examples/include/**",
         "/home/louwee/correct_ws/install/correct_msgs/include/**",
         "/home/louwee/correct_ws/install/correct_mapping/include/**",

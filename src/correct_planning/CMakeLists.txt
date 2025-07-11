@@ -17,6 +17,7 @@ ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
   ${PROJECT_NAME}/djikstra_planning.py
+  ${PROJECT_NAME}/a_star_planner.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

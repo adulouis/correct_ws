@@ -1,0 +1,15 @@
+[  6%] Built target simple_subscriber
+[ 16%] Built target simple_service_server
+[ 20%] Built target simple_turtlesim_kinematics
+[ 26%] Built target simple_parameter
+[ 33%] Built target simple_publisher
+[ 46%] Built target executor_examples
+[ 46%] Built target simple_tf_kinematics
+[ 56%] Built target simple_service_client
+[ 60%] Built target simple_action_server_node
+[ 66%] Built target simple_lifecycle_node
+[ 73%] Built target simple_action_client
+[ 80%] Built target simple_action_server
+[ 86%] Built target simple_action_client_node
+[ 93%] Built target simple_qos_subscriber
+[100%] Built target simple_qos_publisher

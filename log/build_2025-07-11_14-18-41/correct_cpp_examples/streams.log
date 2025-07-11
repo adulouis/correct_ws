@@ -1,0 +1,18 @@
+[0.036s] Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[0.371s] [  6%] Built target simple_publisher
+[0.372s] [ 13%] Built target simple_turtlesim_kinematics
+[0.372s] [ 23%] Built target simple_subscriber
+[0.372s] [ 26%] Built target simple_service_client
+[0.372s] [ 33%] Built target simple_tf_kinematics
+[0.372s] [ 40%] Built target executor_examples
+[0.372s] [ 53%] Built target simple_service_server
+[0.372s] [ 53%] Built target simple_action_server_node
+[0.372s] [ 60%] Built target simple_parameter
+[0.372s] [ 66%] Built target simple_lifecycle_node
+[0.373s] [ 73%] Built target simple_action_server
+[0.373s] [ 80%] Built target simple_action_client
+[0.373s] [ 93%] Built target simple_qos_subscriber
+[0.373s] [ 93%] Built target simple_qos_publisher
+[0.373s] [100%] Built target simple_action_client_node
+[0.381s] Invoked command in '/home/louwee/correct_ws/build/correct_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_cpp_examples -- -j12 -l12
+[0.383s] Invoking command in '/home/louwee/correct_ws/build/correct_cpp_examples': AMENT_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louwee/correct_ws/install/correct_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/louwee/correct_ws/install/correct_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/louwee/correct_ws/install/correct_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_cpp_examples

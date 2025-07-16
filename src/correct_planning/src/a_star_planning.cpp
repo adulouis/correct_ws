@@ -87,7 +87,7 @@ nav_msgs::msg::Path AStarPlanner::plan(const geometry_msgs::msg::Pose & start, c
         pending_nodes.pop();
 
         // Goal found!
-        if(worldToGrid(goal) == active_node){
+        if(active_node == goal_node){
             break;
         }
 
@@ -106,7 +106,7 @@ nav_msgs::msg::Path AStarPlanner::plan(const geometry_msgs::msg::Pose & start, c
             }
         }
 
-        visited_map.data.at(poseToCell(active_node)) = 65;  // Blue
+        visited_map.data.at(poseToCell(active_node)) = -106;  // Blue
         map_pub->publish(visited_map);
     }
 

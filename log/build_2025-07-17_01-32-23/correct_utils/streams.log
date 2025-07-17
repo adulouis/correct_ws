@@ -1,0 +1,42 @@
+[0.055s] Invoking command in '/home/louwee/correct_ws/build/correct_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_utils -- -j12 -l12
+[0.935s] [  0%] Built target ament_cmake_python_copy_correct_utils
+[0.936s] [100%] Built target safety_stop
+[0.936s] running egg_info
+[0.937s] writing correct_utils.egg-info/PKG-INFO
+[0.938s] writing dependency_links to correct_utils.egg-info/dependency_links.txt
+[0.948s] writing top-level names to correct_utils.egg-info/top_level.txt
+[0.949s] reading manifest file 'correct_utils.egg-info/SOURCES.txt'
+[0.949s] writing manifest file 'correct_utils.egg-info/SOURCES.txt'
+[0.964s] [100%] Built target ament_cmake_python_build_correct_utils_egg
+[2.046s] Invoked command in '/home/louwee/correct_ws/build/correct_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_utils -- -j12 -l12
+[2.048s] Invoking command in '/home/louwee/correct_ws/build/correct_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_utils
+[2.061s] -- Install configuration: ""
+[2.061s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/environment/pythonpath.sh
+[2.061s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/environment/pythonpath.dsv
+[2.061s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils-0.0.0-py3.10.egg-info
+[2.061s] -- Installing: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils-0.0.0-py3.10.egg-info/top_level.txt
+[2.061s] -- Installing: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[2.062s] -- Installing: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.062s] -- Installing: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.063s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils
+[2.063s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils/__init__.py
+[2.063s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils/safety_stop.py
+[2.080s] Listing '/home/louwee/correct_ws/install/correct_utils/local/lib/python3.10/dist-packages/correct_utils'...
+[2.082s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/lib/correct_utils/safety_stop
+[2.082s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/lib/correct_utils/safety_stop.py
+[2.082s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/ament_index/resource_index/package_run_dependencies/correct_utils
+[2.083s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/ament_index/resource_index/parent_prefix_path/correct_utils
+[2.083s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/environment/ament_prefix_path.sh
+[2.083s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/environment/ament_prefix_path.dsv
+[2.083s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/environment/path.sh
+[2.083s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/environment/path.dsv
+[2.083s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/local_setup.bash
+[2.084s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/local_setup.sh
+[2.084s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/local_setup.zsh
+[2.085s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/local_setup.dsv
+[2.085s] -- Installing: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.dsv
+[2.085s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/ament_index/resource_index/packages/correct_utils
+[2.085s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/cmake/correct_utilsConfig.cmake
+[2.085s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/cmake/correct_utilsConfig-version.cmake
+[2.086s] -- Up-to-date: /home/louwee/correct_ws/install/correct_utils/share/correct_utils/package.xml
+[2.111s] Invoked command in '/home/louwee/correct_ws/build/correct_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_utils

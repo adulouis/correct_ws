@@ -1,0 +1,48 @@
+[  0%] Built target ament_cmake_python_copy_correct_motion
+[ 50%] [32mBuilding CXX object CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o[0m
+running egg_info
+writing correct_motion.egg-info/PKG-INFO
+writing dependency_links to correct_motion.egg-info/dependency_links.txt
+writing top-level names to correct_motion.egg-info/top_level.txt
+reading manifest file 'correct_motion.egg-info/SOURCES.txt'
+writing manifest file 'correct_motion.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_correct_motion_egg
+[100%] [32m[1mLinking CXX executable pd_motion_planner[0m
+[100%] Built target pd_motion_planner
+-- Install configuration: ""
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/environment/pythonpath.sh
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/environment/pythonpath.dsv
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion-0.0.0-py3.10.egg-info
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion/pd_motion_planner.py
+-- Installing: /home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion/__init__.py
+Listing '/home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion'...
+Compiling '/home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion/__init__.py'...
+Compiling '/home/louwee/correct_ws/install/correct_motion/local/lib/python3.10/dist-packages/correct_motion/pd_motion_planner.py'...
+-- Installing: /home/louwee/correct_ws/install/correct_motion/include/include
+-- Installing: /home/louwee/correct_ws/install/correct_motion/include/include/correct_motion
+-- Installing: /home/louwee/correct_ws/install/correct_motion/include/include/correct_motion/pd_motion_planner.hpp
+-- Installing: /home/louwee/correct_ws/install/correct_motion/lib/correct_motion/pd_motion_planner
+-- Set runtime path of "/home/louwee/correct_ws/install/correct_motion/lib/correct_motion/pd_motion_planner" to ""
+-- Installing: /home/louwee/correct_ws/install/correct_motion/lib/correct_motion/pd_motion_planner.py
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/ament_index/resource_index/package_run_dependencies/correct_motion
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/ament_index/resource_index/parent_prefix_path/correct_motion
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/environment/ament_prefix_path.sh
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/environment/path.sh
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/environment/path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/local_setup.bash
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/local_setup.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/local_setup.zsh
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/local_setup.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/package.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/ament_index/resource_index/packages/correct_motion
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/cmake/correct_motionConfig.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/cmake/correct_motionConfig-version.cmake
+-- Installing: /home/louwee/correct_ws/install/correct_motion/share/correct_motion/package.xml

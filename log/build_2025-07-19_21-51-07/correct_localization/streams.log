@@ -1,0 +1,60 @@
+[0.051s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[0.181s] [ 33%] Built target imu_republisher
+[0.194s] [ 66%] Built target kalman_filter
+[0.210s] [100%] Built target odometry_motion_model
+[0.211s] [100%] Built target ament_cmake_python_copy_correct_localization
+[0.902s] running egg_info
+[0.902s] writing correct_localization.egg-info/PKG-INFO
+[0.902s] writing dependency_links to correct_localization.egg-info/dependency_links.txt
+[0.902s] writing top-level names to correct_localization.egg-info/top_level.txt
+[0.911s] reading manifest file 'correct_localization.egg-info/SOURCES.txt'
+[0.912s] writing manifest file 'correct_localization.egg-info/SOURCES.txt'
+[1.071s] [100%] Built target ament_cmake_python_build_correct_localization_egg
+[1.146s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_localization -- -j12 -l12
+[1.150s] Invoking command in '/home/louwee/correct_ws/build/correct_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization
+[1.169s] -- Install configuration: ""
+[1.169s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/pythonpath.sh
+[1.169s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/pythonpath.dsv
+[1.169s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info
+[1.169s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/top_level.txt
+[1.170s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[1.170s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.170s] -- Installing: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.170s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization
+[1.170s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization/odometry_motion_model.py
+[1.171s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization/__init__.py
+[1.171s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization/imu_republisher.py
+[1.171s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization/kalman_filter.py
+[1.186s] Listing '/home/louwee/correct_ws/install/correct_localization/local/lib/python3.10/dist-packages/correct_localization'...
+[1.187s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/kalman_filter.py
+[1.187s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/imu_republisher.py
+[1.187s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/odometry_motion_model.py
+[1.187s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include
+[1.187s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include/correct_localization
+[1.188s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include/correct_localization/odometry_motion_model.hpp
+[1.188s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/include/include/correct_localization/kalman_filter.hpp
+[1.188s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/imu_republisher
+[1.188s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/kalman_filter
+[1.188s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/lib/correct_localization/odometry_motion_model
+[1.188s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/launch
+[1.189s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/launch/global_localization.launch.py
+[1.189s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/launch/local_localization.launch.py
+[1.189s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/config
+[1.189s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/config/amcl.yaml
+[1.189s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/config/ekf.yaml
+[1.189s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/package_run_dependencies/correct_localization
+[1.190s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/parent_prefix_path/correct_localization
+[1.190s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/ament_prefix_path.sh
+[1.190s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/ament_prefix_path.dsv
+[1.190s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/path.sh
+[1.190s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/environment/path.dsv
+[1.190s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.bash
+[1.191s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.sh
+[1.191s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.zsh
+[1.191s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/local_setup.dsv
+[1.191s] -- Installing: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.dsv
+[1.191s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/ament_index/resource_index/packages/correct_localization
+[1.192s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/cmake/correct_localizationConfig.cmake
+[1.192s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/cmake/correct_localizationConfig-version.cmake
+[1.192s] -- Up-to-date: /home/louwee/correct_ws/install/correct_localization/share/correct_localization/package.xml
+[1.236s] Invoked command in '/home/louwee/correct_ws/build/correct_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_localization

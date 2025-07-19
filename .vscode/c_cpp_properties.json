@@ -21,6 +21,7 @@
         "/home/louwee/correct_ws/src/correct_firmware/include/**",
         "/home/louwee/correct_ws/src/correct_localization/include/**",
         "/home/louwee/correct_ws/src/correct_mapping/include/**",
+        "/home/louwee/correct_ws/src/correct_motion/include/**",
         "/home/louwee/correct_ws/src/correct_msgs/include/**",
         "/home/louwee/correct_ws/src/correct_pkg/include/**",
         "/home/louwee/correct_ws/src/correct_planning/include/**",

@@ -1,0 +1,48 @@
+[ 50%] Built target a_star_planning
+[100%] Built target djikstra_planning
+[100%] Built target ament_cmake_python_copy_correct_planning
+running egg_info
+writing correct_planning.egg-info/PKG-INFO
+writing dependency_links to correct_planning.egg-info/dependency_links.txt
+writing top-level names to correct_planning.egg-info/top_level.txt
+reading manifest file 'correct_planning.egg-info/SOURCES.txt'
+writing manifest file 'correct_planning.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_correct_planning_egg
+-- Install configuration: ""
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include/correct_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include/correct_planning/djikstra_planning.hpp
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include/correct_planning/a_star_planning.hpp
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/pythonpath.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/pythonpath.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info
+-- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/djikstra_planning.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/__init__.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/a_star_planning.py
+Listing '/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning'...
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/djikstra_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/a_star_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/djikstra_planning.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/a_star_planning.py
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/package_run_dependencies/correct_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/parent_prefix_path/correct_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/ament_prefix_path.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/path.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/path.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.bash
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.sh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.zsh
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.dsv
+-- Installing: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/package.dsv
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/packages/correct_planning
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/correct_planningConfig.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/correct_planningConfig-version.cmake
+-- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/package.xml

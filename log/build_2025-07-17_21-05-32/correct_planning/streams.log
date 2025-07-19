@@ -1,0 +1,53 @@
+[0.058s] Invoking command in '/home/louwee/correct_ws/build/correct_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_planning -- -j12 -l12
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target a_star_planning[0m
+[0.252s] [ 50%] Built target djikstra_planning
+[0.264s] [100%] Built target a_star_planning
+[0.276s] [100%] Built target ament_cmake_python_copy_correct_planning
+[1.053s] running egg_info
+[1.056s] writing correct_planning.egg-info/PKG-INFO
+[1.059s] writing dependency_links to correct_planning.egg-info/dependency_links.txt
+[1.062s] writing top-level names to correct_planning.egg-info/top_level.txt
+[1.075s] reading manifest file 'correct_planning.egg-info/SOURCES.txt'
+[1.081s] writing manifest file 'correct_planning.egg-info/SOURCES.txt'
+[1.546s] [100%] Built target ament_cmake_python_build_correct_planning_egg
+[1.707s] Invoked command in '/home/louwee/correct_ws/build/correct_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louwee/correct_ws/build/correct_planning -- -j12 -l12
+[1.743s] Invoking command in '/home/louwee/correct_ws/build/correct_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_planning
+[1.758s] -- Install configuration: ""
+[1.759s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include
+[1.759s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include/correct_planning
+[1.762s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include/correct_planning/djikstra_planning.hpp
+[1.762s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/include/include/correct_planning/a_star_planning.hpp
+[1.763s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/pythonpath.sh
+[1.763s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/pythonpath.dsv
+[1.765s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info
+[1.770s] -- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/top_level.txt
+[1.770s] -- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[1.770s] -- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.771s] -- Installing: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.771s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning
+[1.771s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/djikstra_planning.py
+[1.771s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/__init__.py
+[1.771s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning/a_star_planning.py
+[1.829s] Listing '/home/louwee/correct_ws/install/correct_planning/local/lib/python3.10/dist-packages/correct_planning'...
+[1.833s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/djikstra_planning
+[1.834s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/a_star_planning
+[1.835s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/djikstra_planning.py
+[1.835s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/lib/correct_planning/a_star_planning.py
+[1.835s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/package_run_dependencies/correct_planning
+[1.835s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/parent_prefix_path/correct_planning
+[1.836s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/ament_prefix_path.sh
+[1.836s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/ament_prefix_path.dsv
+[1.836s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/path.sh
+[1.836s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/environment/path.dsv
+[1.836s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.bash
+[1.836s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.sh
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.zsh
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/local_setup.dsv
+[1.837s] -- Installing: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/package.dsv
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/ament_index/resource_index/packages/correct_planning
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/correct_planningConfig.cmake
+[1.837s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/cmake/correct_planningConfig-version.cmake
+[1.838s] -- Up-to-date: /home/louwee/correct_ws/install/correct_planning/share/correct_planning/package.xml
+[1.927s] Invoked command in '/home/louwee/correct_ws/build/correct_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louwee/correct_ws/build/correct_planning

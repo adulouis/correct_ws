@@ -31,6 +31,8 @@ private:
     double step_size;
     double max_linear_velocity;
     double max_angular_velocity;
+    double prev_angular_error;
+    double prev_linear_error;
 
     rclcpp::Time last_cycle_time;
 
